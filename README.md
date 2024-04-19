@@ -1,2 +1,2 @@
 # Kaylee Cragg's Website
-- Available at [https://kayleecragg.github.io](https://kayleecragg.github.io)
+- Available at <a href="https://kayleecragg.github.io" target="_blank">https://kayleecragg.github.io</a>
