@@ -1,7 +1,7 @@
 /* Combined CSS Styles */
 body {
-/*     font: 14px/1.4 'Open Sans', arial, sans-serif;
-    font-family: 'Noto Sans Mono', monospace; /* Set the font-family */ */
+/*     font: 14px/1.4 'Open Sans', arial, sans-serif; */
+    font-family: 'Noto Sans Mono', monospace; /* Set the font-family */
     font-szie: 14px;
     background: #000; /* Assuming you want the background from the second style */
     color: #fff; /* Assuming white text for contrast on the black background */
