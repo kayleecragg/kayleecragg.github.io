@@ -1,14 +1,11 @@
 /* Combined CSS Styles */
 body {
-    	font-family: 'Roboto Mono', monospace;
+    font-family: 'Noto Sans Mono', monospace; /* Set the font-family */
+    font-size: 14px;
     background: #000; /* Assuming you want the background from the second style */
-	font-size:11px;
-	background: #000;
     color: #fff; /* Assuming white text for contrast on the black background */
     margin-top: 50px; /* 50px is the height of the navbar - change this if the navbarn height changes */
   }
-body {
-	font-family: 'Poppins', sans-serif; /* Set the font-family *
 
   
   #static-text, .typing {
