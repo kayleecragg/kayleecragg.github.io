@@ -1,8 +1,7 @@
 /* Combined CSS Styles */
 body {
-/*     font: 14px/1.4 'Open Sans', arial, sans-serif; */
-    font-family: 'Noto Sans Mono', monospace; /* Set the font-family */
-    font-szie: 14px;
+    font-family: 'Poppins', sans-serif; /* Set the font-family *
+    font-size: 14px;
     background: #000; /* Assuming you want the background from the second style */
     color: #fff; /* Assuming white text for contrast on the black background */
     margin-top: 50px; /* 50px is the height of the navbar - change this if the navbarn height changes */
