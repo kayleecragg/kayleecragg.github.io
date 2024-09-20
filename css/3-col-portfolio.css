@@ -2,7 +2,7 @@
 
 body {
     font-family: 'Noto Sans Mono', monospace; /* Set the font-family */
-    font-size: 20px;
+    font-size: 15px;
     background: #000; /* Assuming you want the background from the second style */
     color: #fff; /* Assuming white text for contrast on the black background */
     margin-top: 50px; /* 50px is the height of the navbar - change this if the navbarn height changes */
@@ -10,7 +10,6 @@ body {
 
   
   #static-text, .typing {
-    font-size: 3em;
     color: #fff; /* Change to white for contrast, if that's what you want */
   }
   
