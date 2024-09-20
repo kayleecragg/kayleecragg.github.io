@@ -62,9 +62,9 @@ body, html {
 #countdown-title {
     font-size: 3em;
     margin-bottom: 5px;
-    text-align: center; /* Center the text if needed */
-    margin-bottom: 0; /* Add this line */
-    margin-top: 0px; /* Adjust this value as needed */
+    text-align: center;
+    margin-bottom: 0; 
+    margin-top: 10px;
 }
 
 #Act1 {
