@@ -2,14 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@400;700&display=swap');
 
 #aboutme {
-    font-size: 1.5em;
+    font-size: 2.2em;
     font-weight: bold;
     text-align: center;
-    letter-spacing: 0.015em; /* Slightly wider letter spacing */
 }
 
 #static-text {
-    font-size: 0.5em;
+    font-size: 1em;
 }
 
 /* Typing Effect */
