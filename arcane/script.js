@@ -1,4 +1,4 @@
-// List of background images (place your actual image filenames)
+// List of background images (including gifs and static images)
 const images = [
     'image1.jpeg',
     'image2.jpeg',
@@ -10,7 +10,19 @@ const images = [
     'image8.jpeg',
     'image9.jpeg',
     'image10.jpeg',
-    'image11.jpeg'
+    'image11.jpeg',
+    'gif1.webp',
+    'gif2.webp',
+    'gif3.webp',
+    'gif4.webp',
+    'gif5.webp',
+    'gif6.webp',
+    'gif7.webp',
+    'gif8.webp',
+    'gif9.webp',
+    'gif10.webp',
+    'gif11.webp',
+    'gif12.webp'
 ];
 
 // Shuffle function (Fisher-Yates algorithm)
@@ -43,15 +55,18 @@ function preloadImages() {
 function setBackgroundImage() {
     const background1 = document.getElementById('background');
     const background2 = document.getElementById('background2');
+    const currentImage = shuffledImages[currentImageIndex];
+    
+    // Check if the current image is a gif/webp
+    const isGif = currentImage.endsWith('.webp') || currentImage.endsWith('.gif');
 
+    // Toggle between the two background layers
     if (isBackground1Active) {
-        // Fade out background1, fade in background2
-        background2.style.backgroundImage = `url('images/${shuffledImages[currentImageIndex]}')`;
+        background2.style.backgroundImage = `url('images/${currentImage}')`;
         background2.style.opacity = 1;
         background1.style.opacity = 0;
     } else {
-        // Fade out background2, fade in background1
-        background1.style.backgroundImage = `url('images/${shuffledImages[currentImageIndex]}')`;
+        background1.style.backgroundImage = `url('images/${currentImage}')`;
         background1.style.opacity = 1;
         background2.style.opacity = 0;
     }
@@ -61,6 +76,13 @@ function setBackgroundImage() {
 
     // Toggle active background
     isBackground1Active = !isBackground1Active;
+
+    // Set the duration based on whether it's a gif or static image
+    const duration = isGif ? 3000 : 5000; // 2 seconds for gif, 5 seconds for static images
+
+    // Set the next image change interval
+    clearInterval(imageChangeInterval); // Clear the previous interval
+    imageChangeInterval = setInterval(setBackgroundImage, duration);
 }
 
 // Preload images
@@ -69,8 +91,10 @@ preloadImages();
 // Initial call to load first image immediately
 document.getElementById('background').style.backgroundImage = `url('images/${shuffledImages[currentImageIndex]}')`;
 
-// Change image every 5 seconds
-setInterval(setBackgroundImage, 5000);
+// Set an initial interval based on whether the first image is a gif or not
+let imageChangeInterval;
+const initialDuration = shuffledImages[currentImageIndex].endsWith('.webp') || shuffledImages[currentImageIndex].endsWith('.gif') ? 2000 : 5000;
+imageChangeInterval = setInterval(setBackgroundImage, initialDuration);
 
 
 
@@ -186,4 +210,3 @@ function displayActTimesInTimezone(timezone) {
     document.getElementById('act2-time').textContent = `ACT II: ${act2TimeString}`;
     document.getElementById('act3-time').textContent = `ACT III: ${act3TimeString}`;
 }
-
