@@ -1,4 +1,3 @@
-// List of background images (place your actual image filenames)
 const images = [
     'image1.jpeg',
     'image2.jpeg',
@@ -6,27 +5,55 @@ const images = [
     'image4.jpeg',
     'image5.jpeg',
     'image6.jpeg'
-
-
 ];
 
 // Index for tracking current image
 let currentImageIndex = 0;
 
-// Function to set background image
+// Boolean to track which background is active
+let isBackground1Active = true;
+
+// Preload images to avoid flashes during transition
+function preloadImages() {
+    images.forEach((image) => {
+        const img = new Image();
+        img.src = `images/${image}`;
+    });
+}
+
+// Function to set background image with a fade transition
 function setBackgroundImage() {
-    const background = document.getElementById('background');
-    background.style.backgroundImage = `url('images/${images[currentImageIndex]}')`;
+    const background1 = document.getElementById('background');
+    const background2 = document.getElementById('background2');
+
+    if (isBackground1Active) {
+        // Fade out background1, fade in background2
+        background2.style.backgroundImage = `url('images/${images[currentImageIndex]}')`;
+        background2.style.opacity = 1;
+        background1.style.opacity = 0;
+    } else {
+        // Fade out background2, fade in background1
+        background1.style.backgroundImage = `url('images/${images[currentImageIndex]}')`;
+        background1.style.opacity = 1;
+        background2.style.opacity = 0;
+    }
 
     // Update index for next image
     currentImageIndex = (currentImageIndex + 1) % images.length;
+
+    // Toggle active background
+    isBackground1Active = !isBackground1Active;
 }
 
-// Initial call
-setBackgroundImage();
+// Preload images
+preloadImages();
+
+// Initial call to load first image immediately
+document.getElementById('background').style.backgroundImage = `url('images/${images[currentImageIndex]}')`;
 
 // Change image every 10 seconds
 setInterval(setBackgroundImage, 10000);
+
 
 // Target dates in PST (UTC-8)
 const act1Date = new Date('November 9, 2024 00:00:00 GMT-0800');
