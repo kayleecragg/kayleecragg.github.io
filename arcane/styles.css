@@ -9,7 +9,7 @@ body, html {
     height: 100%;
     background-color: rgba(0, 0, 0, 0.65); /* Allows transparency */
     font-family: 'Manuka', Arial, sans-serif; /* Use Manuka as the font */
-    color: white;
+    color: #f0eae2; /* Eggshell color */
     font-size: 25px; /* Increased base font size */
     letter-spacing: 0.039em; /* Slightly wider letter spacing */
     overflow-x: hidden; /* Prevent horizontal scrollbars */
@@ -18,17 +18,25 @@ body, html {
 }
 
 
-#background {
+/* Background layers for smooth transitions */
+#background, #background2 {
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
-    min-height: 100vh; /* Ensure it covers the entire height of the viewport */
+    width: 100vw;
+    height: 100vh;
     background-size: cover;
     background-position: center;
     z-index: -1;
     filter: blur(5px); /* Adds a 5px blur to the background image */
+    transition: opacity 3s ease-in-out; /* Smooth fade transition */
+    opacity: 1;
 }
+
+#background2 {
+    opacity: 0; /* Initially hidden */
+}
+
 
 
 #content {
@@ -48,9 +56,32 @@ body, html {
     opacity: 1; /* Full opacity on hover */
 }
 
-h1 {
+#countdown-title {
     font-size: 3em;
     margin-bottom: 5px;
+    text-align: center; /* Center the text if needed */
+    font-weight: bold; /* Optional: Make the font bold */
+}
+
+#Act1 {
+    color: #f0eae2; /* Eggshell color */
+    font-size: 2em;
+    text-align: center; /* Center the text if needed */
+    font-weight: bold; /* Optional: Make the font bold */
+}
+
+#Act2 {
+    color: #f0eae2; /* Eggshell color */
+    font-size: 2em;
+    text-align: center; /* Center the text if needed */
+    font-weight: bold; /* Optional: Make the font bold */
+}
+
+#Act3 {
+    color: #f0eae2; /* Eggshell color */
+    font-size: 2em;
+    text-align: center; /* Center the text if needed */
+    font-weight: bold; /* Optional: Make the font bold */
 }
 
 #countdowns {
@@ -62,6 +93,7 @@ h1 {
 }
 
 .act {
+
     padding: 20px;
     border-radius: 5px;
     flex: 1 1 30%;
@@ -69,7 +101,7 @@ h1 {
     max-width: 250px;
     height: auto;
     text-align: center;
-    color: white; /* Night mode text color */
+    color: #f0eae2; /* Eggshell color */
 }
 
 .act h2 {
