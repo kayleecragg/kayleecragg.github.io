@@ -1,143 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <head>
+        <meta charset="UTF-8">
+        <title>Arcane Countdown</title>
+        <!-- Favicon in SVG format -->
+        <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
 
-    <title>KayleeCragg</title>
+        <!-- Fallback to PNG format for browsers that don't support SVG -->
+        <link rel="icon" type="image/png" href="images/favicon.png">
 
-    <!-- Bootstrap core CSS -->
-    <link rel="icon" type="image/png" href="favicon.png">
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/3-col-portfolio.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
-  </head>
-
-  <body>
-
-    <nav class="navbar navbar-fixed-top navbar-inverse" role="navigation" style="background-color: #000; box-shadow: 0 2px 5px rgba(0,0,0,0.2);">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse" style="border: none; background: transparent;">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar" style="background-color: #fff;"></span>
-            <span class="icon-bar" style="background-color: #fff;"></span>
-            <span class="icon-bar" style="background-color: #fff;"></span>
-          </button>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div id="background"></div>
+        <div id="background2"></div>
+                <div id="content">
+            <a href="https://www.arcane.com/en-us/" target="_blank">
+                <img src="images/logo.webp" alt="Logo" id="logo">
+            </a>      
+            <p id="countdown-title">COUNTDOWN TO ARCANE SEASON 2</p>
+            <div id="countdowns">
+                <div class="act" id="act1">
+                    <p id="Act1">ACT I</p>
+                    <p id="timer1"></p>
+                </div>
+                <div class="act" id="act2">
+                    <p id="Act2">ACT II</p>
+                    <p id="timer2"></p>
+                </div>
+                <div class="act" id="act3">
+                    <p id="Act3">ACT III</p>
+                    <p id="timer3"></p>
+                </div>
+            </div>
+            <div id="timezone-selector">
+                <label for="timezone">SELECT TIMEZONE:</label>
+                <select id="timezone"></select>
+            </div>
+            <div id="timezone-times">
+                <p>GLOBAL RELEASE DATES</p>
+                <p id="act1-time"></p>
+                <p id="act2-time"></p>
+                <p id="act3-time"></p>
+            </div>
         </div>
-    
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse navbar-ex1-collapse">
-          <ul class="nav navbar-nav" style="margin: 0; padding: 0; list-style: none; display: table; width: 100%; text-align: center;">
-            <li style="display: table-cell; position: relative; padding: 15px 0;">
-              <a href="/projects.html " style="color: #fff; text-transform: uppercase; text-decoration: none; letter-spacing: 0.15em; display: inline-block; padding: 15px 20px; position: relative;">Projects</a>
-            </li>
-            <li style="display: table-cell; position: relative; padding: 15px 0;">
-              <a href="https://www.linkedin.com/in/kayleecragg/" style="color: #fff; text-transform: uppercase; text-decoration: none; letter-spacing: 0.15em; display: inline-block; padding: 15px 20px; position: relative;">Linkedin</a>
-            </li>
-            <li style="display: table-cell; position: relative; padding: 15px 0;">
-              <a href="https://github.com/kayleecragg" style="color: #fff; text-transform: uppercase; text-decoration: none; letter-spacing: 0.15em; display: inline-block; padding: 15px 20px; position: relative;">Github</a>
-            </li>
-          </ul>
-        </div><!-- /.navbar-collapse -->
-      </div><!-- /.container -->
-    </nav>
-    
+        <script src="script.js"></script>
+    </body>
 
-    <div class="container">
-
-      <div class="row">
-
-        <div class="col-lg-12">
-          <h1 class="page-header">Kaylee Cragg</h1>
-        </div>
-
-      </div>
-
-      <div class="row">
-
-        <div class="container">
-
-          <!-- Your page content -->
-    
-          <!-- Add the typing effect section where you want it in your page -->
-          <div id="static-text" class="typing-effect">
-            Hey, I'm Kaylee!<br>
-            <br>
-            I am currently a student at The University of New South Wales pursuing a degree in Computer Science.<br><br>
-            I'm likely <span id="typing"></span><span class="typing-cursor"></span>.<br><br>
-          </div>
-
-          <script>
-            // The sentences you want to type
-            const sentences = [
-              "listening to Laufey",
-              "playing Teamfight Tactics",
-              "re-watching Avatar The Last Airbender (the anime)",
-              "programming",
-              "drawing my favs"
-            ];
-            
-            // Delay in milliseconds
-            const typingDelay = 34;
-            const erasingDelay = 30;
-            const newSentenceDelay = 900; // Delay between current and next sentence
-            let sentenceIndex = 0;
-            let characterIndex = 0;
-            let typing = true;
-            
-            const typingElement = document.getElementById('typing');
-            const cursorElement = document.querySelector('.typing-cursor');
-            
-            function type() {
-              if (typing) {
-                if (characterIndex < sentences[sentenceIndex].length) {
-                  // Add next character
-                  typingElement.textContent += sentences[sentenceIndex].charAt(characterIndex);
-                  characterIndex++;
-                  setTimeout(type, typingDelay);
-                } else {
-                  // End of sentence
-                  typing = false;
-                  cursorElement.style.opacity = '1'; // Show the cursor
-                  setTimeout(type, newSentenceDelay);
-                }
-              } else {
-                if (characterIndex > 0) {
-                  // Remove last character
-                  typingElement.textContent = sentences[sentenceIndex].substring(0, characterIndex - 1);
-                  characterIndex--;
-                  setTimeout(type, erasingDelay);
-                } else {
-                  // Move to the next sentence
-                  typing = true;
-                  sentenceIndex = (sentenceIndex + 1) % sentences.length;
-                  cursorElement.style.opacity = '0'; // Hide the cursor
-                  setTimeout(type, typingDelay + 1100); // Add a slight delay before typing starts to allow the cursor to blink
-                }
-              }
-            }
-            
-            // Start the typing effect on load
-            window.addEventListener("load", () => {
-              setTimeout(type, newSentenceDelay);
-            });
-            </script>
-
-      </div>
-
-      <hr>
-
-    <!-- JavaScript -->
-    <script src="js/jquery-1.10.2.js"></script>
-    <script src="js/bootstrap.js"></script>
-    <script type="text/javascript">
-      var dt = new Date();
-      document.getElementById('getCurrentDate').innerHTML = dt.getFullYear();
-    </script>
-  </body>
-
+    <!-- Footer icons at the bottom -->
+    <div id="footer-links">
+        <a href="https://www.arcane.com/en-us/" target="_blank">
+            <img src="images/favicon.svg" alt="Arcane Website" class="footer-icon arcane-icon">
+        </a>
+        <a href="https://www.netflix.com/title/81435684" target="_blank">
+            <img src="images/netflix.png" alt="Watch on Netflix" class="footer-icon netflix-icon">
+        </a>
+    </div>
+       
+</body>
 </html>
