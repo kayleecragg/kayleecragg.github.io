@@ -38,19 +38,22 @@ body, html {
 }
 
 
-
 #content {
     position: relative;
     text-align: center;
-    padding-top: 5px;
-}
+    margin: 0;    /* Ensure there's no margin */
+    padding: 0;   /* Ensure there's no padding */}
 
 #logo {
-    width: 300px; /* Set your desired width for the logo */
+    width: 300px;
     height: auto;
     opacity: 0.9;
     transition: opacity 0.3s ease;
+    display: block;     /* Treat the image as a block element */
+    margin: 0 auto;     /* Center the image horizontally */
+    margin-bottom: 0;   /* Remove space below the image */
 }
+
 
 #logo:hover {
     opacity: 1; /* Full opacity on hover */
@@ -60,6 +63,8 @@ body, html {
     font-size: 3em;
     margin-bottom: 5px;
     text-align: center; /* Center the text if needed */
+    margin-bottom: 0; /* Add this line */
+    margin-top: 0px; /* Adjust this value as needed */
 }
 
 #Act1 {
@@ -86,6 +91,8 @@ body, html {
     justify-content: center;
     gap: 50px;
     margin-bottom: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .act {
