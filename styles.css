@@ -1,0 +1,263 @@
+/* Import Noto Sans Mono from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@400;700&display=swap');
+
+#aboutme {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 0.015em; /* Slightly wider letter spacing */
+}
+
+#static-text {
+    font-size: 0.5em;
+}
+
+/* Typing Effect */
+.typing-effect {
+    text-align: center;
+}
+
+.typing-cursor {
+    font-weight: bold;
+    font-size: 1.5em;
+    opacity: 1;
+    animation: blink 0.7s steps(1) infinite;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Noto Sans Mono', monospace;
+    color: #f0eae2; /* Eggshell color */
+    font-size: 25px; /* Increased base font size */
+    background: #000000; /* A simple solid background */
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+/* Navigation Bar Styling */
+nav {
+    background-color: #000000; /* Dark background */
+    padding: 10px 0; /* Padding for the navbar */
+    width: 100%; /* Full width */
+    position: sticky; /* Sticky navbar */
+    top: 0; /* Sticks to the top when scrolling */
+    z-index: 1000; /* Ensure it's above other content */
+    height: 60px; /* Consistent height for navbar */
+    display: flex;
+    justify-content: center;
+    border-radius: 10px; /* Optional: Add rounded corners */
+}
+
+/* Navbar items */
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar li {
+    margin-right: 20px;
+}
+
+.navbar li:last-child {
+    margin-right: 0;
+}
+
+.navbar a {
+    color: #f0eae2; /* Eggshell color for links */
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    display: block;
+}
+
+.navbar a:hover {
+    background-color: #404040; /* Change background on hover */
+    border-radius: 5px;
+}
+
+/* Main content */
+main {
+    flex-grow: 1; /* Ensure content takes up all available space */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px; /* Space for the navbar */
+    padding-bottom: 60px; /* Space for the footer */
+    box-sizing: border-box;
+}
+
+/* Project Section Styling */
+.project-section {
+    font-size: 0.5em;
+    padding: 20px 20px;
+    background-color: #121212;
+    color: #f0eae2;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    width: 80%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Ensure image on the left and text on the right */
+.project-content {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px; /* Adds space between image and text */
+}
+
+.project-image {
+    width: 40%; /* Image takes up 45% of the space */
+    order: 1; /* Ensure the image is on the left */
+}
+
+.project-text {
+    width: 60%; /* Text takes up 55% of the space */
+    order: 2; /* Ensure the text is on the right */
+}
+
+.project-image img {
+    width: 100%; /* Make the image responsive */
+    height: auto;
+}
+
+/* Project Section Styling */
+.experience-section {
+    font-size: 0.5em;
+    padding: 20px 20px;
+    background-color: #121212;
+    color: #f0eae2;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    width: 80%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Ensure image on the left and text on the right */
+.experience-content {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px; /* Adds space between image and text */
+}
+
+.experience-image {
+    width: 20%; /* Image takes up 45% of the space */
+    order: 1; /* Ensure the image is on the left */
+}
+
+
+.experience-text {
+    width: 80%; /* Text takes up 55% of the space */
+    order: 2; /* Ensure the text is on the right */
+}
+
+.experience-image img {
+    width: 100%; /* Make the image responsive */
+    height: auto;
+}
+
+/* Target the specific div containing the Dolby logo */
+#dolby-logo-column {
+    width: 20%; /* Image takes up 15% of the space */
+    order: 1; /* Ensure the image is on the left */
+    background-color: rgba(255, 255, 255, 1); /* White background with 70% opacity */
+    padding: 10px; /* Adds padding around the image */
+    display: flex;
+    justify-content: center; /* Centers the image inside the background */
+    align-items: center; /* Vertically centers the image */
+}
+
+/* Target the specific div containing the Dolby logo */
+#deloitte-logo-column {
+    width: 19%; /* Image takes up 15% of the space */
+    order: 1; /* Ensure the image is on the left */
+    background-color: rgba(255, 255, 255, 1); /* White background with 70% opacity */
+    padding: 10px; /* Adds padding around the image */
+    display: flex;
+    justify-content: center; /* Centers the image inside the background */
+    align-items: center; /* Vertically centers the image */
+}
+
+/* Target the specific div containing the Dolby logo */
+#kikibot {
+    width: 40%; /* Image takes up 15% of the space */
+    order: 1; /* Ensure the image is on the left */
+    padding: 10px; /* Adds padding around the image */
+    display: flex;
+    justify-content: center; /* Centers the image inside the background */
+    align-items: center; /* Vertically centers the image */
+}
+
+/* Footer Styling */
+footer {
+    background-color: #000000; /* Dark background */
+    color: #f0eae2; /* Eggshell color */
+    text-align: right;
+    padding: 10px 30px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Social Icons */
+.social-icons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.social-icons a {
+    margin-left: 10px;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+    filter: brightness(0) invert(1); /* Optional: Make the SVG icons white */
+    transition: transform 0.2s ease; /* Animation on hover */
+}
+
+.social-icons img:hover {
+    transform: scale(1.1); /* Slightly enlarge the icon on hover */
+}
+
+/* Responsive styling for smaller screens */
+@media screen and (max-width: 768px) {
+    .project-section {
+        flex-direction: column; /* Stack content vertically on small screens */
+    }
+
+    .project-text,
+    .project-image {
+        width: 100%; /* Full width for both text and image */
+    }
+
+    .project-image {
+        margin-bottom: 20px; /* Add space between image and text */
+    }
+}
