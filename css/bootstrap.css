@@ -40,13 +40,15 @@ template {
 }
 
 html {
-  font-family: sans-serif;
+  font-family: 'Noto Sans Mono', monospace; /* Set the font-family */
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
 
 body {
   margin: 0;
+  font-family: 'Noto Sans Mono', monospace; /* Set the font-family */
+  font-size: 15px;
 }
 
 a {
@@ -269,6 +271,8 @@ table {
     background: #fff !important;
   }
   .navbar {
+    font-family: 'Noto Sans Mono', monospace; /* Set the font-family */
+    font-size: 15px;
     display: none;
   }
   .table td,
