@@ -1,6 +1,12 @@
 /* Combined CSS Styles */
+
+@font-face {
+    font-family: 'Manuka'; /* The name you want to reference in your CSS */
+    src: url('fonts/TestManuka-Bold-BF663c33db7b03f.otf') format('opentype'); /* Use .otf file and 'opentype' format */
+}
+
 body {
-    font-family: 'Noto Sans Mono', monospace; /* Set the font-family */
+    font-family: 'Manuka', Arial, sans-serif; /* Use Manuka as the font */
     font-size: 11px;
     background: #000; /* Assuming you want the background from the second style */
     color: #fff; /* Assuming white text for contrast on the black background */
