@@ -21,8 +21,7 @@ const images = [
     'gif8.webp',
     'gif9.webp',
     'gif10.webp',
-    'gif11.webp',
-    'gif12.webp'
+    'gif11.webp'
 ];
 
 // Shuffle function (Fisher-Yates algorithm)
