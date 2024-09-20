@@ -1,0 +1,160 @@
+@font-face {
+    font-family: 'Manuka'; /* The name you want to reference in your CSS */
+    src: url('fonts/TestManuka-Bold-BF663c33db7b03f.otf') format('opentype'); /* Use .otf file and 'opentype' format */
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.65); /* Allows transparency */
+    font-family: 'Manuka', Arial, sans-serif; /* Use Manuka as the font */
+    color: white;
+    font-size: 25px; /* Increased base font size */
+    letter-spacing: 0.039em; /* Slightly wider letter spacing */
+    overflow-x: hidden; /* Prevent horizontal scrollbars */
+
+
+}
+
+
+#background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100vh; /* Ensure it covers the entire height of the viewport */
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    filter: blur(5px); /* Adds a 5px blur to the background image */
+}
+
+
+#content {
+    position: relative;
+    text-align: center;
+    padding-top: 5px;
+}
+
+#logo {
+    width: 300px; /* Set your desired width for the logo */
+    height: auto;
+    opacity: 0.9;
+    transition: opacity 0.3s ease;
+}
+
+#logo:hover {
+    opacity: 1; /* Full opacity on hover */
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 5px;
+    letter-spacing: 0.015em; /* Adjust letter spacing for h1 only */
+}
+
+#countdowns {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 10px;
+}
+
+.act {
+    padding: 20px;
+    border-radius: 5px;
+    flex: 1 1 30%;
+    min-width: 150px;
+    max-width: 250px;
+    height: auto;
+    text-align: center;
+    color: white; /* Night mode text color */
+}
+
+.act h2 {
+    font-size: 2.25em;
+}
+
+.act p {
+    font-size: 1.6em;
+    
+}
+
+#timezone-selector {
+    margin-top: 10px;
+}
+
+#timezone-selector label {
+    font-size: 1.25em !important; /* Increase the size of the label */
+    display: block; /* Ensure the label is on its own line */
+    margin-bottom: 10px; /* Add some space between label and select */
+}
+
+#timezone-selector select {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    background-color: rgba(0, 0, 0, 0.4); /* Semi-transparent background */
+    color: white;
+}
+
+#timezone-selector label {
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+#timezone-times {
+    margin-top: 20px;
+}
+
+#timezone-times h2 {
+    font-size: 1.7em;
+}
+
+#timezone-times p {
+    font-size: 1.5em;
+}
+
+@media (max-width: 600px) {
+    .act {
+        flex: 1 1 100%;
+    }
+
+    #logo {
+        width: 150px;
+    }
+}
+
+#footer-links {
+    position: fixed;
+    bottom: 10px;
+    right: 30px;
+    display: flex;
+    gap: 20px;
+    z-index: 1000;
+}
+
+/* Arcane icon specific size */
+.arcane-icon {
+    margin-top: 12px;
+    width: 21px; /* Set size for Arcane icon */
+    height: auto;
+    opacity: 0.75;
+    transition: opacity 0.3s ease;
+}
+
+/* Netflix icon specific size */
+.netflix-icon {
+    margin-top: 10.5px;
+    width: 15px; /* Set size for Netflix icon */
+    height: auto;
+    opacity: 0.75;
+    transition: opacity 0.3s ease;
+}
+
+.footer-icon:hover {
+    opacity: 1;
+}
