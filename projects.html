@@ -1,102 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <head>
+        <meta charset="UTF-8">
+        <title>kaylee website</title>
+        <!-- Link to favicon-->
+        <link rel="icon" href="images/favicon.webp" type="image/webp">
+        <!-- Link to external CSS file -->
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
 
-    <title>Kaylee Cragg's Projects</title>
+        <!-- Navigation Bar -->
+        <nav>
+            <ul class="navbar">
+                <li><a href="/">home</a></li>
+                <li><a href="projects.html">projects</a></li>
+                <li><a href="experience.html">experience</a></li>
+            </ul>
+        </nav>
+        <main>
+            <p id="aboutme">projects</p>
+            <!-- Section 1 (Project 1) -->
+            <section id="project-section1" class="project-section">
+                <div class="project-content">
+                    <div id="kikibot" class="project-image">
+                        <img id="kikibot" src="images/kiki.png">
+                    </div>
+                    <div class="project-text">
+                        <h2>kikibot</h2>
+                        <p>• Designed and implemented a set of Jupyter notebooks
+                            to automate
+                            the creation and uploading of shells/assets and
+                            platform images, enhancing workflow efficiency
+                            tenfold</p>
+                        <p>• Has been widely used by my company’s live
+                            operations team to maximise efficiency and lower the
+                            margin of human made error during busy periods</p>
+                        <p>• Utilized Python, Selenium, Puppeteer to build the
+                            automation aspect of the bots, and runs fully
+                            functional on google colab to increase usability</p>
+                        <p>• See the project on <a
+                                href="https://github.com/kayleecragg/kikibot"
+                                target="_blank">github</a>, and the <a
+                                href="https://colab.research.google.com/drive/1jFuPN-3OMjf6p990YB8j_fsw3-JhViI0?usp=sharing"
+                                target="_blank">google colab</a></p>
+                    </div>
+                </div>
+            </section>
 
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono&display=swap" rel="stylesheet">
-    
-    <!-- Custom CSS for the '3 Col Portfolio' Template -->
-    <link href="css/3-col-portfolio.css" rel="stylesheet">
-  </head>
+            <!-- Section 2 (Project 2) -->
+            <section id="project-section2" class="project-section">
+                <div class="project-content">
+                    <div class="project-image">
+                        <img src="images/face.jpg"
+                            alt="arcane 2 countdown image">
+                    </div>
+                    <div class="project-text">
+                        <h2>Arcane Season 2 Countdown</h2>
+                        <p>• Developed a Countdown website leading up to the 3
+                            different acts of Arcane Season 2.</p>
+                        <p>• Also checks viewer's local timezone via Javascript
+                            and displays exactly what time the episodes will go
+                            live in their timezone.</p>
+                        <p>• User is also able to check other timezones for when
+                            the episodes will go live.</p>
+                        <p>• Responsive background images and gifs from the new
+                            trailers.</p>
+                        <p>• Utilized HTML, CSS and Javascript to build the
+                            app’s functionality and design.</p>
+                        <p>• check out the project
+                            <a
+                                href="https://kayleecragg.github.io/arcane/index.html"
+                                target="_blank">website</a> and on <a
+                                href="https://github.com/kayleecragg/kayleecragg.github.io/tree/main/arcane"
+                                target="_blank">github</a>.</p>
+                    </div>
+                </div>
+            </section>
 
-  <body>
-
-    <nav class="navbar navbar-fixed-top navbar-inverse" role="navigation" style="background-color: #000; box-shadow: 0 2px 5px rgba(0,0,0,0.2);">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse" style="border: none; background: transparent;">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar" style="background-color: #fff;"></span>
-            <span class="icon-bar" style="background-color: #fff;"></span>
-            <span class="icon-bar" style="background-color: #fff;"></span>
-          </button>
-        </div>
-    
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse navbar-ex1-collapse">
-          <ul class="nav navbar-nav" style="margin: 0; padding: 0; list-style: none; display: table; width: 100%; text-align: center;">
-            <li style="display: table-cell; position: relative; padding: 15px 0;">
-              <a href="/" style="color: #fff; text-transform: uppercase; text-decoration: none; letter-spacing: 0.15em; display: inline-block; padding: 15px 20px; position: relative;">About</a>
-            </li>
-            <li style="display: table-cell; position: relative; padding: 15px 0;">
-              <a href="https://www.linkedin.com/in/kayleecragg/" style="color: #fff; text-transform: uppercase; text-decoration: none; letter-spacing: 0.15em; display: inline-block; padding: 15px 20px; position: relative;">Linkedin</a>
-            </li>
-            <li style="display: table-cell; position: relative; padding: 15px 0;">
-              <a href="https://github.com/kayleecragg" style="color: #fff; text-transform: uppercase; text-decoration: none; letter-spacing: 0.15em; display: inline-block; padding: 15px 20px; position: relative;">Github</a>
-            </li>
-          </ul>
-        </div><!-- /.navbar-collapse -->
-      </div><!-- /.container -->
-    </nav>
-    
-
-    <div class="container">
-
-      <div class="row">
-
-        <div class="col-lg-12">
-          <h1 class="page-header">kaylee cragg<small>projects</small></h1>
-        </div>
-
-      </div>
-
-      <div class="row">
-
-        <div class="col-md-4 portfolio-item">
-          <a href="https://colab.research.google.com/drive/1jFuPN-3OMjf6p990YB8j_fsw3-JhViI0?usp=sharing"><img class="img-responsive" src="images/image.png" style="width: 100%; height: auto;" alt="Descriptive text"></a>
-          <h3><a href="https://colab.research.google.com/drive/1jFuPN-3OMjf6p990YB8j_fsw3-JhViI0?usp=sharing">KikiBot™</a></h3>
-          <p>• designed and implemented a set of Jupyter notebooks to automate the creation and uploading of shells/assets and platform images, enhancing workflow efficiency and reducing rate of error tenfold (1000%)</p>
-          <p>• has been widely used by my company’s live operations team to maximise efficiency and lower the margin of human made error during busy periods.</p>
-          <p>• utilized Python, Selenium, Puppeteer to build the automation aspect of the bots, and runs fully functional on google colab to increase usability.</p>
-          <p>• see the project on <a href="https://github.com/kayleecragg/kikibot" target="_blank">gitHub</a>, and the <a href="https://colab.research.google.com/drive/1jFuPN-3OMjf6p990YB8j_fsw3-JhViI0?usp=sharing" target="_blank">google colab</a>.</p>
-        </div>
-
-        <div class="col-md-4 portfolio-item">
-          <a href="https://stanliveopstools.web.app/usopen2023.html"><img class="img-responsive" src="images/image1.png"></a>
-          <h3><a href="https://stanliveopstools.web.app/usopen2023.html">CMS Re-arranger</a></h3>
-          <p>• developed a web app that acts as a cms (content management system) tool to help with organising large volumes of assets on bebanjo movida.</p>
-          <p>• initially made to demo a non‑functioning tool to pitch to workplace’s product team.</p>
-          <p>• utilized HTML, CSS and javascript to build the app’s functionality and design, and deployed using google firebase.</p>
-          <p>• see the project's <a href="https://stanliveopstools.web.app/usopen2023.html" target="_blank">website</a>.</p>
-        </div>
-
-        <div class="col-md-4 portfolio-item">
-          <a href="https://kayleecragg.github.io/arcane/index.html"><img class="img-responsive" src="images/image2.png"></a>
-          <h3><a href="https://kayleecragg.github.io/arcane/index.html">arcane 2 countdown website</a></h3>
-          <p>• developed a web app that countdown to the 3 different acts of arcane season 2 with responsive background images.</p>
-          <p>• also checks viewer's local timezone via Javascript and displays exactly what time the episodes will go live in their timezone</p>
-          <p>• utilized HTML, CSS and Javascript to build the app’s functionality and design.</p>
-          <p>• see the project on <a href="https://github.com/kayleecragg/kayleecragg.github.io/tree/main/arcane" target="_blank">gitHub</a>, and the <a href="https://kayleecragg.github.io/arcane/index.html" target="_blank">website</a>.</p>
-        </div>
-
-      </div>
-
-      <hr>
-
-    <!-- JavaScript -->
-    <script src="js/jquery-1.10.2.js"></script>
-    <script src="js/bootstrap.js"></script>
-    <script type="text/javascript">
-      var dt = new Date();
-      document.getElementById('getCurrentDate').innerHTML = dt.getFullYear();
-    </script>
-  </body>
-
+            <!-- Section 3 (Project 3) -->
+            <section id="project-section3" class="project-section">
+                <div class="project-content">
+                    <div class="project-image">
+                        <img src="images/cms.png">
+                    </div>
+                    <div class="project-text">
+                        <h2>CMS re-arranger</h2>
+                        <p>• Developed a web app that acts as a cms (content
+                            management
+                            system) tool to help with organising large volumes
+                            of assets
+                            on
+                            bebanjo movida.</p>
+                        <p>• Initially made to demo a non‑functioning tool to
+                            pitch to
+                            workplace’s product team.</p>
+                        <p>• Utilized HTML, CSS and Javascript to build the
+                            app’s
+                            functionality and design, and deployed using google
+                            firebase.</p>
+                        <p>• See the project's <a
+                                href="https://stanliveopstools.web.app/usopen2023.html"
+                                target="_blank">website</a>.</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!-- Footer with GitHub and LinkedIn icons -->
+        <footer>
+            <div class="social-icons">
+                <a href="https://github.com/kayleecragg"
+                    target="_blank">
+                    <img src="images/github.svg" alt="GitHub">
+                </a>
+                <a href="https://www.linkedin.com/in/kayleecragg/"
+                    target="_blank">
+                    <img src="images/linkedin.svg" alt="LinkedIn">
+                </a>
+            </div>
+        </footer>
+        <!-- Link to external JavaScript file -->
+        <script src="script.js"></script>
+    </body>
 </html>
