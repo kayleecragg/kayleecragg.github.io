@@ -1,13 +1,8 @@
 /* Combined CSS Styles */
 
-@font-face {
-    font-family: 'Manuka'; /* The name you want to reference in your CSS */
-    src: url('fonts/TestManuka-Bold-BF663c33db7b03f.otf') format('opentype'); /* Use .otf file and 'opentype' format */
-}
-
 body {
-    font-family: 'Manuka', Arial, sans-serif; /* Use Manuka as the font */
-    font-size: 11px;
+    font-family: 'Noto Sans Mono', monospace; /* Set the font-family */
+    font-size: 20px;
     background: #000; /* Assuming you want the background from the second style */
     color: #fff; /* Assuming white text for contrast on the black background */
     margin-top: 50px; /* 50px is the height of the navbar - change this if the navbarn height changes */
@@ -15,7 +10,7 @@ body {
 
   
   #static-text, .typing {
-    font-size: 2em;
+    font-size: 3em;
     color: #fff; /* Change to white for contrast, if that's what you want */
   }
   
