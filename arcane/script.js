@@ -1,4 +1,3 @@
-// List of background images (including gifs and static images)
 const images = [
     'image1.jpeg',
     'image2.jpeg',
