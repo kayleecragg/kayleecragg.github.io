@@ -4,7 +4,13 @@ const images = [
     'image3.jpeg',
     'image4.jpeg',
     'image5.jpeg',
-    'image6.jpeg'
+    'image6.jpeg',
+    'image7.jpeg',
+    'image8.jpeg',
+    'image9.jpeg',
+    'image10.jpeg',
+    'image11.jpeg'
+
 ];
 
 // Index for tracking current image
@@ -167,5 +173,4 @@ function displayActTimesInTimezone(timezone) {
     document.getElementById('act2-time').textContent = `ACT II: ${act2TimeString}`;
     document.getElementById('act3-time').textContent = `ACT III: ${act3TimeString}`;
 }
-
 
