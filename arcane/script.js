@@ -1,3 +1,4 @@
+// List of background images (place your actual image filenames)
 const images = [
     'image1.jpeg',
     'image2.jpeg',
@@ -10,8 +11,19 @@ const images = [
     'image9.jpeg',
     'image10.jpeg',
     'image11.jpeg'
-
 ];
+
+// Shuffle function (Fisher-Yates algorithm)
+function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]]; // Swap
+    }
+    return array;
+}
+
+// Shuffle the images array
+const shuffledImages = shuffleArray([...images]); // Make a copy of the images array and shuffle
 
 // Index for tracking current image
 let currentImageIndex = 0;
@@ -21,7 +33,7 @@ let isBackground1Active = true;
 
 // Preload images to avoid flashes during transition
 function preloadImages() {
-    images.forEach((image) => {
+    shuffledImages.forEach((image) => {
         const img = new Image();
         img.src = `images/${image}`;
     });
@@ -34,18 +46,18 @@ function setBackgroundImage() {
 
     if (isBackground1Active) {
         // Fade out background1, fade in background2
-        background2.style.backgroundImage = `url('images/${images[currentImageIndex]}')`;
+        background2.style.backgroundImage = `url('images/${shuffledImages[currentImageIndex]}')`;
         background2.style.opacity = 1;
         background1.style.opacity = 0;
     } else {
         // Fade out background2, fade in background1
-        background1.style.backgroundImage = `url('images/${images[currentImageIndex]}')`;
+        background1.style.backgroundImage = `url('images/${shuffledImages[currentImageIndex]}')`;
         background1.style.opacity = 1;
         background2.style.opacity = 0;
     }
 
     // Update index for next image
-    currentImageIndex = (currentImageIndex + 1) % images.length;
+    currentImageIndex = (currentImageIndex + 1) % shuffledImages.length;
 
     // Toggle active background
     isBackground1Active = !isBackground1Active;
@@ -55,10 +67,11 @@ function setBackgroundImage() {
 preloadImages();
 
 // Initial call to load first image immediately
-document.getElementById('background').style.backgroundImage = `url('images/${images[currentImageIndex]}')`;
+document.getElementById('background').style.backgroundImage = `url('images/${shuffledImages[currentImageIndex]}')`;
 
-// Change image every 10 seconds
-setInterval(setBackgroundImage, 10000);
+// Change image every 5 seconds
+setInterval(setBackgroundImage, 5000);
+
 
 
 // Target dates in PST (UTC-8)
@@ -102,7 +115,7 @@ function startCountdown(actNumber, targetDate, timerElementId) {
         }
     }
 
-    interval = setInterval(updateTimer, 5000);
+    interval = setInterval(updateTimer, 1000);
     updateTimer(); // Initial call
 }
 
