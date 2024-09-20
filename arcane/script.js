@@ -102,7 +102,7 @@ function startCountdown(actNumber, targetDate, timerElementId) {
         }
     }
 
-    interval = setInterval(updateTimer, 1000);
+    interval = setInterval(updateTimer, 5000);
     updateTimer(); // Initial call
 }
 
