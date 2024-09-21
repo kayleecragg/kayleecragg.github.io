@@ -40,7 +40,7 @@ html, body {
     margin: 0;
     font-family: 'Noto Sans Mono', monospace;
     color: #f2f2f2; /* Eggshell color */
-    font-size: 25px; /* Increased base font size */
+    font-size: 20px; /* Increased base font size */
     background: #000000; /* A simple solid background */
     display: flex;
     flex-direction: column;
@@ -132,7 +132,7 @@ main {
 
 /* Project Section Styling */
 .project-section {
-    font-size: 0.65em;
+    font-size: 0.55em;
     padding: 20px 20px;
     background-color: #121212;
     color: #f2f2f2;
@@ -171,7 +171,7 @@ main {
 
 /* Experience Section Styling */
 .experience-section {
-    font-size: 0.65em;
+    font-size: 0.55em;
     padding: 20px 20px;
     background-color: #121212;
     color: #f2f2f2;
@@ -275,6 +275,50 @@ footer {
 /* Responsive styling for smaller screens */
 @media screen and (max-width: 768px) {
 
+    /* Project Section Styling */
+    .project-section {
+        flex-direction: column; /* Stack content vertically on small screens */
+        font-size: 0.65em;
+        padding: 20px 20px;
+        background-color: #121212;
+        color: #f2f2f2;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        width: 60%;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    /* Experience Section Styling */
+    .experience-section {
+        flex-direction: column; /* Stack content vertically on small screens */
+        font-size: 0.65em;
+        padding: 20px 20px;
+        background-color: #121212;
+        color: #f2f2f2;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        width: 60%;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    html, body {
+        height: 100%;
+        margin: 0;
+        font-family: 'Noto Sans Mono', monospace;
+        color: #f2f2f2; /* Eggshell color */
+        font-size: 30px; /* Increased base font size */
+        background: #000000; /* A simple solid background */
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+    }
+
     #aboutme {
         font-size: 2.5em;
         font-weight: bold;
@@ -293,9 +337,6 @@ footer {
         display: block;
     }
     
-    .project-section {
-        flex-direction: column; /* Stack content vertically on small screens */
-    }
 
     .project-text,
     .project-image {
