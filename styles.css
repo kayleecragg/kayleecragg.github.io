@@ -94,7 +94,7 @@ nav {
 /* Active nav item */
 .navbar a.active {
     transform: scale(0.95); 
-    transition: transform 0.1s ease; 
+    transition: transform 0.2s ease; 
     background-color: #ffffff; /* White background */
     color: #000000; /* Black text */
     border-radius: 5px; /* Optional: Add rounded corners */
