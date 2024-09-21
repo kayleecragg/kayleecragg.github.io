@@ -8,7 +8,7 @@
 }
 
 #static-text {
-    font-size: 0.7em;
+    font-size: 0.85em;
 }
 
 /* Typing Effect */
@@ -278,7 +278,7 @@ footer {
     /* Project Section Styling */
     .project-section {
         flex-direction: column; /* Stack content vertically on small screens */
-        font-size: 0.65em;
+        font-size: 0.6em;
         padding: 20px 20px;
         background-color: #121212;
         color: #f2f2f2;
@@ -294,7 +294,7 @@ footer {
     /* Experience Section Styling */
     .experience-section {
         flex-direction: column; /* Stack content vertically on small screens */
-        font-size: 0.65em;
+        font-size: 0.6em;
         padding: 20px 20px;
         background-color: #121212;
         color: #f2f2f2;
@@ -312,7 +312,7 @@ footer {
         margin: 0;
         font-family: 'Noto Sans Mono', monospace;
         color: #f2f2f2; /* Eggshell color */
-        font-size: 30px; /* Increased base font size */
+        font-size: 25px; /* Increased base font size */
         background: #000000; /* A simple solid background */
         display: flex;
         flex-direction: column;
@@ -320,19 +320,19 @@ footer {
     }
 
     #aboutme {
-        font-size: 2.2em;
+        font-size: 2em;
         font-weight: bold;
         text-align: center;
     }
     
     #static-text {
-        font-size: 1.2em;
+        font-size: 1.15em;
     }
 
     .navbar a {
         color: #f2f2f2;
         text-decoration: none;
-        font-size: 25px;
+        font-size: 20px;
         padding: 10px 15px;
         display: block;
     }
