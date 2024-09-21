@@ -274,51 +274,7 @@ footer {
 
 /* Responsive styling for smaller screens */
 @media screen and (max-width: 1024px) {
-
-    /* Project Section Styling */
-    .project-section {
-        flex-direction: column; /* Stack content vertically on small screens */
-        font-size: 0.6em;
-        padding: 20px 20px;
-        background-color: #121212;
-        color: #f2f2f2;
-        margin-bottom: 20px;
-        border-radius: 10px;
-        width: 60%;
-        box-sizing: border-box;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
     
-    /* Experience Section Styling */
-    .experience-section {
-        flex-direction: column; /* Stack content vertically on small screens */
-        font-size: 0.6em;
-        padding: 20px 20px;
-        background-color: #121212;
-        color: #f2f2f2;
-        margin-bottom: 20px;
-        border-radius: 10px;
-        width: 60%;
-        box-sizing: border-box;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-    
-    html, body {
-        height: 100%;
-        margin: 0;
-        font-family: 'Noto Sans Mono', monospace;
-        color: #f2f2f2; /* Eggshell color */
-        font-size: 25px; /* Increased base font size */
-        background: #000000; /* A simple solid background */
-        display: flex;
-        flex-direction: column;
-        box-sizing: border-box;
-    }
-
     #aboutme {
         font-size: 2em;
         font-weight: bold;
@@ -326,24 +282,7 @@ footer {
     }
     
     #static-text {
-        font-size: 1.15em;
+        font-size: 1em;
     }
 
-    .navbar a {
-        color: #f2f2f2;
-        text-decoration: none;
-        font-size: 20px;
-        padding: 10px 15px;
-        display: block;
-    }
-    
-
-    .project-text,
-    .project-image {
-        width: 100%; /* Full width for both text and image */
-    }
-
-    .project-image {
-        margin-bottom: 20px; /* Add space between image and text */
-    }
 }
