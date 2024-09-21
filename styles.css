@@ -147,10 +147,10 @@ main {
     background-color: #121212;
     color: #f2f2f2;
     margin-bottom: 20px;
-    border-radius: 10px;
+    border-radius: 20px;
     width: 80%; /* Increase the default width */
     min-width: 600px; /* Ensure a minimum width */
-    max-width: 1200px; /* Optional: Set a max width */
+    max-width: 1400px; /* Optional: Set a max width */
     box-sizing: border-box;
     display: flex;
     justify-content: space-between;
@@ -236,10 +236,10 @@ main {
     background-color: #121212;
     color: #f2f2f2;
     margin-bottom: 20px;
-    border-radius: 10px;
-    width: 80%; /* Increase the default width */
+    border-radius: 20px;
+    width: 95%; /* Increase the default width */
     min-width: 600px; /* Ensure a minimum width */
-    max-width: 1200px; /* Optional: Set a max width */
+    max-width: 1400px; /* Optional: Set a max width */
     box-sizing: border-box;
     display: flex;
     justify-content: space-between;
@@ -247,6 +247,7 @@ main {
     min-height: 300px;
     transition: min-height 0.3s ease, width 0.3s ease;
 }
+
 
 /* Ensure image on the left and text on the right */
 .experience-content {
