@@ -8,7 +8,7 @@
 }
 
 #static-text {
-    font-size: 0.9em;
+    font-size: 0.8em;
 }
 
 /* Typing Effect */
@@ -105,13 +105,13 @@ main {
 
 /* Project Section Styling */
 .project-section {
-    font-size: 0.9em;
+    font-size: 0.8em;
     padding: 20px 20px;
     background-color: #121212;
     color: #f0eae2;
     margin-bottom: 20px;
     border-radius: 10px;
-    width: 80%;
+    width: 60%;
     box-sizing: border-box;
     display: flex;
     justify-content: space-between;
@@ -144,13 +144,13 @@ main {
 
 /* Experience Section Styling */
 .experience-section {
-    font-size: 0.9em;
+    font-size: 0.8em;
     padding: 20px 20px;
     background-color: #121212;
     color: #f0eae2;
     margin-bottom: 20px;
     border-radius: 10px;
-    width: 80%;
+    width: 60%;
     box-sizing: border-box;
     display: flex;
     justify-content: space-between;
@@ -235,8 +235,8 @@ footer {
 }
 
 .social-icons img {
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     filter: brightness(0) invert(1); /* Optional: Make the SVG icons white */
     transition: transform 0.2s ease; /* Animation on hover */
 }
