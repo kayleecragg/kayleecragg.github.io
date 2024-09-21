@@ -35,6 +35,16 @@
     }
 }
 
+html {
+    overflow: -moz-scrollbars-none;
+    -ms-overflow-style: none;  /* IE and Edge */
+  }
+  
+  body::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, and Opera */
+  }
+
+
 html, body {
     height: 100%;
     margin: 0;
