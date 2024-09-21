@@ -160,9 +160,39 @@ main {
 }
 
 .project-text {
-    width: 60%; /* Text takes up 55% of the space */
+    width: 60%;
     order: 2; /* Ensure the text is on the right */
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 800px; /* Control the width */
+    text-align: left; /* Align text to the left */
 }
+
+
+.project-text h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-align: left; /* Align heading with text */
+}
+
+.project-text h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-align: left; /* Align heading with text */
+}
+
+.project-text ul {
+    list-style-type: disc; /* Standard bullet points */
+    padding-left: 20px; /* Indent for the bullet points */
+}
+
+.project-text li {
+    margin-bottom: 10px;
+    line-height: 1.5; /* Line height for readability */
+}
+
 
 .project-image img {
     width: 100%; /* Make the image responsive */
@@ -200,8 +230,37 @@ main {
 
 
 .experience-text {
-    width: 80%; /* Text takes up 55% of the space */
+    width: 80%;
     order: 2; /* Ensure the text is on the right */
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 800px; /* Control the width */
+    text-align: left; /* Align text to the left */
+}
+
+
+.experience-text h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-align: left; /* Align heading with text */
+}
+
+.experience-text h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-align: left; /* Align heading with text */
+}
+
+.experience-text ul {
+    list-style-type: disc; /* Standard bullet points */
+    padding-left: 20px; /* Indent for the bullet points */
+}
+
+.experience-text li {
+    margin-bottom: 10px;
+    line-height: 1.5; /* Line height for readability */
 }
 
 .experience-image img {
@@ -270,19 +329,4 @@ footer {
 
 .social-icons img:hover {
     transform: scale(1.1); /* Slightly enlarge the icon on hover */
-}
-
-/* Responsive styling for smaller screens */
-@media screen and (max-width: 1024px) {
-    
-    #aboutme {
-        font-size: 2em;
-        font-weight: bold;
-        text-align: center;
-    }
-    
-    #static-text {
-        font-size: 1em;
-    }
-
 }
