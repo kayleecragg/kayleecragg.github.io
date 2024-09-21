@@ -148,7 +148,7 @@ main {
     color: #f2f2f2;
     margin-bottom: 20px;
     border-radius: 20px;
-    width: 80%; /* Increase the default width */
+    width: 95%; /* Increase the default width */
     min-width: 600px; /* Ensure a minimum width */
     max-width: 1400px; /* Optional: Set a max width */
     box-sizing: border-box;
