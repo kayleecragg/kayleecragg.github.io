@@ -2,13 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@400;700&display=swap');
 
 #aboutme {
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: bold;
     text-align: center;
 }
 
 #static-text {
-    font-size: 0.8em;
+    font-size: 0.6em;
 }
 
 /* Typing Effect */
@@ -79,9 +79,9 @@ nav {
 }
 
 .navbar a {
-    color: #f2f2f2; /* Eggshell color for links */
+    color: #f2f2f2;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 15px;
     padding: 10px 15px;
     display: block;
 }
@@ -274,6 +274,25 @@ footer {
 
 /* Responsive styling for smaller screens */
 @media screen and (max-width: 768px) {
+
+    #aboutme {
+        font-size: 2.5em;
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    #static-text {
+        font-size: 1.3em;
+    }
+
+    .navbar a {
+        color: #f2f2f2;
+        text-decoration: none;
+        font-size: 30px;
+        padding: 10px 15px;
+        display: block;
+    }
+    
     .project-section {
         flex-direction: column; /* Stack content vertically on small screens */
     }
