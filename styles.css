@@ -91,10 +91,13 @@ nav {
     border-radius: 5px;
 }
 
-/* Click animation effect */
-.navbar a:active {
-    transform: scale(0.95); /* Shrinks the button slightly */
-    transition: transform 0.1s ease; /* Controls the speed of the effect */
+/* Active nav item */
+.navbar a.active {
+    transform: scale(0.95); 
+    transition: transform 0.1s ease; 
+    background-color: #ffffff; /* White background */
+    color: #000000; /* Black text */
+    border-radius: 5px; /* Optional: Add rounded corners */
 }
 
 /* You can optionally add an animation for a smoother click effect */
