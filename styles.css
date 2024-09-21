@@ -363,3 +363,30 @@ footer {
 .social-icons img:hover {
     transform: scale(1.1); /* Slightly enlarge the icon on hover */
 }
+
+/* Button Styling */
+.button {
+    background-color: #191919; /* Same dark background as navbar */
+    color: #d9d9d9; /* Same text color as navbar */
+    font-size: 20px; /* Same font size as navbar links */
+    font-family: 'Noto Sans Mono', monospace; /* Consistent font */
+    padding: 10px 20px; /* Padding to make the button larger */
+    border: 2px solid #252525; /* Add a border */
+    border-radius: 5px; /* Rounded corners like navbar links */
+    text-align: center;
+    text-decoration: none !important; /* Remove underline from text, overriding other styles */
+    display: inline-block; /* Make it behave like a button */
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s; /* Smooth transitions */
+}
+
+.button:hover {
+    background-color: #f4f4f4; /* Same dark background as navbar */
+    color: #282828 !important; /* Same text color as navbar */
+    border: 2px solid #e6e6e6; /* Add a border */
+    transform: scale(1.05); /* Slight zoom on hover */
+}
+
+.button:active {
+    transform: scale(0.95); /* Shrink slightly on click */
+}
