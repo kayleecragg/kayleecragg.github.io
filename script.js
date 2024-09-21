@@ -64,3 +64,38 @@ function type() {
 window.addEventListener("load", () => {
     setTimeout(type, newSentenceDelay);
 });
+
+// NEW SECTION FOR CLICK ANIMATION
+
+// Add click animation effect to nav links
+document.querySelectorAll('.navbar a').forEach(function(button) {
+    button.addEventListener('click', function() {
+        // Add the 'clicked' class for the animation effect
+        button.classList.add('clicked');
+        
+        // Remove the 'clicked' class after the animation duration (0.2s here)
+        setTimeout(function() {
+            button.classList.remove('clicked');
+        }, 200); // Adjust this timing to match your CSS animation
+    });
+});
+
+// Get the current page's filename (without query strings or anchors)
+let currentPage = window.location.pathname.split('/').pop();
+
+// Treat the root URL ("/" or "") as "index.html"
+if (currentPage === '' || currentPage === '/') {
+    currentPage = 'index.html';
+}
+
+// Get all the navigation links
+const navLinks = document.querySelectorAll('.navbar a');
+
+// Loop through each nav link and check if its href matches the current page
+navLinks.forEach(link => {
+    const linkPage = link.getAttribute('href').split('/').pop(); // Extract the href page name
+
+    if (linkPage === currentPage || (currentPage === 'index.html' && link.getAttribute('href') === '/')) {
+        link.classList.add('active'); // Add the 'active' class to the matching link
+    }
+});
