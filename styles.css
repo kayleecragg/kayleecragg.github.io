@@ -8,7 +8,7 @@
 }
 
 #static-text {
-    font-size: 0.9em;
+    font-size: 0.85em;
 }
 
 /* Typing Effect */
@@ -149,7 +149,7 @@ main {
     margin-bottom: 20px;
     border-radius: 20px;
     width: 95%; /* Increase the default width */
-    min-width: 600px; /* Ensure a minimum width */
+    min-width: 700  px; /* Ensure a minimum width */
     max-width: 1400px; /* Optional: Set a max width */
     box-sizing: border-box;
     display: flex;
@@ -248,7 +248,6 @@ main {
     transition: min-height 0.3s ease, width 0.3s ease;
 }
 
-
 /* Ensure image on the left and text on the right */
 .experience-content {
     display: flex;
@@ -259,7 +258,7 @@ main {
 }
 
 .experience-image {
-    width: 20%; /* Image takes up 45% of the space */
+    width: 30%; /* Image takes up 45% of the space */
     order: 1; /* Ensure the image is on the left */
 }
 
@@ -303,35 +302,10 @@ main {
     height: auto;
 }
 
-/* Target the specific div containing the Dolby logo */
-#dolby-logo-column {
-    width: 20%; /* Image takes up 15% of the space */
-    order: 1; /* Ensure the image is on the left */
-    background-color: rgba(255, 255, 255, 1); /* White background with 70% opacity */
-    padding: 10px; /* Adds padding around the image */
-    display: flex;
-    justify-content: center; /* Centers the image inside the background */
-    align-items: center; /* Vertically centers the image */
-}
-
-/* Target the specific div containing the Dolby logo */
-#deloitte-logo-column {
-    width: 19%; /* Image takes up 15% of the space */
-    order: 1; /* Ensure the image is on the left */
-    background-color: rgba(255, 255, 255, 1); /* White background with 70% opacity */
-    padding: 10px; /* Adds padding around the image */
-    display: flex;
-    justify-content: center; /* Centers the image inside the background */
-    align-items: center; /* Vertically centers the image */
-}
-
 #kikibot {
     width: 30%; 
     order: 1;
     padding: 10px; /* Adds padding around the image */
-    display: flex;
-    justify-content: center; /* Centers the image inside the background */
-    align-items: center; /* Vertically centers the image */
 }
 
 /* Footer Styling */
