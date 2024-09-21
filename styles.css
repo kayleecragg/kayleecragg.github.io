@@ -320,10 +320,9 @@ main {
     align-items: center; /* Vertically centers the image */
 }
 
-/* Target the specific div containing the Dolby logo */
 #kikibot {
-    width: 40%; /* Image takes up 15% of the space */
-    order: 1; /* Ensure the image is on the left */
+    width: 30%; 
+    order: 1;
     padding: 10px; /* Adds padding around the image */
     display: flex;
     justify-content: center; /* Centers the image inside the background */
