@@ -87,9 +87,33 @@ nav {
 }
 
 .navbar a:hover {
-    background-color: #404040; /* Change background on hover */
+    background-color: ##1a1a1a; /* Change background on hover */
     border-radius: 5px;
 }
+
+/* Click animation effect */
+.navbar a:active {
+    transform: scale(0.95); /* Shrinks the button slightly */
+    transition: transform 0.1s ease; /* Controls the speed of the effect */
+}
+
+/* You can optionally add an animation for a smoother click effect */
+@keyframes click-animation {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(0.9); /* Shrinks the button */
+    }
+    100% {
+        transform: scale(1); /* Returns to the original size */
+    }
+}
+
+.navbar a.clicked {
+    animation: click-animation 0.2s ease;
+}
+
 
 /* Main content */
 main {
