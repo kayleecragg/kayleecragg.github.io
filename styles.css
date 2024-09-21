@@ -273,7 +273,7 @@ footer {
 }
 
 /* Responsive styling for smaller screens */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
 
     /* Project Section Styling */
     .project-section {
