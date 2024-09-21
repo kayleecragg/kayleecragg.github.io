@@ -87,7 +87,7 @@ nav {
 }
 
 .navbar a:hover {
-    background-color: ##1a1a1a; /* Change background on hover */
+    background-color: #1a1a1a; /* Change background on hover */
     border-radius: 5px;
 }
 
