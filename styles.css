@@ -120,30 +120,36 @@ nav {
 
 /* Main content */
 main {
-    flex-grow: 1; /* Ensure content takes up all available space */
-    width: 100%;
+    flex-grow: 1;
+    width: 100%; /* Ensure it takes full width */
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding-top: 100px; /* Space for the navbar */
-    padding-bottom: 60px; /* Space for the footer */
+    align-items: center; /* Centers the sections */
+    padding-top: 100px;
+    padding-bottom: 60px;
     box-sizing: border-box;
 }
 
 /* Project Section Styling */
 .project-section {
-    font-size: 0.55em;
-    padding: 20px 20px;
+    font-size: 0.65em;
+    padding: 20px;
     background-color: #121212;
     color: #f2f2f2;
     margin-bottom: 20px;
     border-radius: 10px;
-    width: 60%;
+    width: 80%; /* Increase the default width */
+    min-width: 600px; /* Ensure a minimum width */
+    max-width: 1200px; /* Optional: Set a max width */
     box-sizing: border-box;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    min-height: 300px;
+    transition: min-height 0.3s ease, width 0.3s ease;
 }
+
+
 
 /* Ensure image on the left and text on the right */
 .project-content {
@@ -155,12 +161,12 @@ main {
 }
 
 .project-image {
-    width: 40%; /* Image takes up 45% of the space */
+    width: 60%; /* Image takes up 45% of the space */
     order: 1; /* Ensure the image is on the left */
 }
 
 .project-text {
-    width: 60%;
+    width: 40%;
     order: 2; /* Ensure the text is on the right */
     margin: 0 auto;
     padding: 20px;
@@ -201,7 +207,7 @@ main {
 
 /* Experience Section Styling */
 .experience-section {
-    font-size: 0.55em;
+    font-size: 0.65em;
     padding: 20px 20px;
     background-color: #121212;
     color: #f2f2f2;
