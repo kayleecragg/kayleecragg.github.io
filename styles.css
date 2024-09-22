@@ -366,7 +366,7 @@ footer {
     transform: scale(0.95); /* Shrink slightly on click */
 }
 
-@media screen and (max-width: 1284) {
+@media screen and (max-width: 1800) {
     /* Experience Section Styling */
     .experience-section {
         font-size: 0.65em;
