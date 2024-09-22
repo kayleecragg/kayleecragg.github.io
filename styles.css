@@ -148,7 +148,7 @@ main {
     color: #f2f2f2;
     margin-bottom: 20px;
     border-radius: 20px;
-    width: 80%; /* Increase the default width */
+    width: 85%; /* Increase the default width */
     min-width: 700  px; /* Ensure a minimum width */
     max-width: 1400px; /* Optional: Set a max width */
     box-sizing: border-box;
@@ -237,7 +237,7 @@ main {
     color: #f2f2f2;
     margin-bottom: 20px;
     border-radius: 20px;
-    width: 80%; /* Increase the default width */
+    width: 85%; /* Increase the default width */
     min-width: 600px; /* Ensure a minimum width */
     max-width: 1400px; /* Optional: Set a max width */
     box-sizing: border-box;
@@ -366,46 +366,25 @@ footer {
     transform: scale(0.95); /* Shrink slightly on click */
 }
 
-@media screen and (max-width: 1800) {
-    /* Experience Section Styling */
-    .experience-section {
-        font-size: 0.65em;
-        padding: 20px;
-        background-color: #121212;
-        color: #f2f2f2;
-        margin-bottom: 20px;
-        border-radius: 20px;
-        width: 95%; /* Increase the default width */
-        min-width: 600px; /* Ensure a minimum width */
-        max-width: 1400px; /* Optional: Set a max width */
-        box-sizing: border-box;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        min-height: 300px;
-        transition: min-height 0.3s ease, width 0.3s ease;
-    }
-
-    .project-section {
-        font-size: 0.65em;
-        padding: 20px;
-        background-color: #121212;
-        color: #f2f2f2;
-        margin-bottom: 20px;
-        border-radius: 20px;
-        width: 95%; /* Increase the default width */
-        min-width: 600px; /* Ensure a minimum width */
-        max-width: 1400px; /* Optional: Set a max width */
-        box-sizing: border-box;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        min-height: 300px;
-        transition: min-height 0.3s ease, width 0.3s ease;
-    }
-    
-    #static-text {
-        font-size: 1em;
-    }
-    
+.button-container {
+    display: flex;
+    justify-content: left; /* Centers buttons horizontally */
+    flex-wrap: wrap; /* Allows buttons to wrap if they overflow */
+    gap: 15px; /* Adds spacing between buttons */
+    margin: 20px 0; /* Optional: Adds margin around the container */
 }
+
+.non-clickable {
+    pointer-events: none; /* Prevents clicking */
+    background-color: #191919; /* Same dark background as navbar */
+    color: #d9d9d9; /* Same text color as navbar */
+    font-size: 12px; /* Same font size as navbar links */
+    font-family: 'Noto Sans Mono', monospace; /* Consistent font */
+    padding: 10px 20px; /* Padding to make the button larger */
+    border: 2px solid #252525; /* Add a border */
+    border-radius: 5px; /* Rounded corners like navbar links */
+    text-align: center;
+    text-decoration: none !important; /* Remove underline from text, overriding other styles */
+    display: inline-block; /* Make it behave like a button */
+    cursor: pointer;
+  }
