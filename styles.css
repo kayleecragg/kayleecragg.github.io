@@ -303,7 +303,7 @@ main {
 }
 
 #kikibot {
-    width: 30%; 
+    width: 20%; 
     order: 1;
     padding: 10px; /* Adds padding around the image */
 }
