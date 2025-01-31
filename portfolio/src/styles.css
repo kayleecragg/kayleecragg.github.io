@@ -1,0 +1,400 @@
+/* Import Noto Sans Mono from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@400;700&display=swap');
+
+#aboutme {
+    font-size: 1.8em;
+    font-weight: bold;
+    text-align: center;
+}
+
+#static-text {
+    font-size: 0.85em;
+}
+
+/* Typing Effect */
+.typing-effect {
+    text-align: center;
+}
+
+.typing-cursor {
+    font-weight: bold;
+    font-size: 1.5em;
+    opacity: 1;
+    animation: blink 0.7s steps(1) infinite;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+html {
+    overflow: -moz-scrollbars-none;
+    -ms-overflow-style: none;  /* IE and Edge */
+  }
+  
+  body::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, and Opera */
+  }
+
+
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Noto Sans Mono', monospace;
+    color: #f2f2f2; /* Eggshell color */
+    font-size: 25px; /* Increased base font size */
+    background: #000000; /* A simple solid background */
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+/* Navigation Bar Styling */
+nav {
+    background-color: #000000; /* Dark background */
+    padding: 10px 0; /* Padding for the navbar */
+    width: 100%; /* Full width */
+    position: sticky; /* Sticky navbar */
+    top: 0; /* Sticks to the top when scrolling */
+    z-index: 1000; /* Ensure it's above other content */
+    height: 80px; /* Consistent height for navbar */
+    display: flex;
+    justify-content: center;
+    border-radius: 10px; /* Optional: Add rounded corners */
+}
+
+/* Navbar items */
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar li {
+    margin-right: 20px;
+}
+
+.navbar li:last-child {
+    margin-right: 0;
+}
+
+.navbar a {
+    color: #f2f2f2;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 10px 15px;
+    display: block;
+}
+
+.navbar a:hover {
+    background-color: #1a1a1a; /* Change background on hover */
+    border-radius: 5px;
+}
+
+/* Active nav item */
+.navbar a.active {
+    transform: scale(0.9); 
+    transition: transform 0.2s ease; 
+    background-color: #ffffff; /* White background */
+    color: #000000; /* Black text */
+    border-radius: 5px; /* Optional: Add rounded corners */
+}
+
+/* You can optionally add an animation for a smoother click effect */
+@keyframes click-animation {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(0.9); /* Shrinks the button */
+    }
+    100% {
+        transform: scale(1); /* Returns to the original size */
+    }
+}
+
+.navbar a.clicked {
+    animation: click-animation 0.2s ease;
+}
+
+
+/* Main content */
+main {
+    flex-grow: 1;
+    width: 100%; /* Ensure it takes full width */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers the sections */
+    padding-top: 100px;
+    padding-bottom: 60px;
+    box-sizing: border-box;
+}
+
+/* Project Section Styling */
+.project-section {
+    font-size: 0.65em;
+    padding: 20px;
+    background-color: #121212;
+    color: #f2f2f2;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    width: 85%; /* Increase the default width */
+    min-width: 700  px; /* Ensure a minimum width */
+    max-width: 1400px; /* Optional: Set a max width */
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 300px;
+    transition: min-height 0.3s ease, width 0.3s ease;
+}
+
+
+
+/* Ensure image on the left and text on the right */
+.project-content {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px; /* Adds space between image and text */
+}
+
+.project-image {
+    width: 60%; /* Image takes up 45% of the space */
+    order: 1; /* Ensure the image is on the left */
+}
+
+.project-text {
+    width: 40%;
+    order: 2; /* Ensure the text is on the right */
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 800px; /* Control the width */
+    text-align: left; /* Align text to the left */
+}
+
+.project-text a {
+    color: inherit; /* Inherits the default text color from the parent */
+    text-decoration: underline; /* Adds underline to links */
+}
+
+.project-text a:visited {
+    color: inherit; /* Ensures the color stays the same even after visiting the link */
+}
+
+.project-text a:hover {
+    text-decoration: underline; /* Keeps the underline on hover */
+    color: inherit; /* No color change on hover */
+}
+
+
+.project-text h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-align: left; /* Align heading with text */
+}
+
+.project-text h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-align: left; /* Align heading with text */
+}
+
+.project-text ul {
+    list-style-type: disc; /* Standard bullet points */
+    padding-left: 20px; /* Indent for the bullet points */
+}
+
+.project-text li {
+    margin-bottom: 10px;
+    line-height: 1.5; /* Line height for readability */
+}
+
+
+.project-image img {
+    width: 100%; /* Make the image responsive */
+    height: auto;
+}
+
+/* Experience Section Styling */
+.experience-section {
+    font-size: 0.65em;
+    padding: 20px;
+    background-color: #121212;
+    color: #f2f2f2;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    width: 85%; /* Increase the default width */
+    min-width: 600px; /* Ensure a minimum width */
+    max-width: 1400px; /* Optional: Set a max width */
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 300px;
+    transition: min-height 0.3s ease, width 0.3s ease;
+}
+
+/* Ensure image on the left and text on the right */
+.experience-content {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px; /* Adds space between image and text */
+}
+
+.experience-image {
+    width: 30%; /* Image takes up 45% of the space */
+    order: 1; /* Ensure the image is on the left */
+}
+
+
+.experience-text {
+    width: 80%;
+    order: 2; /* Ensure the text is on the right */
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 800px; /* Control the width */
+    text-align: left; /* Align text to the left */
+}
+
+
+.experience-text h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-align: left; /* Align heading with text */
+}
+
+.experience-text h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-align: left; /* Align heading with text */
+}
+
+.experience-text ul {
+    list-style-type: disc; /* Standard bullet points */
+    padding-left: 20px; /* Indent for the bullet points */
+}
+
+.experience-text li {
+    margin-bottom: 10px;
+    line-height: 1.5; /* Line height for readability */
+}
+
+.experience-image img {
+    width: 100%; /* Make the image responsive */
+    height: auto;
+}
+
+#kikibot {
+    width: 20%; 
+    order: 1;
+    padding: 10px; /* Adds padding around the image */
+}
+
+/* Footer Styling */
+footer {
+    background-color: #000000; /* Dark background */
+    color: #f2f2f2; /* Eggshell color */
+    text-align: right;
+    padding: 10px 30px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Social Icons */
+.social-icons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.social-icons a {
+    margin-left: 10px;
+}
+
+.social-icons img {
+    width: 50px;
+    height: 50px;
+    filter: brightness(0) invert(1); /* Optional: Make the SVG icons white */
+    transition: transform 0.2s ease; /* Animation on hover */
+}
+
+.social-icons img:hover {
+    transform: scale(1.1); /* Slightly enlarge the icon on hover */
+}
+
+/* Button Styling */
+.button {
+    background-color: #191919; /* Same dark background as navbar */
+    color: #d9d9d9; /* Same text color as navbar */
+    font-size: 20px; /* Same font size as navbar links */
+    font-family: 'Noto Sans Mono', monospace; /* Consistent font */
+    padding: 10px 20px; /* Padding to make the button larger */
+    border: 2px solid #252525; /* Add a border */
+    border-radius: 5px; /* Rounded corners like navbar links */
+    text-align: center;
+    text-decoration: none !important; /* Remove underline from text, overriding other styles */
+    display: inline-block; /* Make it behave like a button */
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s; /* Smooth transitions */
+}
+
+.button:hover {
+    background-color: #f4f4f4; /* Same dark background as navbar */
+    color: #282828 !important; /* Same text color as navbar */
+    border: 2px solid #e6e6e6; /* Add a border */
+    transform: scale(1.05); /* Slight zoom on hover */
+}
+
+.button:active {
+    transform: scale(0.95); /* Shrink slightly on click */
+}
+
+.button-container {
+    display: flex;
+    justify-content: left; /* Centers buttons horizontally */
+    flex-wrap: wrap; /* Allows buttons to wrap if they overflow */
+    gap: 15px; /* Adds spacing between buttons */
+    margin: 20px 0; /* Optional: Adds margin around the container */
+}
+
+.non-clickable {
+    pointer-events: none; /* Prevents clicking */
+    background-color: #191919; /* Same dark background as navbar */
+    color: #d9d9d9; /* Same text color as navbar */
+    font-size: 12px; /* Same font size as navbar links */
+    font-family: 'Noto Sans Mono', monospace; /* Consistent font */
+    padding: 10px 20px; /* Padding to make the button larger */
+    border: 2px solid #252525; /* Add a border */
+    border-radius: 5px; /* Rounded corners like navbar links */
+    text-align: center;
+    text-decoration: none !important; /* Remove underline from text, overriding other styles */
+    display: inline-block; /* Make it behave like a button */
+    cursor: pointer;
+}
+
+@keyframes click-animation {
+    0% { transform: scale(1) }
+    50% { transform: scale(0.9) }
+    100% { transform: scale(1) }
+}
+
+.navbar a.clicked {
+    animation: click-animation 0.2s ease;
+}
