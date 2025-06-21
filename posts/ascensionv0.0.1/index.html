@@ -1,0 +1,280 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><meta name="generator" content="Gatsby 5.14.4"/><meta name="theme-color" content="hsl(31, 92%, 62%)"/><meta name="description" content="Roguelike 2D Game made in Lua and with Love2D adapted from the novel TGCF" data-gatsby-head="true"/><meta name="twitter:card" content="summary_large_image" data-gatsby-head="true"/><meta name="twitter:title" content="Ascension v0.0.1 - Kaylee&#x27;s Website" data-gatsby-head="true"/><meta name="twitter:description" content="Roguelike 2D Game made in Lua and with Love2D adapted from the novel TGCF" data-gatsby-head="true"/><meta name="og:title" content="Ascension v0.0.1 - Kaylee&#x27;s Website" data-gatsby-head="true"/><meta name="og:type" content="website" data-gatsby-head="true"/><meta name="og:description" content="Roguelike 2D Game made in Lua and with Love2D adapted from the novel TGCF" data-gatsby-head="true"/><meta name="image" content="http://kayleecragg.github.io//static/e2ae7689a69c9796a327ab1fd6d40308/ascension.png" data-gatsby-head="true"/><meta name="og:image" content="http://kayleecragg.github.io//static/e2ae7689a69c9796a327ab1fd6d40308/ascension.png" data-gatsby-head="true"/><meta name="twitter:image" content="http://kayleecragg.github.io//static/e2ae7689a69c9796a327ab1fd6d40308/ascension.png" data-gatsby-head="true"/><style data-href="/styles.5277e0b2e1f45b6991f4.css" data-identity="gatsby-global-css">@import url(https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap);body.dark-mode a[href]{color:#938fff}body.dark-mode a[href]:hover{color:#70d2b4}html{font-size:100}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;background:hsl(var(--color-background));color:hsl(var(--color-foreground));font-size:16px;line-height:1.625;margin:0 0 0 calc(100vw - 100%);text-rendering:optimizelegibility}body,h1,h2,h3,h4,h5,h6{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif}h1,h2,h3,h4,h5,h6{font-weight:600}h1{font-size:40px;line-height:52px;margin-bottom:26px;margin-top:104px}h2{font-size:27px;line-height:39px}h2,h3{margin-bottom:13px;margin-top:52px}h3{font-size:22px;line-height:26px}h4{font-size:19.2px;margin-top:39px}h4,h5{line-height:26px;margin-bottom:13px}h5,h6{font-size:16px;margin-top:65px}h6{line-height:26px;margin-bottom:13px}img{max-width:100%}hr,img{border:0;display:block}hr{background-image:linear-gradient(to bottom,transparent 1px,transparent 11px,hsl(var(--color-foreground)) 11px,hsl(var(--color-foreground)) 15px,transparent 15px,transparent 26px);background-size:100% 26px;height:26px;margin:52px auto;width:100px}a,hr{color:hsl(var(--color-foreground))}a{text-decoration:none}a:active,a:focus,a:hover{color:hsl(var(--color-primary))}b,strong{font-weight:600}ul{list-style:square;margin-bottom:26px}ul li{margin-bottom:10px;padding:0 5px}p{line-height:26px;margin-bottom:26px}blockquote{font-style:italic;padding:0;text-align:center}figure{display:block;height:auto;width:100%}figcaption{color:hsl(var(--color-foreground));font-size:14px;font-style:italic;line-height:19.5px;margin-bottom:0;margin-top:6.5px;text-align:center}@media screen and (min-width:685px){figure.float-left,figure.float-right{max-width:310px;padding:0 26px}.float-right{float:right}.float-left{float:left}}code[class*=language-],pre[class*=language-]{word-wrap:normal;color:#657b83;font-family:ui-monospace,Cascadia Code,Source Code Pro,Menlo,Consolas,DejaVu Sans Mono,monospace;font-size:16px;-webkit-hyphens:none;hyphens:none;line-height:1.5;tab-size:4;text-align:left;white-space:pre;word-break:normal;word-spacing:normal}pre[class*=language-]{border-radius:.3em;margin:.5em 0;overflow:auto;padding:1em}:not(pre)>code[class*=language-],pre[class*=language-]{background-color:hsl(var(--color-muted))}:not(pre)>code[class*=language-]{border-radius:.3em;padding:.1em}code[class*=language-] ::selection,code[class*=language-]::selection,pre[class*=language-] ::selection,pre[class*=language-]::selection{background:#073642}.token.cdata,.token.comment,.token.doctype,.token.prolog{color:#93a1a1}.token.punctuation{color:#586e75}.namespace{opacity:.7}.token.boolean,.token.constant,.token.deleted,.token.number,.token.property,.token.symbol,.token.tag{color:#268bd2}.token.attr-name,.token.builtin,.token.char,.token.inserted,.token.selector,.token.string,.token.url{color:#2aa198}.token.entity{background:#eee8d5;color:#657b83;cursor:help}.token.atrule,.token.attr-value,.token.keyword{color:#859900}.token.class-name,.token.function{color:#b58900}.token.important,.token.regex,.token.variable{color:#cb4b16}.token.bold,.token.important{font-weight:700}.token.italic{font-style:italic}::selection{background:#d1363a;color:#fff}:root{--color-background:0 0% 100%;--color-foreground:30 2% 16%;--color-muted:240 6% 96%;--color-muted-foreground:0 0% 0%;--color-border:240 2% 89%;--color-primary:242 100% 74%;--color-primary-foreground:240 4% 98%;--color-secondary:240 6% 96%;--color-secondary-foreground:240 2% 17%;--color-accent:240 6% 96%;--color-accent-foreground:240 2% 17%;--color-destructive:342 100% 47%;--color-destructive-foreground:240 7% 11%;--color-positive:242 100% 40%;--color-positive-foreground:240 7% 11%;color-scheme:light}.dark{--color-background:240 7% 11%;--color-foreground:240 4% 98%;--color-muted:240 4% 17%;--color-muted-foreground:0 0% 100%;--color-border:240 4% 17%;--color-primary:242 100% 78%;--color-primary-foreground:240 4% 98%;--color-secondary:240 4% 17%;--color-secondary-foreground:240 4% 98%;--color-accent:240 4% 17%;--color-accent-foreground:240 4% 98%;--color-destructive:342 100% 74%;--color-destructive-foreground:240 7% 11%;--color-positive:162 52% 53%;--color-positive-foreground:240 7% 11%;color-scheme:dark}body.feed-module--dark-mode--9418d a[href]{color:#938fff}body.feed-module--dark-mode--9418d a[href]:hover{color:#70d2b4}.feed-module--feed--be542 .feed-module--item--093ea{margin-bottom:32.5px}.feed-module--feed--be542 .feed-module--item--093ea:last-child{margin-bottom:13px}.feed-module--feed--be542 .feed-module--item--093ea .feed-module--title--6ed13{font-size:27px;line-height:39px;margin-bottom:13px;margin-top:0}.feed-module--feed--be542 .feed-module--item--093ea .feed-module--title--6ed13 .feed-module--link--797ef{color:hsl(var(--color-foreground))}.feed-module--feed--be542 .feed-module--item--093ea .feed-module--title--6ed13 .feed-module--link--797ef:focus,.feed-module--feed--be542 .feed-module--item--093ea .feed-module--title--6ed13 .feed-module--link--797ef:hover{border-bottom:1px solid hsl(var(--color-foreground));color:hsl(var(--color-foreground))}.feed-module--feed--be542 .feed-module--item--093ea .feed-module--description--25c4d{color:hsl(var(--color-muted-foreground));font-size:16px;line-height:26px;margin-bottom:19.5px}.feed-module--feed--be542 .feed-module--item--093ea .feed-module--meta--5bd77 .feed-module--time--1da0e{color:hsl(var(--color-foreground));font-size:14px;font-weight:600;text-transform:uppercase}.feed-module--feed--be542 .feed-module--item--093ea .feed-module--meta--5bd77 .feed-module--divider--dc8bf{margin:0 13px}.feed-module--feed--be542 .feed-module--item--093ea .feed-module--meta--5bd77 .feed-module--category--588f4 .feed-module--link--797ef{color:hsl(var(--color-primary));font-size:14px;font-weight:600;text-transform:uppercase}.feed-module--feed--be542 .feed-module--item--093ea .feed-module--more--9d839{color:hsl(var(--color-primary));font-size:16px}.feed-module--feed--be542 .feed-module--item--093ea .feed-module--more--9d839:focus,.feed-module--feed--be542 .feed-module--item--093ea .feed-module--more--9d839:hover{border-bottom:1px solid hsl(var(--color-primary));color:hsl(var(--color-primary))}body.page-module--dark-mode--617d3 a[href]{color:#938fff}body.page-module--dark-mode--617d3 a[href]:hover{color:#70d2b4}.page-module--page--aeaf7{grid-column:span 12;margin-bottom:52px}.page-module--page--aeaf7 .page-module--inner--bbb89{padding:26px 19.5px 0}.page-module--page--aeaf7 .page-module--title--3f843{font-size:40px;font-weight:600;line-height:52px;margin-bottom:37.7px;margin-top:0}.page-module--page--aeaf7 .page-module--body--91ea2{font-size:16px;line-height:26px;margin:0 0 26px}@media screen and (min-width:685px){.page-module--page--aeaf7{grid-column:span 7}.page-module--page--aeaf7 .page-module--inner--bbb89{padding:32.5px 19.5px 0}}@media screen and (min-width:1100px){.page-module--page--aeaf7{grid-column:span 8}.page-module--page--aeaf7 .page-module--inner--bbb89{padding:39px 26px 0}}body.button-module--dark-mode--20e8a a[href]{color:#938fff}body.button-module--dark-mode--20e8a a[href]:hover{color:#70d2b4}.button-module--button--5ffa9{border:1px solid hsl(var(--color-border));border-radius:20px;color:hsl(var(--color-foreground));display:inline-block;font-size:16px;font-weight:400;height:40px;line-height:40px;margin-left:auto;margin-right:auto;padding:0 26px;text-align:center;text-decoration:none}.button-module--button--5ffa9:focus,.button-module--button--5ffa9:hover{background:hsl(var(--color-accent));color:hsl(var(--color-accent-foreground))}body.post-tags-module--dark-mode--adf8c a[href]{color:#938fff}body.post-tags-module--dark-mode--adf8c a[href]:hover{color:#70d2b4}.post-tags-module--post-tags--6c235{list-style:none;margin-bottom:13px;padding:0}.post-tags-module--post-tags--6c235 .post-tags-module--item--53595{display:inline-block;margin:6.5px 0}@media screen and (min-width:685px){.post-tags-module--post-tags--6c235 .post-tags-module--item--53595:first-child{margin-left:0;padding-left:0}}body.post-author-module--dark-mode--73b5c a[href]{color:#938fff}body.post-author-module--dark-mode--73b5c a[href]:hover{color:#70d2b4}.post-author-module--post-author--2247e{border-top:1px solid hsl(var(--color-border));line-height:26px;margin-bottom:52px;margin-top:26px;max-width:940px;padding-top:26px}.post-author-module--post-author--2247e .post-author-module--description--78aeb .post-author-module--x--f2941{display:block;text-decoration:underline}@media screen and (min-width:685px){.post-author-module--post-author--2247e{margin-left:auto;margin-right:auto}}body.post-footer-module--dark-mode--df34e a[href]{color:#938fff}body.post-footer-module--dark-mode--df34e a[href]:hover{color:#70d2b4}.post-footer-module--post-footer--9c13c .post-footer-module--date--abfe9{font-style:italic}body.post-content-module--dark-mode--ae21b a[href]{color:#938fff}body.post-content-module--dark-mode--ae21b a[href]:hover{color:#70d2b4}.post-content-module--postContent--5129c{margin:0 auto;max-width:1245px;padding:0 13px}.post-content-module--postContent--5129c .post-content-module--title--b7e5d{font-size:32px;font-weight:600;line-height:42.9px;margin:26px auto 0;max-width:940px;text-align:center}.post-content-module--postContent--5129c .post-content-module--body--3be78 figure{margin-bottom:26px}.post-content-module--postContent--5129c .post-content-module--body--3be78 figure blockquote{font-style:italic;margin-top:0;padding:26px 0;text-align:center}.post-content-module--postContent--5129c .post-content-module--body--3be78 figure blockquote p{font-size:26.9072px;line-height:39px;margin-bottom:26px;margin-top:0;max-width:940px}.post-content-module--postContent--5129c .post-content-module--body--3be78 a{text-decoration:underline}.post-content-module--postContent--5129c .post-content-module--body--3be78 *{margin-left:auto;margin-right:auto;max-width:940px}.post-content-module--postContent--5129c .post-content-module--body--3be78 h2>a{visibility:hidden}.post-content-module--postContent--5129c .post-content-module--body--3be78 h2>a>svg{fill:hsl(var(--color-foreground))}.post-content-module--postContent--5129c .post-content-module--body--3be78 img{max-width:100%}@media screen and (min-width:1100px){.post-content-module--postContent--5129c{padding:0}.post-content-module--postContent--5129c .post-content-module--title--b7e5d{font-size:48px;line-height:58.5px;margin-bottom:39px;margin-top:58.5px}.post-content-module--postContent--5129c .post-content-module--body--3be78,.post-content-module--postContent--5129c .post-content-module--body--3be78 p{font-size:18px;line-height:29.25px;margin-bottom:29.25px}.post-content-module--postContent--5129c .post-content-module--body--3be78 h2>a{padding-right:13px;visibility:unset}}body.post-module--dark-mode--dc42a a[href]{color:#938fff}body.post-module--dark-mode--dc42a a[href]:hover{color:#70d2b4}.post-module--post--cd62a{grid-column:span 12}.post-module--post--cd62a .post-module--content--49372{margin:0 auto}.post-module--post--cd62a .post-module--comments--82b11,.post-module--post--cd62a .post-module--footer--87cff{margin:0 auto;max-width:940px;padding:0 13px}.post-module--post--cd62a .post-module--buttons--26059{align-items:center;display:flex;justify-content:center;margin:26px 0 0;text-align:center}.post-module--post--cd62a .post-module--buttons--26059 .post-module--buttonArticles--8a265{margin:0 13px 0 0}@media screen and (min-width:1100px){.post-module--post--cd62a .post-module--comments--82b11,.post-module--post--cd62a .post-module--footer--87cff{padding:0}.post-module--post--cd62a .post-module--buttons--26059{left:30px;margin:0 13px 0 0;max-width:none;position:fixed;top:30px}}body.layout-module--dark-mode--03ee3 a[href]{color:#938fff}body.layout-module--dark-mode--03ee3 a[href]:hover{color:#70d2b4}.layout-module--layout--e08e0{display:grid;gap:30px;grid-template-columns:repeat(12,1fr);margin:0 auto;max-width:1070px}body.sidebar-menu-module--dark-mode--50a4c a[href]{color:#938fff}body.sidebar-menu-module--dark-mode--50a4c a[href]:hover{color:#70d2b4}.sidebar-menu-module--sidebar-menu--a1f76{margin-bottom:26px}.sidebar-menu-module--sidebar-menu--a1f76 .sidebar-menu-module--list--11f39{list-style:none;margin:0;padding:0}.sidebar-menu-module--sidebar-menu--a1f76 .sidebar-menu-module--list--11f39 .sidebar-menu-module--item--67667{margin:13px 0;padding:0}.sidebar-menu-module--sidebar-menu--a1f76 .sidebar-menu-module--list--11f39 .sidebar-menu-module--item--67667 .sidebar-menu-module--link--b41cc{border:0;color:hsl(var(--color-foreground));font-size:16px;font-weight:400}.sidebar-menu-module--sidebar-menu--a1f76 .sidebar-menu-module--list--11f39 .sidebar-menu-module--item--67667 .sidebar-menu-module--link--b41cc:focus,.sidebar-menu-module--sidebar-menu--a1f76 .sidebar-menu-module--list--11f39 .sidebar-menu-module--item--67667 .sidebar-menu-module--link--b41cc:hover{border-bottom:1px solid hsl(var(--color-primary));color:hsl(var(--color-primary))}.sidebar-menu-module--sidebar-menu--a1f76 .sidebar-menu-module--list--11f39 .sidebar-menu-module--item--67667 .sidebar-menu-module--link--b41cc.sidebar-menu-module--active--0ae28{border-bottom:1px solid hsl(var(--color-foreground));color:hsl(var(--color-foreground))}body.sidebar-author-module--dark-mode--06384 a[href]{color:#938fff}body.sidebar-author-module--dark-mode--06384 a[href]:hover{color:#70d2b4}.sidebar-author-module--sidebar-author--f2c33 .sidebar-author-module--photo--d388f{background-clip:padding-box;border:1px solid hsl(var(--color-muted));border-radius:50%;display:inline-block;height:75px;margin-bottom:0;width:75px}.sidebar-author-module--sidebar-author--f2c33 .sidebar-author-module--photo--d388f img{border-radius:50%}.sidebar-author-module--sidebar-author--f2c33 .sidebar-author-module--title--a6921{font-size:18px;font-weight:600;line-height:29.25px;margin:0}.sidebar-author-module--sidebar-author--f2c33 .sidebar-author-module--title--a6921 .sidebar-author-module--link--45332,.sidebar-author-module--sidebar-author--f2c33 .sidebar-author-module--title--a6921 .sidebar-author-module--link--45332:focus,.sidebar-author-module--sidebar-author--f2c33 .sidebar-author-module--title--a6921 .sidebar-author-module--link--45332:hover{color:hsl(var(--color-foreground))}.sidebar-author-module--sidebar-author--f2c33 .sidebar-author-module--description--05f75{color:hsl(var(--color-muted-foreground));line-height:26px;margin-bottom:26px}.sidebar-author-module--sidebar-author--f2c33 .sidebar-author-module--titleContainer--335a3{align-items:center;display:flex;justify-content:space-between;margin:13px 0}.icon-module--icon--1a7c5{fill:currentcolor;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;speak:none;stroke:currentcolor;stroke-width:0;display:inline-block;font-style:normal;font-variant:normal;font-weight:400;height:1em;line-height:1em;text-align:center;text-transform:none;width:1em}body.sidebar-contacts-module--dark-mode--c4cc2 a[href]{color:#938fff}body.sidebar-contacts-module--dark-mode--c4cc2 a[href]:hover{color:#70d2b4}.sidebar-contacts-module--sidebar-contacts--bbb62{margin-bottom:26px}.sidebar-contacts-module--sidebar-contacts--bbb62 .sidebar-contacts-module--list--cbda4{display:flex;flex-flow:row wrap;flex-grow:0;flex-shrink:0;list-style:none;margin:13px 0;max-width:165px;padding:0}.sidebar-contacts-module--sidebar-contacts--bbb62 .sidebar-contacts-module--list--cbda4 .sidebar-contacts-module--item--1f6f2{border:1px solid hsl(var(--color-muted));border-radius:50%;margin:6.5px;padding:0}.sidebar-contacts-module--sidebar-contacts--bbb62 .sidebar-contacts-module--list--cbda4 .sidebar-contacts-module--item--1f6f2:nth-child(3n+1){margin-left:0}.sidebar-contacts-module--sidebar-contacts--bbb62 .sidebar-contacts-module--list--cbda4 .sidebar-contacts-module--item--1f6f2 .sidebar-contacts-module--link--8ba2a{align-items:center;border:0;color:hsl(var(--color-foreground));cursor:pointer;display:flex;height:40px;justify-content:center;width:40px}.sidebar-contacts-module--sidebar-contacts--bbb62 .sidebar-contacts-module--list--cbda4 .sidebar-contacts-module--item--1f6f2 .sidebar-contacts-module--link--8ba2a:focus,.sidebar-contacts-module--sidebar-contacts--bbb62 .sidebar-contacts-module--list--cbda4 .sidebar-contacts-module--item--1f6f2 .sidebar-contacts-module--link--8ba2a:hover{color:hsl(var(--color-primary))}body.sidebar-copyright-module--dark-mode--c1cd9 a[href]{color:#938fff}body.sidebar-copyright-module--dark-mode--c1cd9 a[href]:hover{color:#70d2b4}.sidebar-copyright-module--sidebar-copyright--97d08{color:hsl(var(--color-muted-foreground));font-size:14px}body.sidebar-module--dark-mode--d8c84 a[href]{color:#938fff}body.sidebar-module--dark-mode--d8c84 a[href]:hover{color:#70d2b4}.sidebar-module--sidebar--58428{grid-column:span 12;width:100%}.sidebar-module--sidebar--58428 .sidebar-module--inner--f87a4{padding:26px 19.5px 0;position:relative}.sidebar-module--sidebar--58428 .sidebar-module--inner--f87a4:after{background:hsl(var(--color-border));background:linear-gradient(to bottom,hsl(var(--color-border)) 0,hsl(var(--color-border)) 48%,hsl(var(--color-background)) 100%)}@media screen and (min-width:685px){.sidebar-module--sidebar--58428{grid-column:span 5}.sidebar-module--sidebar--58428 .sidebar-module--inner--f87a4{padding:32.5px 19.5px 0}.sidebar-module--sidebar--58428 .sidebar-module--inner--f87a4:after{bottom:0;content:"";height:540px;position:absolute;right:-10px;top:30px;width:1px}}@media screen and (min-width:960px){.sidebar-module--sidebar--58428{grid-column:span 4}.sidebar-module--sidebar--58428 .sidebar-module--inner--f87a4{padding:39px}}h1,h2,h3,strong{font-family:Inter,sans-serif;font-weight:900}a[href]{color:#7f7aff}a[href]:hover{color:#0900ff}body.pagination-module--dark-mode--d142f a[href]{color:#938fff}body.pagination-module--dark-mode--d142f a[href]:hover{color:#70d2b4}.pagination-module--pagination--e5305{display:flex;margin-top:52px}.pagination-module--pagination--e5305 .pagination-module--previous--85cf8{text-align:left;width:50%}.pagination-module--pagination--e5305 .pagination-module--previous--85cf8 .pagination-module--previousLink--35663{color:hsl(var(--color-foreground));font-size:26px;font-weight:700}.pagination-module--pagination--e5305 .pagination-module--previous--85cf8 .pagination-module--previousLink--35663:focus,.pagination-module--pagination--e5305 .pagination-module--previous--85cf8 .pagination-module--previousLink--35663:hover{color:hsl(var(--color-primary))}.pagination-module--pagination--e5305 .pagination-module--previous--85cf8 .pagination-module--previousLink--35663.pagination-module--disable--f4637{color:hsl(var(--color-muted-foreground));pointer-events:none}.pagination-module--pagination--e5305 .pagination-module--next--92e1f{text-align:right;width:50%}.pagination-module--pagination--e5305 .pagination-module--next--92e1f .pagination-module--nextLink--9a2d7{color:hsl(var(--color-foreground));font-size:26px;font-weight:700}.pagination-module--pagination--e5305 .pagination-module--next--92e1f .pagination-module--nextLink--9a2d7:focus,.pagination-module--pagination--e5305 .pagination-module--next--92e1f .pagination-module--nextLink--9a2d7:hover{color:hsl(var(--color-primary))}.pagination-module--pagination--e5305 .pagination-module--next--92e1f .pagination-module--nextLink--9a2d7.pagination-module--disable--f4637{color:hsl(var(--color-muted-foreground));pointer-events:none}</style><link rel="alternate" type="application/rss+xml" title="Kaylee&#x27;s Website" href="/rss.xml"/><style type="text/css">
+    .anchor.before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      transform: translateX(-100%);
+      padding-right: 4px;
+    }
+    .anchor.after {
+      display: inline-block;
+      padding-left: 4px;
+    }
+    h1 .anchor svg,
+    h2 .anchor svg,
+    h3 .anchor svg,
+    h4 .anchor svg,
+    h5 .anchor svg,
+    h6 .anchor svg {
+      visibility: hidden;
+    }
+    h1:hover .anchor svg,
+    h2:hover .anchor svg,
+    h3:hover .anchor svg,
+    h4:hover .anchor svg,
+    h5:hover .anchor svg,
+    h6:hover .anchor svg,
+    h1 .anchor:focus svg,
+    h2 .anchor:focus svg,
+    h3 .anchor:focus svg,
+    h4 .anchor:focus svg,
+    h5 .anchor:focus svg,
+    h6 .anchor:focus svg {
+      visibility: visible;
+    }
+  </style><script>
+    document.addEventListener("DOMContentLoaded", function(event) {
+      var hash = window.decodeURI(location.hash.replace('#', ''))
+      if (hash !== '') {
+        var element = document.getElementById(hash)
+        if (element) {
+          var scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop
+          var clientTop = document.documentElement.clientTop || document.body.clientTop || 0
+          var offset = element.getBoundingClientRect().top + scrollTop - clientTop
+          // Wait for the browser to finish rendering before scrolling.
+          setTimeout((function() {
+            window.scrollTo(0, offset - 0)
+          }), 0)
+        }
+      }
+    })
+  </script><link rel="preconnect" href="https://www.googletagmanager.com"/><link rel="dns-prefetch" href="https://www.googletagmanager.com"/><script async="" src="https://www.googletagmanager.com/gtag/js?id=?"></script><script>
+      
+      
+      if(true) {
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', '?', {"send_page_view":false});
+      }
+      </script><link rel="sitemap" type="application/xml" href="/sitemap-index.xml"/><link rel="icon" href="/favicon-32x32.png?v=82e2dc9a3757767340fb61cb07b94192" type="image/png"/><link rel="manifest" href="/manifest.webmanifest" crossorigin="anonymous"/><link rel="apple-touch-icon" sizes="48x48" href="/icons/icon-48x48.png?v=82e2dc9a3757767340fb61cb07b94192"/><link rel="apple-touch-icon" sizes="72x72" href="/icons/icon-72x72.png?v=82e2dc9a3757767340fb61cb07b94192"/><link rel="apple-touch-icon" sizes="96x96" href="/icons/icon-96x96.png?v=82e2dc9a3757767340fb61cb07b94192"/><link rel="apple-touch-icon" sizes="144x144" href="/icons/icon-144x144.png?v=82e2dc9a3757767340fb61cb07b94192"/><link rel="apple-touch-icon" sizes="192x192" href="/icons/icon-192x192.png?v=82e2dc9a3757767340fb61cb07b94192"/><link rel="apple-touch-icon" sizes="256x256" href="/icons/icon-256x256.png?v=82e2dc9a3757767340fb61cb07b94192"/><link rel="apple-touch-icon" sizes="384x384" href="/icons/icon-384x384.png?v=82e2dc9a3757767340fb61cb07b94192"/><link rel="apple-touch-icon" sizes="512x512" href="/icons/icon-512x512.png?v=82e2dc9a3757767340fb61cb07b94192"/><style>.gatsby-image-wrapper{position:relative;overflow:hidden}.gatsby-image-wrapper picture.object-fit-polyfill{position:static!important}.gatsby-image-wrapper img{bottom:0;height:100%;left:0;margin:0;max-width:none;padding:0;position:absolute;right:0;top:0;width:100%;object-fit:cover}.gatsby-image-wrapper [data-main-image]{opacity:0;transform:translateZ(0);transition:opacity .25s linear;will-change:opacity}.gatsby-image-wrapper-constrained{display:inline-block;vertical-align:top}</style><noscript><style>.gatsby-image-wrapper noscript [data-main-image]{opacity:1!important}.gatsby-image-wrapper [data-placeholder-image]{opacity:0!important}</style></noscript><script type="module">const e="undefined"!=typeof HTMLImageElement&&"loading"in HTMLImageElement.prototype;e&&document.body.addEventListener("load",(function(e){const t=e.target;if(void 0===t.dataset.mainImage)return;if(void 0===t.dataset.gatsbyImageSsr)return;let a=null,n=t;for(;null===a&&n;)void 0!==n.parentNode.dataset.gatsbyImageWrapper&&(a=n.parentNode),n=n.parentNode;const o=a.querySelector("[data-placeholder-image]"),r=new Image;r.src=t.currentSrc,r.decode().catch((()=>{})).then((()=>{t.style.opacity=1,o&&(o.style.opacity=0,o.style.transition="opacity 500ms linear")}))}),!0);</script><title data-gatsby-head="true">Ascension v0.0.1 - Kaylee&#x27;s Website</title></head><body><script>
+          void function() {
+            var cachedMode;
+
+            try {
+              var preferredTheme = JSON.parse(localStorage.getItem("diesel:theme-atom"));
+
+              if (preferredTheme && preferredTheme.mode) {
+                cachedMode = preferredTheme.mode;
+              }
+            } catch (err) { }
+
+            function setTheme(newTheme) {
+              document.documentElement.className = newTheme;
+            }
+
+            var darkQuery = window.matchMedia("(prefers-color-scheme: dark)");
+
+            setTheme(cachedMode || (darkQuery.matches ? "dark" : "light"));
+          }()
+        </script><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><div class="layout-module--layout--e08e0"><div class="post-module--post--cd62a"><div class="post-module--buttons--26059"><a class="button-module--button--5ffa9 post-module--buttonArticles--8a265" href="/">Back to Projects</a></div><div class="post-module--content--49372"><div class="post-content-module--postContent--5129c"><h1 class="post-content-module--title--b7e5d">Ascension v0.0.1</h1><div class="post-content-module--body--3be78"><figure style="text-align: center;">
+  <span class="gatsby-resp-image-wrapper" style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 960px; ">
+      <span class="gatsby-resp-image-background-image" style="padding-bottom: 58.333333333333336%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAACxLAAAsSwGlPZapAAAC9ElEQVR42iWT228bZRDFLQqoKorjJE0cO3bttdf2+hJ7b05217f13tyWRqVUFQXRQEqDShECHngBCgpQChURCKRSKP8C6kP5/37Mug+r75udnTPnnJnNhP6IJJwRBTPiaM5wqNPSSvR265hml2J5k5WNrNz79AcdyQ+4tIjwpx7uvkUSBVj2gHfLRZ6srpIJZiNcxyKYTwQwIAzn2HYP09JQ1ALnsq+yXc7T1BR2BHwycQmCKbOJQyhnLHWOa/FBpcRP2SyZWNiN3CGePIE/JopCAZ9i2hqFco5iIStsK6hakXZPIZR8CpDWpSytfouZZ5PMxlzZt8nM/QlzCcYjB1/Y+ul97GKJ3HIpS1tZx9QrIleV93tLNSMBSOvMQRdj0F7Wh2LZSHKZFCQNotCXD/c5uHKJa28ccOPGNd65GhHoKntOn9tHNzm89RbvHd7kw+M7HN85wp/sC0uXUBTFUh+J/Mxu9wLOnkEcR8tO/zz9iwc/nPDo0UM+unvMx/duc+vwbX7/7Wfuf/UF/z1/zrNn//L078cCMF4CxeJ7OtBg5pFp1HI06uexdY3LF2NOT3/hxwff8f3JfU6+/ZLPP7vL9asJ199ccCQsfz19yJ+P/+DTT+6xiAPxPFiSSQQw9TWz2yyiNbboNgvM3QGLJObg9YuSnOA5Pfb0BraskFLdIL+9wkruDPX61nKAS6AkeeGfa2AYGpmxXmXYq9JvlpjoNZLAk7XwqVY2US+s0pFmZnsH16ihSdP19TPYRvOF78IuHaJptCS3SV2RPZwKyKxfYSxFYzkX3i7BZIjV2cHoFGnVttBbJTyjylgUeI65lJYkC/Hck2mPZSM6S9vqtTUBLK7yzbmzLNQ8Q1NhbjVwdIXIadHXtmnWN2k38qhKTnZOIRhZhLIZUeAQ+yZJPGc6sum0iuyUhOHxa6/w9csv8f7KWQ7yOdxagb66ha1ui2zZQ2mkSVyvZgV0DaNbFf+mMmGH+agnYDr78hNo6gal8hr/A1lAk6Yz8mvsAAAAAElFTkSuQmCC'); background-size: cover; display: block;"></span>
+  <picture>
+          <source srcset="/static/e2ae7689a69c9796a327ab1fd6d40308/8ac56/ascension.webp 240w,
+/static/e2ae7689a69c9796a327ab1fd6d40308/d3be9/ascension.webp 480w,
+/static/e2ae7689a69c9796a327ab1fd6d40308/e46b2/ascension.webp 960w,
+/static/e2ae7689a69c9796a327ab1fd6d40308/f992d/ascension.webp 1440w,
+/static/e2ae7689a69c9796a327ab1fd6d40308/882b9/ascension.webp 1920w,
+/static/e2ae7689a69c9796a327ab1fd6d40308/00ea7/ascension.webp 6744w" sizes="(max-width: 960px) 100vw, 960px" type="image/webp">
+          <source srcset="/static/e2ae7689a69c9796a327ab1fd6d40308/8ff5a/ascension.png 240w,
+/static/e2ae7689a69c9796a327ab1fd6d40308/e85cb/ascension.png 480w,
+/static/e2ae7689a69c9796a327ab1fd6d40308/d9199/ascension.png 960w,
+/static/e2ae7689a69c9796a327ab1fd6d40308/07a9c/ascension.png 1440w,
+/static/e2ae7689a69c9796a327ab1fd6d40308/29114/ascension.png 1920w,
+/static/e2ae7689a69c9796a327ab1fd6d40308/7bebe/ascension.png 6744w" sizes="(max-width: 960px) 100vw, 960px" type="image/png">
+          <img class="gatsby-resp-image-image" src="/static/e2ae7689a69c9796a327ab1fd6d40308/d9199/ascension.png" alt="wip title page" title="" loading="lazy" decoding="async" style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;">
+        </picture>
+    </span>
+  <figcaption>Roguelike Game adapted from the novel TGCF</figcaption><br>
+  <b><div style="display: flex; justify-content: center; gap: 1rem;">
+    <a href="https://github.com/kayleecragg/ascension/releases/download/v0.0.1/Ascension_32.zip" target="_blank">Play (Windows)</a>
+    <a href="https://github.com/kayleecragg/ascension/releases/download/beta/Ascension_osx.zip" target="_blank">Play (Mac, older version)</a>
+    <a href="https://github.com/kayleecragg/ascension" target="_blank">Github</a>
+  </div>
+  <b>
+</b></b></figure>
+<ul>
+<li>Built a 2D narrative action game in <strong>Lua’s Löve2D</strong> framework, featuring real-time combat with melee, ranged, teleport, and dodge mechanics, plus wave-based scaling enemies and branching dialogue sequences.</li>
+<li>Made this game with a <a href="https://github.com/its-naptime" target="_blank" rel="nofollow noopener noreferrer">friend</a>, you can watch a video of our progress <a href="https://youtu.be/FHOgZQkW0RY" target="_blank" rel="nofollow noopener noreferrer">here</a>.</li>
+</ul>
+<p><strong>Disclaimer:</strong> Spoilers for the novel and game upcoming.</p>
+<h2 id="background" style="position:relative;"><a href="#background" aria-label="background permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Background</h2>
+<p>Having recently finished reading all 8 volumes of the very popular Chinese danmei novel series <a href="https://en.wikipedia.org/wiki/Heaven_Official%27s_Blessing" target="_blank" rel="nofollow noopener noreferrer"><strong>Heaven Official’s Blessings</strong></a>, <em>(aka 天官赐福 Tiān Guān Cì Fú)</em> I was moved by how Hua Cheng gave up his life twice in service to his God, spent 800 years searching for him, and remained his sole believer when all others had abandoned him.</p>
+<p>I wished they explored more of his backstory and his point of view. Here are some excerpts from the novel to show you how interesting of a character he was:</p>
+<blockquote>
+<p>At one point in his time as a Supreme, Hua Cheng challenged 35 gods. 33 of them were those that chased away Xie Lian from the spiritual mountain, as well as Mu Qing and Feng Xin. If they won against him, he would give them his ashes to scatter. If he won, they would have to step down from Heaven. Mu Qing and Feng Xin both ignored the challenge, but the others took it on as they believed themselves to be superior. He fought the Martial Gods and debated against the Civil Gods, resulting in their utter defeat.</p>
+</blockquote>
+<blockquote>
+<p>However, the gods refused to honor their agreement, pretending that the fight and the preceding agreement never took place. Hua Cheng decided to help them fulfill their promise by burning down the 33 gods’ temples in the human realm. This act caused an uproar and Hua Cheng got the moniker “Heaven’s Scourge”.</p>
+</blockquote>
+<hr>
+<blockquote>
+<p>After the defeat of the martial gods, it came time for the civil gods to rise to the challenge. Surely Hua Cheng could fight, but not debate? Unfortunately for the civil gods, they could not defeat him. Hua Cheng could recite the classics and debate the contemporaries. He was sometimes polite, sometimes vicious, sometimes unyielding, sometimes incisive, and sometimes quibbling. He was impenetrably sharp, his arguments flawless. He verbally abused the civil gods from top to bottom, past to present, and infuriated them so much that they puked blood and washed the skies red.</p>
+</blockquote>
+<p>I wanted to make a game from his perspective. I also was inspired by twitter user <a href="https://x.com/akkaccel/" target="_blank" rel="nofollow noopener noreferrer">@akkaccel’s</a> concept art of a potential TGCF game.</p>
+<figure>
+  <a href="https://x.com/akkaccel/status/1493084468537659393?s=46">
+    <span class="gatsby-resp-image-wrapper" style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 960px; ">
+      <span class="gatsby-resp-image-background-image" style="padding-bottom: 45.833333333333336%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAJABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABAAF/8QAFAEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAABQZZR1ZEn/8QAHBAAAQQDAQAAAAAAAAAAAAAAAwABAhEEMTIz/9oACAEBAAEFApvSCW5tovOJ7L//xAAVEQEBAAAAAAAAAAAAAAAAAAAQEf/aAAgBAwEBPwGH/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAGRABAAIDAAAAAAAAAAAAAAAAAAExEBGB/9oACAEBAAY/AtQpSXMf/8QAGxABAAICAwAAAAAAAAAAAAAAAQAREEExUWH/2gAIAQEAAT8hoJIeEugV6O5fZicWP//aAAwDAQACAAMAAAAQjz//xAAWEQEBAQAAAAAAAAAAAAAAAAABABH/2gAIAQMBAT8QBYX/xAAWEQADAAAAAAAAAAAAAAAAAAABEBH/2gAIAQIBAT8QpX//xAAcEAACAgIDAAAAAAAAAAAAAAABEQAhMbEQgaH/2gAIAQEAAT8QqgOGLuGBe6hYQcA3ZBCm7qehx//Z'); background-size: cover; display: block;"></span>
+  <picture>
+          <source srcset="/static/a96ea30fd1eaa5ad3adaea3888ee466c/8ac56/tgcfrpg.webp 240w,
+/static/a96ea30fd1eaa5ad3adaea3888ee466c/d3be9/tgcfrpg.webp 480w,
+/static/a96ea30fd1eaa5ad3adaea3888ee466c/e46b2/tgcfrpg.webp 960w,
+/static/a96ea30fd1eaa5ad3adaea3888ee466c/f992d/tgcfrpg.webp 1440w,
+/static/a96ea30fd1eaa5ad3adaea3888ee466c/882b9/tgcfrpg.webp 1920w,
+/static/a96ea30fd1eaa5ad3adaea3888ee466c/554c2/tgcfrpg.webp 2188w" sizes="(max-width: 960px) 100vw, 960px" type="image/webp">
+          <source srcset="/static/a96ea30fd1eaa5ad3adaea3888ee466c/09b79/tgcfrpg.jpg 240w,
+/static/a96ea30fd1eaa5ad3adaea3888ee466c/7cc5e/tgcfrpg.jpg 480w,
+/static/a96ea30fd1eaa5ad3adaea3888ee466c/6a068/tgcfrpg.jpg 960w,
+/static/a96ea30fd1eaa5ad3adaea3888ee466c/644c5/tgcfrpg.jpg 1440w,
+/static/a96ea30fd1eaa5ad3adaea3888ee466c/0f98f/tgcfrpg.jpg 1920w,
+/static/a96ea30fd1eaa5ad3adaea3888ee466c/e3029/tgcfrpg.jpg 2188w" sizes="(max-width: 960px) 100vw, 960px" type="image/jpeg">
+          <img class="gatsby-resp-image-image" src="/static/a96ea30fd1eaa5ad3adaea3888ee466c/6a068/tgcfrpg.jpg" alt="tgcfrpg" title="" loading="lazy" decoding="async" style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;">
+        </picture>
+    </span>
+  </a>
+  <figcaption>Twitter user @akkaccel you're doing the lord's work</figcaption>
+</figure>
+<p>There were a few main areas I could start from:</p>
+<ul>
+<li>Being saved by Xie Lian as a child.</li>
+<li>Him sneaking off to be a soldier to fight against Yong’an.</li>
+<li>Ghost fire adventures (my favourite personally)</li>
+<li>Wuming</li>
+<li>Mt Tonglu adventures</li>
+<li>Challenging 35 Heavenly Officials</li>
+<li>Meeting Xie Lian again + main story</li>
+</ul>
+<p>I decided to go with the 33 heavenly officials plot because it seemed the most clear cut narrative and straightforward gameplay; fighting people, maybe Ace Attorney style debating, maybe some burning down of temples.</p>
+<h2 id="the-first-prototype" style="position:relative;"><a href="#the-first-prototype" aria-label="the first prototype permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>The First Prototype</h2>
+<h3 id="first-day" style="position:relative;"><a href="#first-day" aria-label="first day permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>First Day</h3>
+<figure>
+  <img src="/d6a75b837589fe351a76286f9c1002bc/prototype.gif" alt="prototype of the game">
+  <figcaption>Early prototype footage, made a simple single file, single enemy game to show to friends</figcaption>
+</figure>
+<p>I started off by making a single file, single enemy game to get a feel for what it would be like. I chose to make the game in <strong>Lua</strong> because firstly, I was hooked on playing Balatro at that time and learnt that Balatro was made in Lua, specifically <strong>Löve2D</strong>, a lightweight framework that had endless potential and possibilities, and was known to be good for making 2D games in.</p>
+<p>And secondly, I didn’t think I could start out with anything but a 2D rendition of the game I had in mind. I didn’t know anything about Unreal Engine, and I didn’t think I had the time to master it to make a game with it that quickly. Also the last time I tried to install Unreal Engine 5 on my mac it sounded like a jet taking off.</p>
+<p>So currently what we had was:</p>
+<ul>
+<li>Player ranged attacks</li>
+<li>Player teleport ability with NO cooldown</li>
+<li>Enemy follows player around but doesn’t attack</li>
+<li>300hp for both player and enemy</li>
+</ul>
+<h3 id="second-day" style="position:relative;"><a href="#second-day" aria-label="second day permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Second Day</h3>
+<p>The next day, I showed this version to my friends, and one of my friends said he wanted to contribute, so that very night we started working on it together. I thought I should implement a wave structure to the game to make it more longlasting.</p>
+<figure>
+  <span class="gatsby-resp-image-wrapper" style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 960px; ">
+      <span class="gatsby-resp-image-background-image" style="padding-bottom: 62.5%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAIAAAAmMtkJAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAeElEQVR42mOIi42Oj43BRHEx0eGhIUASqyxEAQNFgIWZGRdixi0FQQyDDDAxMVKkn5GRkYmJCcQgSRsHJ7NfsDQ7OwupGkGAjY3JzFyIlY0FwhVgY2ZnZiLNzcB4gtgbIMGnzM1GgvuBGiEexmcBpbHCTC5gZWEGAIkiGbX8GNIuAAAAAElFTkSuQmCC'); background-size: cover; display: block;"></span>
+  <picture>
+          <source srcset="/static/92ad17a42fae8413598ae23e1156590d/8ac56/ascension3.webp 240w,
+/static/92ad17a42fae8413598ae23e1156590d/d3be9/ascension3.webp 480w,
+/static/92ad17a42fae8413598ae23e1156590d/e46b2/ascension3.webp 960w,
+/static/92ad17a42fae8413598ae23e1156590d/f992d/ascension3.webp 1440w,
+/static/92ad17a42fae8413598ae23e1156590d/882b9/ascension3.webp 1920w,
+/static/92ad17a42fae8413598ae23e1156590d/e51ec/ascension3.webp 3024w" sizes="(max-width: 960px) 100vw, 960px" type="image/webp">
+          <source srcset="/static/92ad17a42fae8413598ae23e1156590d/8ff5a/ascension3.png 240w,
+/static/92ad17a42fae8413598ae23e1156590d/e85cb/ascension3.png 480w,
+/static/92ad17a42fae8413598ae23e1156590d/d9199/ascension3.png 960w,
+/static/92ad17a42fae8413598ae23e1156590d/07a9c/ascension3.png 1440w,
+/static/92ad17a42fae8413598ae23e1156590d/29114/ascension3.png 1920w,
+/static/92ad17a42fae8413598ae23e1156590d/669cd/ascension3.png 3024w" sizes="(max-width: 960px) 100vw, 960px" type="image/png">
+          <img class="gatsby-resp-image-image" src="/static/92ad17a42fae8413598ae23e1156590d/d9199/ascension3.png" alt="gameplay preview" title="" loading="lazy" decoding="async" style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;">
+        </picture>
+    </span>
+  <figcaption>Early ranged attack gameplay preview</figcaption>
+</figure>
+<ul>
+<li>6 Waves</li>
+<li>Player 300 hp >> 100 hp</li>
+<li>Player and enemy health bars instead of a number</li>
+<li>enemies attack u</li>
+<li>diff kinds of enemies (ranged, charging, melee)</li>
+<li>teleport feature broken</li>
+</ul>
+<p><strong>Bugs:</strong></p>
+<ul>
+<li>teleport feature broken</li>
+</ul>
+<h3 id="third-day" style="position:relative;"><a href="#third-day" aria-label="third day permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Third Day</h3>
+<ul>
+<li>dodge ability</li>
+<li>teleport limited range</li>
+<li>balancing for enemies</li>
+</ul>
+<p><strong>Bugs:</strong></p>
+<ul>
+<li>dodge slowing down time literally, it pauses the game</li>
+<li>you can’t move when teleporting</li>
+</ul>
+<h3 id="fourth-day" style="position:relative;"><a href="#fourth-day" aria-label="fourth day permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Fourth Day</h3>
+<ul>
+<li>can move during teleport</li>
+<li>dodge no longer slows time</li>
+<li>health regen orbs drop when enemies die</li>
+</ul>
+<p><strong>Bugs:</strong></p>
+<ul>
+<li>health regen drop too low chance</li>
+</ul>
+<figure>
+  <span class="gatsby-resp-image-wrapper" style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 960px; ">
+      <span class="gatsby-resp-image-background-image" style="padding-bottom: 62.5%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAIAAAAmMtkJAAAACXBIWXMAABYlAAAWJQFJUiTwAAACu0lEQVR42hWQ2W/TQBDG/cILCEhzNM3R3LGd+Ehsx3Z8rq9d20mgB0EtL31BSLQlPZImPVTRigohkEBQKLzA/8pW+jQj7cw389shThcHJ9PJ/ORgNpucnc/OL+Yn83fnpwcnZ9Pdw/3TxeHF6WQxn1xeLhZn0+lsMp8fHR/u4XhzfUmksonCajqTTybSj1ZKyxWyVCwnm81MtZkr1XP1WqZaepotPq1RlZVSJpF6mF9dXko+TmVSPM8SxcaqKPNMl27SpTbXEHqsrLCq0hqvhZtrEc1XuW6DEyhWaOEqi8VTNNOoUzVNU4nlQlpRBYYj+S7Ncc0mXeakdqGZm0x3v37+8CD7JN/ItzpkjSoJAt1i6jWyXCfLDbIsKxKBkyCybZ7STUVRO1SrTPGk2Wu/j8CPjXiTLFSoEoOf21VdFwWJI1u1NkdTTEM3VAIzCxIPgGFaal8TNJVTLHlPE2577Eem/ltlPa1bJouWKXMduiMyOJqmoulSAF1CklmlLwxj5DqaoYtb4+HR250bQ/gF7W/IvjPFHbPHdknkWZomGoZkGj0I3QA5EHmEH5iuq4ehey/kjEboajb5+Wr8ZQQvtzbungXzyAPQRp4eh14cOhFyURREcYCwGYZe4NsR8qLQHwxgFAUwcLdH4a3MfF+Pro4PXm+/9H3LB30Mh/0RdHEnbvNcmxgM48B3YACgb4d4BPIHw8F6DP/q3X/Q+vPp+sV4fRAhbAuhg6CLAoCgN8AMlkbEUejYpueYjq0hXPYBACa09GlfvOiLb4axqspaX8GCeJljuED3HLwmUOUuESJoGZoDDIzhALtYyGVXssV8rp3NUMlEJZVMp1OJRGJpacm2rcCzbVN3gOV7QBJYYjgceN49SQj9OEJ9WZTEzvMITnRlX2D3Y2RblmnowDbjEKL734HAx6cNNEX8D0zxvrChnKLtAAAAAElFTkSuQmCC'); background-size: cover; display: block;"></span>
+  <picture>
+          <source srcset="/static/e05e5c7f6d9124d904ccb21530935816/8ac56/ascension1.webp 240w,
+/static/e05e5c7f6d9124d904ccb21530935816/d3be9/ascension1.webp 480w,
+/static/e05e5c7f6d9124d904ccb21530935816/e46b2/ascension1.webp 960w,
+/static/e05e5c7f6d9124d904ccb21530935816/f992d/ascension1.webp 1440w,
+/static/e05e5c7f6d9124d904ccb21530935816/882b9/ascension1.webp 1920w,
+/static/e05e5c7f6d9124d904ccb21530935816/e51ec/ascension1.webp 3024w" sizes="(max-width: 960px) 100vw, 960px" type="image/webp">
+          <source srcset="/static/e05e5c7f6d9124d904ccb21530935816/8ff5a/ascension1.png 240w,
+/static/e05e5c7f6d9124d904ccb21530935816/e85cb/ascension1.png 480w,
+/static/e05e5c7f6d9124d904ccb21530935816/d9199/ascension1.png 960w,
+/static/e05e5c7f6d9124d904ccb21530935816/07a9c/ascension1.png 1440w,
+/static/e05e5c7f6d9124d904ccb21530935816/29114/ascension1.png 1920w,
+/static/e05e5c7f6d9124d904ccb21530935816/669cd/ascension1.png 3024w" sizes="(max-width: 960px) 100vw, 960px" type="image/png">
+          <img class="gatsby-resp-image-image" src="/static/e05e5c7f6d9124d904ccb21530935816/d9199/ascension1.png" alt="hua cheng" title="" loading="lazy" decoding="async" style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;">
+        </picture>
+    </span>
+  <figcaption>Gameplay still of Hua Cheng</figcaption>
+</figure>
+<figure>
+  <span class="gatsby-resp-image-wrapper" style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 960px; ">
+      <span class="gatsby-resp-image-background-image" style="padding-bottom: 62.5%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAIAAAAmMtkJAAAACXBIWXMAABYlAAAWJQFJUiTwAAACgUlEQVR42l2QW2/aQBCFNyIkohDhcE1iMAGM7xhsg+/4uru2Q/pDeiFpAoQkykOl/vEurdSHjkazD7PfOUcDDvuH3fNmv3vYbjevb9u39/1u//3t8LA7PH15/HY4PL4fNi/7zcfHy8vr8/N2s9//eHr8Suavnx+g2aXofqt906Ba1Sumc8sxvUFjMmmPeZphr8ej9pCpd3v1EX97xbSp5qebfueycdFsN1VVAT22ry9VeS5MBEaastpCWZqybcuurXS7lxNxoGoTReMVTSRbhbTKCzI75keOY4EO3TItTZ5y6lyYqhNWGEiaIMzGQ5EBAFQaNZqjRZUb84ymCaI8HnGDMTdgucHSNAB5NF2RVN71TdOaceKAfNXtaafXIvD5xflQHEgqJ0pD19U1Y8qJI2kq8DLrehYgmTVDDUPPX1mOq89n3GIhGZpcPi0RGJwAThiyAuN7i+lMmOkymb5vOq4BUQyMpWLa2rrAUWiHgRX6C1MXq9XKETw5IbNPd6yllMae4+ieZxAVhGKII4QTkEI/jt0sizMc5VmcZ0mwsk5LpX9ws0FlKISxW2RJkUU5jnEO8wJiAqMsgWmQ4yTP0qKAn+/zIPBKf+C/RSRsy0Cxm+OI8DkiBmmewyQOwN26gGmEYIjSIENxkaMw8P+DPc++LxCGEUYxhiFGyR3JsHJAkWdR4CeRHwXOcZ2SDrvdziUpiqrVLlqtlmObpBExi7w4dJMoyDC0lnOQYbTynCj0SIwoDHr0dY++qdfrlUqlXC4T57OzM4qiiFQQrGBChhuFqzQJDU0B6/VdkhyTZCgtcmwtdNtc9Pu9arVGGKJydHbslU8OdkyO0gim5LrQMfXf6byXyJIJtvAAAAAASUVORK5CYII='); background-size: cover; display: block;"></span>
+  <picture>
+          <source srcset="/static/0af8f6236920b26e2e1cd84b5e3bdd3e/8ac56/ascension2.webp 240w,
+/static/0af8f6236920b26e2e1cd84b5e3bdd3e/d3be9/ascension2.webp 480w,
+/static/0af8f6236920b26e2e1cd84b5e3bdd3e/e46b2/ascension2.webp 960w,
+/static/0af8f6236920b26e2e1cd84b5e3bdd3e/f992d/ascension2.webp 1440w,
+/static/0af8f6236920b26e2e1cd84b5e3bdd3e/882b9/ascension2.webp 1920w,
+/static/0af8f6236920b26e2e1cd84b5e3bdd3e/e51ec/ascension2.webp 3024w" sizes="(max-width: 960px) 100vw, 960px" type="image/webp">
+          <source srcset="/static/0af8f6236920b26e2e1cd84b5e3bdd3e/8ff5a/ascension2.png 240w,
+/static/0af8f6236920b26e2e1cd84b5e3bdd3e/e85cb/ascension2.png 480w,
+/static/0af8f6236920b26e2e1cd84b5e3bdd3e/d9199/ascension2.png 960w,
+/static/0af8f6236920b26e2e1cd84b5e3bdd3e/07a9c/ascension2.png 1440w,
+/static/0af8f6236920b26e2e1cd84b5e3bdd3e/29114/ascension2.png 1920w,
+/static/0af8f6236920b26e2e1cd84b5e3bdd3e/669cd/ascension2.png 3024w" sizes="(max-width: 960px) 100vw, 960px" type="image/png">
+          <img class="gatsby-resp-image-image" src="/static/0af8f6236920b26e2e1cd84b5e3bdd3e/d9199/ascension2.png" alt="angry heavenly official" title="" loading="lazy" decoding="async" style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;">
+        </picture>
+    </span>
+  <figcaption>Gameplay image of masked out image of Shi Qing Xuan, though the dialogue doesn't fit his personality</figcaption>
+</figure>
+<p><em>WIP, more to come.</em></p></div></div></div><div class="post-module--footer--87cff"><div class="post-footer-module--post-footer--9c13c"><p class="post-footer-module--date--abfe9">Published<!-- --> <!-- -->May 7, 2025</p></div><ul class="post-tags-module--post-tags--6c235"><li class="post-tags-module--item--53595"><a class="button-module--button--5ffa9" href="/tag/projects/">Projects</a></li></ul><div class="post-author-module--post-author--2247e"><p class="post-author-module--description--78aeb">CS @ UNSW</p></div></div></div></div></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/posts/ascensionv0.0.1/";/*]]>*/</script><!-- slice-start id="_gatsby-scripts-1" -->
+          <script
+            id="gatsby-chunk-mapping"
+          >
+            window.___chunkMapping="{\"app\":[\"/app-bca2996390087e233f67.js\"],\"component---src-templates-categories-template-tsx\":[\"/component---src-templates-categories-template-tsx-f5c7806b384d7b731493.js\"],\"component---src-templates-category-template-tsx\":[\"/component---src-templates-category-template-tsx-4104bd0bcf67c091220b.js\"],\"component---src-templates-index-template-tsx\":[\"/component---src-templates-index-template-tsx-0fadd84743bdbeab0294.js\"],\"component---src-templates-not-found-template-tsx\":[\"/component---src-templates-not-found-template-tsx-098c19f925cf275e74b8.js\"],\"component---src-templates-page-template-tsx\":[\"/component---src-templates-page-template-tsx-240e2668a78825fda8b4.js\"],\"component---src-templates-post-template-tsx\":[\"/component---src-templates-post-template-tsx-94e98a46babdaae43488.js\"],\"component---src-templates-tag-template-tsx\":[\"/component---src-templates-tag-template-tsx-d6fdff8477035bca62fb.js\"],\"component---src-templates-tags-template-tsx\":[\"/component---src-templates-tags-template-tsx-a66417d6694b09c98829.js\"]}";
+          </script>
+        <script>window.___webpackCompilationHash="131e6a43644617f2a7f1";</script><script src="/webpack-runtime-e705f3609abdd40fa3ef.js" async></script><script src="/framework-f14c0ed6660e020c0ae4.js" async></script><script src="/d904c7bf-873d27602390ca5bca09.js" async></script><script src="/app-bca2996390087e233f67.js" async></script><!-- slice-end id="_gatsby-scripts-1" --></body></html>
