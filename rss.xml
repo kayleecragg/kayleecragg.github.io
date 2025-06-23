@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Kaylee's Website]]></title><description><![CDATA[Kaylee's Website]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 22 Jun 2025 11:34:08 GMT</lastBuildDate><item><title><![CDATA[Tennis Checkerboard]]></title><description><![CDATA[HTML web app coupled with a Javascript server hosted on Vercel. (Making a project in one shift)]]></description><link>http://kayleecragg.github.io//projects/checkerboard</link><guid isPermaLink="false">http://kayleecragg.github.io//projects/checkerboard</guid><pubDate>Mon, 26 May 2025 14:40:32 GMT</pubDate><content:encoded>&lt;figure style=&quot;text-align: center;&quot;&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Kaylee's Website]]></title><description><![CDATA[Kaylee's Website]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 23 Jun 2025 10:25:51 GMT</lastBuildDate><item><title><![CDATA[Tennis Checkerboard]]></title><description><![CDATA[HTML web app coupled with a Javascript server hosted on Vercel. (Making a project in one shift)]]></description><link>http://kayleecragg.github.io//projects/checkerboard</link><guid isPermaLink="false">http://kayleecragg.github.io//projects/checkerboard</guid><pubDate>Mon, 26 May 2025 14:40:32 GMT</pubDate><content:encoded>&lt;figure style=&quot;text-align: center;&quot;&gt;
   &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 960px; &quot;&gt;
       &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 55.41666666666667%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAIAAADwazoUAAAACXBIWXMAABYlAAAWJQFJUiTwAAAB10lEQVR42l1S25KiMBDlYXefLNFRuQqCQMIlCZAQEkFGx1vV1vz//2zr1FTtbj8k5yTdp5PuNpYve/vLgG42G8aYEKLrOgCWZf3n82XGer0G11fMYvltQObzuee6nueZprn8196+8xkIYYzzKIodL/T9wPd9y/Es24ZIy/Et6wVsOHHs57n7BWzHh5TGLkriBKUZjvdZEILIHtYgDCGnDV7+Ngx3u13ker4Nin7geltQBAn4i0FLNPZN27Z1zaI4JgU6qqYTHL4ax3taYaCct4xRuGUEK0HLsqSUJEliCJp9nmvZ95fLuayYIMnniUopLx9AKdDfE+mkvF0/KkJJvh8lbTkfDirPc6OpMiVI1zXHURYlLnGiRdV39UHLDOEqTxSvGKWc8zRDJM+O/RNr1UOpjLpKTxpS8WnURQHhiRKVFM00qgznR4EeE+uVftyulNKndEeapu6EQAhBMJoUFYJrrTAuGpINkulenE8DISUUaet70IIgCKDU7xJfB6YPw/1+Ay0jjkKUxmmaVmUBdVZ1NimmtH7c73VdQz9XqxWsi4U5NxecZqMknItxGOCZxuvi2XTztbmOHQZbSAiTAOMBozKbzQCAxI+fvwRL3xVtW65Un+f5HwbYXWjjOh+dAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
   &lt;picture&gt;
@@ -722,7 +722,7 @@ However, prior to this I was offered an internship position overseas, meaning I 
     &lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt; --&gt;
-&lt;p&gt;&lt;strong&gt;end of the world (23 dec 2022)&lt;/strong&gt;&lt;/p&gt;
+&lt;div style=&quot;font-weight: bold; margin-bottom: 8px;&quot;&gt;end of the world (23 dec 2022)&lt;/div&gt;
 &lt;figure&gt;
   &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 960px; &quot;&gt;
       &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 56.25%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAAC6ElEQVR42kWQe0yNYRzH379P/0i3UzqXt4vJho2Z/nAJ09qY3DJMNndLLkNNI4RiTEO6MVEkKdphzK1jlUWim07opOPgVFZaN7nUeT+e8x6bPz57nvd9nufz+/5+UkDAPAy6pYTKccyankNRVi9vzArN1QrvaxWsdQptDahY6+HDawXLS4X6ilGq7jrZsPIx44MSCJLXEhi4CGncuPnIhuUE6eOJizVT8xAaq0ZVWZsQtDeCrdlNe5MQi+/WN/C22kljJeSe+sqkCSlCGItevxhJp1uAbIwhLCSRM4dbaahwXR5Vk7Q1KHwSInuLm08WIX2LWqilRqGh0smDwmEiwi8QZFyHwRiNpNdHqsIpE5PJS+9Qq1peOmkVrboS2ZoV7JZ/tPxPaq0T914oVJmcREfmI4uWg4OXIBmNkWLjEh7k6tlOWqrh3Su37LMQdNmgs10gVkerO6m1XqSr+sPz+8OU5fUTNeeiCBWLwSBmKMvzCQleRljobvbH1fCoeJja8hHRzii15l/cL+imoqibZ/ldVAtBzZMRSi/1kXOig/RkO0nbLMycmoG/zwq8x0Yg+fiEo/VdQKgxnj0b6yjK7OdewQ8eXB/GdHWQvCN2peyUgxupHZguD2C+/Vud262cAQozhDi1j7kzsvH2iiIgYC6Sn3Y6Wu1sQoybSUv4yNNbIzy784sK0x/KxeOHhT95XvQTsyjySKzlpb8xXRki70wP51McHN7RTviUdPy8o/H3Fwm9vCbj6TkNWbeepK0fuHK6j2vn+kT1fm5mDVKcOUCpi+wBSnIHKb04pFKSO0TB2V6yjvWyMCIfzzGz8fWdgeThEYqHJoxAv9XErWkibd9XTid1kn6gi3OHvpF5tJvMYz1kH+8R7bnJTfuu4vqXceQ7m2NeiPnNY4znJCSNRkajCcF37EJWRVWSuMlK8nYbKTvtpOyyc3zPF1L3fiFNcGKfg5MJ/0h0kCrODsXb2BLThE67Gle4v+7tZDMFPl/JAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
@@ -768,6 +768,43 @@ However, prior to this I was offered an internship position overseas, meaning I 
 &lt;/figure&gt;
 &lt;p&gt;The .blend files that I made are &lt;a href=&quot;https://drive.google.com/file/d/1rp7SNRWX_nNc3lL80ahhjck_ly_EZdgP/view?usp=sharing&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
+&lt;div style=&quot;font-weight: bold; margin-bottom: 8px;&quot;&gt;cut me open (16 december 2016)&lt;/div&gt;
+&lt;div style=&quot;display: flex; justify-content: center; gap: 40px;&quot;&gt;
+  &lt;figure style=&quot;flex: 1; text-align: center;&quot;&gt;
+    &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 960px; &quot;&gt;
+      &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 102.91666666666669%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAVABQDASIAAhEBAxEB/8QAGQABAAMBAQAAAAAAAAAAAAAAAAECBQME/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/9oADAMBAAIQAxAAAAHTik5t0DK6FnpB/8QAGhAAAgIDAAAAAAAAAAAAAAAAAQIAEBESIf/aAAgBAQABBQI3m9jFcwNz/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAwEBPwEf/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAgEBPwEf/8QAFBABAAAAAAAAAAAAAAAAAAAAMP/aAAgBAQAGPwIf/8QAGRABAQEBAQEAAAAAAAAAAAAAAQARMSFB/9oACAEBAAE/IVhZv2CSnbfOxya8EjP/2gAMAwEAAgADAAAAEMvvQ//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQMBAT8QH//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQIBAT8QH//EABsQAQEBAQADAQAAAAAAAAAAAAERACFRgZHR/9oACAEBAAE/EE4JVncsfjQIt9abxaEEPGdpfmE5jXcUbLv/2Q==&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source srcset=&quot;/static/138e019e64f11968b2b50760bcb87d28/8ac56/cutmeopen1.webp 240w,
+/static/138e019e64f11968b2b50760bcb87d28/d3be9/cutmeopen1.webp 480w,
+/static/138e019e64f11968b2b50760bcb87d28/e46b2/cutmeopen1.webp 960w,
+/static/138e019e64f11968b2b50760bcb87d28/62b6b/cutmeopen1.webp 1239w&quot; sizes=&quot;(max-width: 960px) 100vw, 960px&quot; type=&quot;image/webp&quot;&gt;
+          &lt;source srcset=&quot;/static/138e019e64f11968b2b50760bcb87d28/09b79/cutmeopen1.jpg 240w,
+/static/138e019e64f11968b2b50760bcb87d28/7cc5e/cutmeopen1.jpg 480w,
+/static/138e019e64f11968b2b50760bcb87d28/6a068/cutmeopen1.jpg 960w,
+/static/138e019e64f11968b2b50760bcb87d28/16baf/cutmeopen1.jpg 1239w&quot; sizes=&quot;(max-width: 960px) 100vw, 960px&quot; type=&quot;image/jpeg&quot;&gt;
+          &lt;img class=&quot;gatsby-resp-image-image&quot; src=&quot;/static/138e019e64f11968b2b50760bcb87d28/6a068/cutmeopen1.jpg&quot; alt=&quot;cutmeopen1&quot; title=&quot;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;&gt;
+        &lt;/picture&gt;
+    &lt;/span&gt;
+    &lt;figcaption&gt;It was actually meant to be in full colour, with bright crimson and pinks to show how raw the inner flesh was, but I was indecisive whether to colour everything in or not.&lt;/figcaption&gt;
+  &lt;/figure&gt;
+  &lt;figure style=&quot;flex: 1; text-align: center;&quot;&gt;
+    &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 960px; &quot;&gt;
+      &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 109.16666666666669%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAWABQDASIAAhEBAxEB/8QAGQABAAIDAAAAAAAAAAAAAAAAAAECBAUG/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEAMQAAAB2czBYHP5gUB//8QAHBAAAQMFAAAAAAAAAAAAAAAAAgABBAMRICEj/9oACAEBAAEFAlbGOZMVSRyadr//xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAEDAQE/AR//xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAECAQE/AR//xAAbEAABBAMAAAAAAAAAAAAAAAACAAERISAxkf/aAAgBAQAGPwLIi3UvKYgp1YcX/8QAHRABAAIBBQEAAAAAAAAAAAAAAQARQRAhMWFxof/aAAgBAQABPyFJ70fsqEuOo3jkjNijkxKMvtP/2gAMAwEAAgADAAAAENDPAP/EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQMBAT8QH//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQIBAT8QH//EABwQAQEAAwEBAQEAAAAAAAAAAAERACExQVGBsf/aAAgBAQABPxDgDK7c67uATCc8bl8x2tX7kTXMYzWCMkpfu9YjdwyTZJ/MlFvbEfxz/9k=&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source srcset=&quot;/static/009b06b585ac1157317d39454526e6dd/8ac56/cutmeopen.webp 240w,
+/static/009b06b585ac1157317d39454526e6dd/d3be9/cutmeopen.webp 480w,
+/static/009b06b585ac1157317d39454526e6dd/e46b2/cutmeopen.webp 960w,
+/static/009b06b585ac1157317d39454526e6dd/260c2/cutmeopen.webp 1080w&quot; sizes=&quot;(max-width: 960px) 100vw, 960px&quot; type=&quot;image/webp&quot;&gt;
+          &lt;source srcset=&quot;/static/009b06b585ac1157317d39454526e6dd/09b79/cutmeopen.jpg 240w,
+/static/009b06b585ac1157317d39454526e6dd/7cc5e/cutmeopen.jpg 480w,
+/static/009b06b585ac1157317d39454526e6dd/6a068/cutmeopen.jpg 960w,
+/static/009b06b585ac1157317d39454526e6dd/47311/cutmeopen.jpg 1080w&quot; sizes=&quot;(max-width: 960px) 100vw, 960px&quot; type=&quot;image/jpeg&quot;&gt;
+          &lt;img class=&quot;gatsby-resp-image-image&quot; src=&quot;/static/009b06b585ac1157317d39454526e6dd/6a068/cutmeopen.jpg&quot; alt=&quot;cutmeopen&quot; title=&quot;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;&gt;
+        &lt;/picture&gt;
+    &lt;/span&gt;
+    &lt;figcaption&gt;The final, i think i was too burnt out to colour in everything, decided on black and white look.&lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
 &lt;div style=&quot;display: flex; justify-content: center; gap: 40px;&quot;&gt;
   &lt;figure style=&quot;flex: 1; text-align: center;&quot;&gt;
     &lt;div style=&quot;font-weight: bold; margin-bottom: 8px;&quot;&gt;pre-ghoul kaneki ken (3 september 2016)&lt;/div&gt;
@@ -843,17 +880,17 @@ However, prior to this I was offered an internship position overseas, meaning I 
   &lt;/figure&gt;
   &lt;figure style=&quot;flex: 1; text-align: center;&quot;&gt;
     &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 960px; &quot;&gt;
-      &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAUDBAL/xAAWAQEBAQAAAAAAAAAAAAAAAAACAwT/2gAMAwEAAhADEAAAAduif3GkxgOj3QHCUJ6f/8QAHBAAAgICAwAAAAAAAAAAAAAAAQIDBAAhERIz/9oACAEBAAEFAoQBHzk6gSV224UBm7NBuzb8M//EABoRAAICAwAAAAAAAAAAAAAAAAABAhARMTL/2gAIAQMBAT8BknkWifVf/8QAFhEBAQEAAAAAAAAAAAAAAAAAEAEx/9oACAECAQE/ASYf/8QAHRAAAgEEAwAAAAAAAAAAAAAAAAECEBESQSFhgf/aAAgBAQAGPwKnBhLwzei5BaG+6f/EABwQAQADAAIDAAAAAAAAAAAAAAEAESFBURAxof/aAAgBAQABPyEzmpbMEQellw0ckbZ67GZQWPZ+TkmwB4//2gAMAwEAAgADAAAAEPvXA//EABcRAQEBAQAAAAAAAAAAAAAAAAEAEBH/2gAIAQMBAT8QIxigGb3n/8QAGBEBAAMBAAAAAAAAAAAAAAAAAQAQETH/2gAIAQIBAT8QEyPbv//EABsQAQACAwEBAAAAAAAAAAAAAAEAESExUUEQ/9oACAEBAAE/ECUGV9uVwmql3KEgMXFiawV1nkxpodpbyvZ7B4Dh4QN1KHaUKXh0XRZ8/9k=&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+      &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 125%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAZABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAQFAQP/xAAWAQEBAQAAAAAAAAAAAAAAAAACBAP/2gAMAwEAAhADEAAAAdcVZOkkAU5SjUXMgcwU/wD/xAAcEAACAgMBAQAAAAAAAAAAAAACAwESAAQzIzL/2gAIAQEAAQUCQqK1GrAoaCsMjONKxon32pkU4jvvcw+f/8QAFxEBAQEBAAAAAAAAAAAAAAAAEQEAAv/aAAgBAwEBPwHpdE3Va6Vm/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAgEBPwEf/8QAHBAAAgIDAQEAAAAAAAAAAAAAAAERQQIQMXES/9oACAEBAAY/Avp9IfCCLRUWSYpMdaw9MPdf/8QAHBABAAIDAAMAAAAAAAAAAAAAAQARITFBIFFx/9oACAEBAAE/IaMRWr5FKw+kdBk5MVQCFRunqWw1qW1pXcetLD74+h//2gAMAwEAAgADAAAAEPguj//EABgRAAMBAQAAAAAAAAAAAAAAAAABESEx/9oACAEDAQE/EHrTJejRQGf/xAAXEQEBAQEAAAAAAAAAAAAAAAABEQAx/9oACAECAQE/ECTPcEJkjv/EACAQAAICAgICAwAAAAAAAAAAAAERACExQVFhgaFxsfD/2gAIAQEAAT8QIBFYAwHK5lSY0/KMSyltdwoFCXscwEBiYM/EGc0CHlbhgYQyrBrtxS7AHbG/ECIYwZ6ie3+pg+Z//9k=&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
   &lt;picture&gt;
-          &lt;source srcset=&quot;/static/8bc04f7dada1259e7b499b3b9db95db5/8ac56/kaneki3.webp 240w,
-/static/8bc04f7dada1259e7b499b3b9db95db5/d3be9/kaneki3.webp 480w,
-/static/8bc04f7dada1259e7b499b3b9db95db5/e46b2/kaneki3.webp 960w,
-/static/8bc04f7dada1259e7b499b3b9db95db5/faf06/kaneki3.webp 1029w&quot; sizes=&quot;(max-width: 960px) 100vw, 960px&quot; type=&quot;image/webp&quot;&gt;
-          &lt;source srcset=&quot;/static/8bc04f7dada1259e7b499b3b9db95db5/09b79/kaneki3.jpg 240w,
-/static/8bc04f7dada1259e7b499b3b9db95db5/7cc5e/kaneki3.jpg 480w,
-/static/8bc04f7dada1259e7b499b3b9db95db5/6a068/kaneki3.jpg 960w,
-/static/8bc04f7dada1259e7b499b3b9db95db5/e6176/kaneki3.jpg 1029w&quot; sizes=&quot;(max-width: 960px) 100vw, 960px&quot; type=&quot;image/jpeg&quot;&gt;
-          &lt;img class=&quot;gatsby-resp-image-image&quot; src=&quot;/static/8bc04f7dada1259e7b499b3b9db95db5/6a068/kaneki3.jpg&quot; alt=&quot;kaneki3&quot; title=&quot;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;&gt;
+          &lt;source srcset=&quot;/static/006f4f8cb39c7d3534af15aa7daa29ad/8ac56/kaneki3.webp 240w,
+/static/006f4f8cb39c7d3534af15aa7daa29ad/d3be9/kaneki3.webp 480w,
+/static/006f4f8cb39c7d3534af15aa7daa29ad/e46b2/kaneki3.webp 960w,
+/static/006f4f8cb39c7d3534af15aa7daa29ad/260c2/kaneki3.webp 1080w&quot; sizes=&quot;(max-width: 960px) 100vw, 960px&quot; type=&quot;image/webp&quot;&gt;
+          &lt;source srcset=&quot;/static/006f4f8cb39c7d3534af15aa7daa29ad/09b79/kaneki3.jpg 240w,
+/static/006f4f8cb39c7d3534af15aa7daa29ad/7cc5e/kaneki3.jpg 480w,
+/static/006f4f8cb39c7d3534af15aa7daa29ad/6a068/kaneki3.jpg 960w,
+/static/006f4f8cb39c7d3534af15aa7daa29ad/47311/kaneki3.jpg 1080w&quot; sizes=&quot;(max-width: 960px) 100vw, 960px&quot; type=&quot;image/jpeg&quot;&gt;
+          &lt;img class=&quot;gatsby-resp-image-image&quot; src=&quot;/static/006f4f8cb39c7d3534af15aa7daa29ad/6a068/kaneki3.jpg&quot; alt=&quot;kaneki3&quot; title=&quot;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;&gt;
         &lt;/picture&gt;
     &lt;/span&gt;
     &lt;figcaption&gt;Initially used pen, white out, and copic markers.&lt;/figcaption&gt;
