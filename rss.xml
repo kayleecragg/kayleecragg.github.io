@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Kaylee's Website]]></title><description><![CDATA[Kaylee's Website]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 24 Jun 2025 08:56:06 GMT</lastBuildDate><item><title><![CDATA[Tennis Checkerboard]]></title><description><![CDATA[HTML web app coupled with a Javascript server hosted on Vercel. (Making a project in one shift)]]></description><link>http://kayleecragg.github.io//projects/checkerboard</link><guid isPermaLink="false">http://kayleecragg.github.io//projects/checkerboard</guid><pubDate>Mon, 26 May 2025 14:40:32 GMT</pubDate><content:encoded>&lt;figure style=&quot;text-align: center;&quot;&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Kaylee's Website]]></title><description><![CDATA[Kaylee's Website]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 24 Jun 2025 09:00:43 GMT</lastBuildDate><item><title><![CDATA[Tennis Checkerboard]]></title><description><![CDATA[HTML web app coupled with a Javascript server hosted on Vercel. (Making a project in one shift)]]></description><link>http://kayleecragg.github.io//projects/checkerboard</link><guid isPermaLink="false">http://kayleecragg.github.io//projects/checkerboard</guid><pubDate>Mon, 26 May 2025 14:40:32 GMT</pubDate><content:encoded>&lt;figure style=&quot;text-align: center;&quot;&gt;
   &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 960px; &quot;&gt;
       &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 55.41666666666667%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAIAAADwazoUAAAACXBIWXMAABYlAAAWJQFJUiTwAAAB10lEQVR42l1S25KiMBDlYXefLNFRuQqCQMIlCZAQEkFGx1vV1vz//2zr1FTtbj8k5yTdp5PuNpYve/vLgG42G8aYEKLrOgCWZf3n82XGer0G11fMYvltQObzuee6nueZprn8196+8xkIYYzzKIodL/T9wPd9y/Es24ZIy/Et6wVsOHHs57n7BWzHh5TGLkriBKUZjvdZEILIHtYgDCGnDV7+Ngx3u13ker4Nin7geltQBAn4i0FLNPZN27Z1zaI4JgU6qqYTHL4ax3taYaCct4xRuGUEK0HLsqSUJEliCJp9nmvZ95fLuayYIMnniUopLx9AKdDfE+mkvF0/KkJJvh8lbTkfDirPc6OpMiVI1zXHURYlLnGiRdV39UHLDOEqTxSvGKWc8zRDJM+O/RNr1UOpjLpKTxpS8WnURQHhiRKVFM00qgznR4EeE+uVftyulNKndEeapu6EQAhBMJoUFYJrrTAuGpINkulenE8DISUUaet70IIgCKDU7xJfB6YPw/1+Ay0jjkKUxmmaVmUBdVZ1NimmtH7c73VdQz9XqxWsi4U5NxecZqMknItxGOCZxuvi2XTztbmOHQZbSAiTAOMBozKbzQCAxI+fvwRL3xVtW65Un+f5HwbYXWjjOh+dAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
   &lt;picture&gt;
@@ -201,30 +201,9 @@
           &lt;img class=&quot;gatsby-resp-image-image&quot; src=&quot;/static/0af8f6236920b26e2e1cd84b5e3bdd3e/d9199/ascension2.png&quot; alt=&quot;angry heavenly official&quot; title=&quot;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;&gt;
         &lt;/picture&gt;
     &lt;/span&gt;
-  &lt;figcaption&gt;Gameplay image of masked out image of Shi Qing Xuan, though the dialogue doesn&apos;t fit his personality&lt;/figcaption&gt;
+  &lt;figcaption&gt;Gameplay of masked out image of Shi Qing Xuan, though the dialogue doesn&apos;t fit his personality&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;p&gt;I showed this version to my friends, and one of my friends said he wanted to contribute, so that very night we started working on it together. I thought I should implement a wave structure to the game to make it more longlasting.&lt;/p&gt;
-&lt;figure&gt;
-  &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 960px; &quot;&gt;
-      &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 62.5%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAIAAAAmMtkJAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAeElEQVR42mOIi42Oj43BRHEx0eGhIUASqyxEAQNFgIWZGRdixi0FQQyDDDAxMVKkn5GRkYmJCcQgSRsHJ7NfsDQ7OwupGkGAjY3JzFyIlY0FwhVgY2ZnZiLNzcB4gtgbIMGnzM1GgvuBGiEexmcBpbHCTC5gZWEGAIkiGbX8GNIuAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
-  &lt;picture&gt;
-          &lt;source srcset=&quot;/static/92ad17a42fae8413598ae23e1156590d/8ac56/ascension3.webp 240w,
-/static/92ad17a42fae8413598ae23e1156590d/d3be9/ascension3.webp 480w,
-/static/92ad17a42fae8413598ae23e1156590d/e46b2/ascension3.webp 960w,
-/static/92ad17a42fae8413598ae23e1156590d/f992d/ascension3.webp 1440w,
-/static/92ad17a42fae8413598ae23e1156590d/882b9/ascension3.webp 1920w,
-/static/92ad17a42fae8413598ae23e1156590d/e51ec/ascension3.webp 3024w&quot; sizes=&quot;(max-width: 960px) 100vw, 960px&quot; type=&quot;image/webp&quot;&gt;
-          &lt;source srcset=&quot;/static/92ad17a42fae8413598ae23e1156590d/8ff5a/ascension3.png 240w,
-/static/92ad17a42fae8413598ae23e1156590d/e85cb/ascension3.png 480w,
-/static/92ad17a42fae8413598ae23e1156590d/d9199/ascension3.png 960w,
-/static/92ad17a42fae8413598ae23e1156590d/07a9c/ascension3.png 1440w,
-/static/92ad17a42fae8413598ae23e1156590d/29114/ascension3.png 1920w,
-/static/92ad17a42fae8413598ae23e1156590d/669cd/ascension3.png 3024w&quot; sizes=&quot;(max-width: 960px) 100vw, 960px&quot; type=&quot;image/png&quot;&gt;
-          &lt;img class=&quot;gatsby-resp-image-image&quot; src=&quot;/static/92ad17a42fae8413598ae23e1156590d/d9199/ascension3.png&quot; alt=&quot;gameplay preview&quot; title=&quot;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;&gt;
-        &lt;/picture&gt;
-    &lt;/span&gt;
-  &lt;figcaption&gt;Early ranged attack gameplay preview&lt;/figcaption&gt;
-&lt;/figure&gt;
 &lt;ul&gt;
 &lt;li&gt;6 Waves&lt;/li&gt;
 &lt;li&gt;Player 300 hp &gt;&gt; 100 hp&lt;/li&gt;
