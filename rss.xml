@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Kaylee's Website]]></title><description><![CDATA[Kaylee's Website]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 24 Jun 2025 05:58:16 GMT</lastBuildDate><item><title><![CDATA[Tennis Checkerboard]]></title><description><![CDATA[HTML web app coupled with a Javascript server hosted on Vercel. (Making a project in one shift)]]></description><link>http://kayleecragg.github.io//projects/checkerboard</link><guid isPermaLink="false">http://kayleecragg.github.io//projects/checkerboard</guid><pubDate>Mon, 26 May 2025 14:40:32 GMT</pubDate><content:encoded>&lt;figure style=&quot;text-align: center;&quot;&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Kaylee's Website]]></title><description><![CDATA[Kaylee's Website]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 24 Jun 2025 08:56:06 GMT</lastBuildDate><item><title><![CDATA[Tennis Checkerboard]]></title><description><![CDATA[HTML web app coupled with a Javascript server hosted on Vercel. (Making a project in one shift)]]></description><link>http://kayleecragg.github.io//projects/checkerboard</link><guid isPermaLink="false">http://kayleecragg.github.io//projects/checkerboard</guid><pubDate>Mon, 26 May 2025 14:40:32 GMT</pubDate><content:encoded>&lt;figure style=&quot;text-align: center;&quot;&gt;
   &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 960px; &quot;&gt;
       &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 55.41666666666667%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAIAAADwazoUAAAACXBIWXMAABYlAAAWJQFJUiTwAAAB10lEQVR42l1S25KiMBDlYXefLNFRuQqCQMIlCZAQEkFGx1vV1vz//2zr1FTtbj8k5yTdp5PuNpYve/vLgG42G8aYEKLrOgCWZf3n82XGer0G11fMYvltQObzuee6nueZprn8196+8xkIYYzzKIodL/T9wPd9y/Es24ZIy/Et6wVsOHHs57n7BWzHh5TGLkriBKUZjvdZEILIHtYgDCGnDV7+Ngx3u13ker4Nin7geltQBAn4i0FLNPZN27Z1zaI4JgU6qqYTHL4ax3taYaCct4xRuGUEK0HLsqSUJEliCJp9nmvZ95fLuayYIMnniUopLx9AKdDfE+mkvF0/KkJJvh8lbTkfDirPc6OpMiVI1zXHURYlLnGiRdV39UHLDOEqTxSvGKWc8zRDJM+O/RNr1UOpjLpKTxpS8WnURQHhiRKVFM00qgznR4EeE+uVftyulNKndEeapu6EQAhBMJoUFYJrrTAuGpINkulenE8DISUUaet70IIgCKDU7xJfB6YPw/1+Ay0jjkKUxmmaVmUBdVZ1NimmtH7c73VdQz9XqxWsi4U5NxecZqMknItxGOCZxuvi2XTztbmOHQZbSAiTAOMBozKbzQCAxI+fvwRL3xVtW65Un+f5HwbYXWjjOh+dAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
   &lt;picture&gt;
@@ -125,21 +125,21 @@
 &lt;p&gt;I decided to go with the 33 heavenly officials plot because it seemed the most clear cut narrative and straightforward gameplay; fighting people, maybe Ace Attorney style debating, maybe some burning down of temples.&lt;/p&gt;
 &lt;figure&gt;
   &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 960px; &quot;&gt;
-      &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 56.25%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAACxLAAAsSwGlPZapAAABe0lEQVR42o1S2XKCQBD0K4wHqMiNXLsLCIjBqDFJ+eD/f01nGBNzVCX4MLWzO8d2z/TgYRHjyyJMTImZV8GMWxhhA91d3+Izr4SvjgjyZ5jRFuOlwM/6GIPvl+E8gmYLRPkOsj5BVEe4Sc0fTS0Jh3y1OaHcnRHILTRLcM2fDTsbGQmmpsDMzaHbCpPltUinu2ZLYpDS2b2nnNuLsENihlsE2RGe2GPhV1yoOzn7vjogWr9QTsPj+RfhcB4zjTBrkRRPbE782TCDHZU0hgNUcyLKDX0uuKaXMp9E6WGRsE1oBJ11/shIb3aN9y5FwUlbFLsLkuoVy1VNSBTG1MAMN5DNmWOu2PF4eilPrRRWWCCmTQdyA8NXtCTJyDvfS2tSQQtzlfOC7qCcYmwq2mqJqU1FVvZBN+Z3zSlYjxPyr7TvoOyLFtX+Qpp7o0XURJdmR/Oyo4bQHZBWJ0L6yDLq1WFHw/AzFrQVlqRHeYvNPYVlkBPdgiSUce5vhO/euEDZOP2koQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+      &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 56.25%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAACxLAAAsSwGlPZapAAABfUlEQVR42o2S4W7CMAyEeYpBYRRKKR3paJq0BdpRGKBtSLAfe/+HuV2saZsQAn5Yci6Kc5/tVnuY4n94owz+0xLhbM1o0GfeCTQeBjP04zlis4cq3xHpV3RDizb1/+9b5wW7YYYkX8PWbzDVG5RtWJD62CJKa2TLPartJ2blBv7EykdXCzo3vdDAj0v0o1xy0cY5unTf5bkXWck96ufvW5eQR8kLVL7HlBGompoRPF+Qt0gXB4zZjkd+eNOhK5jkDdL5Fnqxw9SsqGkpGCYLaluUzQHPxQb9e5DbQy3hCv/l5vfsBa4F2U/cQuZvHnsU6QZ5c4JdHYm2kv65+0BV0NUBy90XVLGnw+IeZE20kkhrQR+pQgbh3Axii1hXMuHoeYHHsWHB9PaUvTDnzvHBZC65Q+7IZ5aDKDGYVlyjAh3qV5GdfecmztaYb05s/pGOGlkRdx8mNZ3vYOoPKLOR1boLeTgtMEkrLnJFN4UstrvziTxSpUw7YCt6F5C/AcC9QM9w0QRHAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
   &lt;picture&gt;
-          &lt;source srcset=&quot;/static/440a7f7e6b1d138c6ab703ca7208124f/8ac56/outline.webp 240w,
-/static/440a7f7e6b1d138c6ab703ca7208124f/d3be9/outline.webp 480w,
-/static/440a7f7e6b1d138c6ab703ca7208124f/e46b2/outline.webp 960w,
-/static/440a7f7e6b1d138c6ab703ca7208124f/f992d/outline.webp 1440w,
-/static/440a7f7e6b1d138c6ab703ca7208124f/882b9/outline.webp 1920w,
-/static/440a7f7e6b1d138c6ab703ca7208124f/cf8e6/outline.webp 7680w&quot; sizes=&quot;(max-width: 960px) 100vw, 960px&quot; type=&quot;image/webp&quot;&gt;
-          &lt;source srcset=&quot;/static/440a7f7e6b1d138c6ab703ca7208124f/8ff5a/outline.png 240w,
-/static/440a7f7e6b1d138c6ab703ca7208124f/e85cb/outline.png 480w,
-/static/440a7f7e6b1d138c6ab703ca7208124f/d9199/outline.png 960w,
-/static/440a7f7e6b1d138c6ab703ca7208124f/07a9c/outline.png 1440w,
-/static/440a7f7e6b1d138c6ab703ca7208124f/29114/outline.png 1920w,
-/static/440a7f7e6b1d138c6ab703ca7208124f/c841b/outline.png 7680w&quot; sizes=&quot;(max-width: 960px) 100vw, 960px&quot; type=&quot;image/png&quot;&gt;
-          &lt;img class=&quot;gatsby-resp-image-image&quot; src=&quot;/static/440a7f7e6b1d138c6ab703ca7208124f/d9199/outline.png&quot; alt=&quot;outline&quot; title=&quot;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;&gt;
+          &lt;source srcset=&quot;/static/4e5bb3f755428bb54411c8745111cc5e/8ac56/outline.webp 240w,
+/static/4e5bb3f755428bb54411c8745111cc5e/d3be9/outline.webp 480w,
+/static/4e5bb3f755428bb54411c8745111cc5e/e46b2/outline.webp 960w,
+/static/4e5bb3f755428bb54411c8745111cc5e/f992d/outline.webp 1440w,
+/static/4e5bb3f755428bb54411c8745111cc5e/882b9/outline.webp 1920w,
+/static/4e5bb3f755428bb54411c8745111cc5e/cf8e6/outline.webp 7680w&quot; sizes=&quot;(max-width: 960px) 100vw, 960px&quot; type=&quot;image/webp&quot;&gt;
+          &lt;source srcset=&quot;/static/4e5bb3f755428bb54411c8745111cc5e/8ff5a/outline.png 240w,
+/static/4e5bb3f755428bb54411c8745111cc5e/e85cb/outline.png 480w,
+/static/4e5bb3f755428bb54411c8745111cc5e/d9199/outline.png 960w,
+/static/4e5bb3f755428bb54411c8745111cc5e/07a9c/outline.png 1440w,
+/static/4e5bb3f755428bb54411c8745111cc5e/29114/outline.png 1920w,
+/static/4e5bb3f755428bb54411c8745111cc5e/c841b/outline.png 7680w&quot; sizes=&quot;(max-width: 960px) 100vw, 960px&quot; type=&quot;image/png&quot;&gt;
+          &lt;img class=&quot;gatsby-resp-image-image&quot; src=&quot;/static/4e5bb3f755428bb54411c8745111cc5e/d9199/outline.png&quot; alt=&quot;outline&quot; title=&quot;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;&gt;
         &lt;/picture&gt;
     &lt;/span&gt;
   &lt;figcaption&gt;Gameplay Sequence Flow Diagram&lt;/figcaption&gt;
