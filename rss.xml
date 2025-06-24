@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Kaylee's Website]]></title><description><![CDATA[Kaylee's Website]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 24 Jun 2025 09:00:43 GMT</lastBuildDate><item><title><![CDATA[Tennis Checkerboard]]></title><description><![CDATA[HTML web app coupled with a Javascript server hosted on Vercel. (Making a project in one shift)]]></description><link>http://kayleecragg.github.io//projects/checkerboard</link><guid isPermaLink="false">http://kayleecragg.github.io//projects/checkerboard</guid><pubDate>Mon, 26 May 2025 14:40:32 GMT</pubDate><content:encoded>&lt;figure style=&quot;text-align: center;&quot;&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Kaylee's Website]]></title><description><![CDATA[Kaylee's Website]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 24 Jun 2025 09:17:18 GMT</lastBuildDate><item><title><![CDATA[Tennis Checkerboard]]></title><description><![CDATA[HTML web app coupled with a Javascript server hosted on Vercel. (Making a project in one shift)]]></description><link>http://kayleecragg.github.io//projects/checkerboard</link><guid isPermaLink="false">http://kayleecragg.github.io//projects/checkerboard</guid><pubDate>Mon, 26 May 2025 14:40:32 GMT</pubDate><content:encoded>&lt;figure style=&quot;text-align: center;&quot;&gt;
   &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 960px; &quot;&gt;
       &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 55.41666666666667%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAIAAADwazoUAAAACXBIWXMAABYlAAAWJQFJUiTwAAAB10lEQVR42l1S25KiMBDlYXefLNFRuQqCQMIlCZAQEkFGx1vV1vz//2zr1FTtbj8k5yTdp5PuNpYve/vLgG42G8aYEKLrOgCWZf3n82XGer0G11fMYvltQObzuee6nueZprn8196+8xkIYYzzKIodL/T9wPd9y/Es24ZIy/Et6wVsOHHs57n7BWzHh5TGLkriBKUZjvdZEILIHtYgDCGnDV7+Ngx3u13ker4Nin7geltQBAn4i0FLNPZN27Z1zaI4JgU6qqYTHL4ax3taYaCct4xRuGUEK0HLsqSUJEliCJp9nmvZ95fLuayYIMnniUopLx9AKdDfE+mkvF0/KkJJvh8lbTkfDirPc6OpMiVI1zXHURYlLnGiRdV39UHLDOEqTxSvGKWc8zRDJM+O/RNr1UOpjLpKTxpS8WnURQHhiRKVFM00qgznR4EeE+uVftyulNKndEeapu6EQAhBMJoUFYJrrTAuGpINkulenE8DISUUaet70IIgCKDU7xJfB6YPw/1+Ay0jjkKUxmmaVmUBdVZ1NimmtH7c73VdQz9XqxWsi4U5NxecZqMknItxGOCZxuvi2XTztbmOHQZbSAiTAOMBozKbzQCAxI+fvwRL3xVtW65Un+f5HwbYXWjjOh+dAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
   &lt;picture&gt;
@@ -204,6 +204,27 @@
   &lt;figcaption&gt;Gameplay of masked out image of Shi Qing Xuan, though the dialogue doesn&apos;t fit his personality&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;p&gt;I showed this version to my friends, and one of my friends said he wanted to contribute, so that very night we started working on it together. I thought I should implement a wave structure to the game to make it more longlasting.&lt;/p&gt;
+&lt;figure&gt;
+  &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 960px; &quot;&gt;
+      &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 35.833333333333336%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAACxLAAAsSwGlPZapAAAA20lEQVR42q2P3XKCMBSE8xBoWw0/AoMUAlVQCGKx05tO6/s/z7qEieON9saLb85mN+ecRCziGveQSQMv1aQ1+NQy2eNRj5j7BWZujpmnSAHHzVins9WOJLzj3HhTbvsmPfcVxGu44eYW7rqF5IZI9eYVHonUEUt6q0wjyDqjx9zjXTfZITb5DgH7w/yAN84SMq5QVAPS7YAoa6CHP6w3R7x/9NCnM0J62+YbVf+DVbqH/vxFXn8hURod80h1KOsTGvYtOUu8BCXGb49MujTV+lfvn9z6wobP4ukDL5YryVDwMuqnAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source srcset=&quot;/static/b55e7d83466c4251582bd0b2222d19b0/8ac56/waves.webp 240w,
+/static/b55e7d83466c4251582bd0b2222d19b0/d3be9/waves.webp 480w,
+/static/b55e7d83466c4251582bd0b2222d19b0/e46b2/waves.webp 960w,
+/static/b55e7d83466c4251582bd0b2222d19b0/f992d/waves.webp 1440w,
+/static/b55e7d83466c4251582bd0b2222d19b0/882b9/waves.webp 1920w,
+/static/b55e7d83466c4251582bd0b2222d19b0/777ae/waves.webp 12000w&quot; sizes=&quot;(max-width: 960px) 100vw, 960px&quot; type=&quot;image/webp&quot;&gt;
+          &lt;source srcset=&quot;/static/b55e7d83466c4251582bd0b2222d19b0/8ff5a/waves.png 240w,
+/static/b55e7d83466c4251582bd0b2222d19b0/e85cb/waves.png 480w,
+/static/b55e7d83466c4251582bd0b2222d19b0/d9199/waves.png 960w,
+/static/b55e7d83466c4251582bd0b2222d19b0/07a9c/waves.png 1440w,
+/static/b55e7d83466c4251582bd0b2222d19b0/29114/waves.png 1920w,
+/static/b55e7d83466c4251582bd0b2222d19b0/df9da/waves.png 12000w&quot; sizes=&quot;(max-width: 960px) 100vw, 960px&quot; type=&quot;image/png&quot;&gt;
+          &lt;img class=&quot;gatsby-resp-image-image&quot; src=&quot;/static/b55e7d83466c4251582bd0b2222d19b0/d9199/waves.png&quot; alt=&quot;waves&quot; title=&quot;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;&gt;
+        &lt;/picture&gt;
+    &lt;/span&gt;
+  &lt;figcaption&gt;waves&lt;/figcaption&gt;
+&lt;/figure&gt;
 &lt;ul&gt;
 &lt;li&gt;6 Waves&lt;/li&gt;
 &lt;li&gt;Player 300 hp &gt;&gt; 100 hp&lt;/li&gt;
