@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Kaylee's Website]]></title><description><![CDATA[Kaylee's Website]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 23 Jun 2025 10:44:52 GMT</lastBuildDate><item><title><![CDATA[Tennis Checkerboard]]></title><description><![CDATA[HTML web app coupled with a Javascript server hosted on Vercel. (Making a project in one shift)]]></description><link>http://kayleecragg.github.io//projects/checkerboard</link><guid isPermaLink="false">http://kayleecragg.github.io//projects/checkerboard</guid><pubDate>Mon, 26 May 2025 14:40:32 GMT</pubDate><content:encoded>&lt;figure style=&quot;text-align: center;&quot;&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Kaylee's Website]]></title><description><![CDATA[Kaylee's Website]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 24 Jun 2025 04:05:54 GMT</lastBuildDate><item><title><![CDATA[Tennis Checkerboard]]></title><description><![CDATA[HTML web app coupled with a Javascript server hosted on Vercel. (Making a project in one shift)]]></description><link>http://kayleecragg.github.io//projects/checkerboard</link><guid isPermaLink="false">http://kayleecragg.github.io//projects/checkerboard</guid><pubDate>Mon, 26 May 2025 14:40:32 GMT</pubDate><content:encoded>&lt;figure style=&quot;text-align: center;&quot;&gt;
   &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 960px; &quot;&gt;
       &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 55.41666666666667%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAIAAADwazoUAAAACXBIWXMAABYlAAAWJQFJUiTwAAAB10lEQVR42l1S25KiMBDlYXefLNFRuQqCQMIlCZAQEkFGx1vV1vz//2zr1FTtbj8k5yTdp5PuNpYve/vLgG42G8aYEKLrOgCWZf3n82XGer0G11fMYvltQObzuee6nueZprn8196+8xkIYYzzKIodL/T9wPd9y/Es24ZIy/Et6wVsOHHs57n7BWzHh5TGLkriBKUZjvdZEILIHtYgDCGnDV7+Ngx3u13ker4Nin7geltQBAn4i0FLNPZN27Z1zaI4JgU6qqYTHL4ax3taYaCct4xRuGUEK0HLsqSUJEliCJp9nmvZ95fLuayYIMnniUopLx9AKdDfE+mkvF0/KkJJvh8lbTkfDirPc6OpMiVI1zXHURYlLnGiRdV39UHLDOEqTxSvGKWc8zRDJM+O/RNr1UOpjLpKTxpS8WnURQHhiRKVFM00qgznR4EeE+uVftyulNKndEeapu6EQAhBMJoUFYJrrTAuGpINkulenE8DISUUaet70IIgCKDU7xJfB6YPw/1+Ay0jjkKUxmmaVmUBdVZ1NimmtH7c73VdQz9XqxWsi4U5NxecZqMknItxGOCZxuvi2XTztbmOHQZbSAiTAOMBozKbzQCAxI+fvwRL3xVtW65Un+f5HwbYXWjjOh+dAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
   &lt;picture&gt;
@@ -88,10 +88,6 @@
 &lt;blockquote&gt;
 &lt;p&gt;However, the gods refused to honor their agreement, pretending that the fight and the preceding agreement never took place. Hua Cheng decided to help them fulfill their promise by burning down the 33 gods’ temples in the human realm. This act caused an uproar and Hua Cheng got the moniker “Heaven’s Scourge”.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;hr&gt;
-&lt;blockquote&gt;
-&lt;p&gt;After the defeat of the martial gods, it came time for the civil gods to rise to the challenge. Surely Hua Cheng could fight, but not debate? Unfortunately for the civil gods, they could not defeat him. Hua Cheng could recite the classics and debate the contemporaries. He was sometimes polite, sometimes vicious, sometimes unyielding, sometimes incisive, and sometimes quibbling. He was impenetrably sharp, his arguments flawless. He verbally abused the civil gods from top to bottom, past to present, and infuriated them so much that they puked blood and washed the skies red.&lt;/p&gt;
-&lt;/blockquote&gt;
 &lt;p&gt;I wanted to make a game from his perspective. I also was inspired by twitter user &lt;a href=&quot;https://x.com/akkaccel/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;@akkaccel’s&lt;/a&gt; concept art of a potential TGCF game.&lt;/p&gt;
 &lt;figure&gt;
   &lt;a href=&quot;https://x.com/akkaccel/status/1493084468537659393?s=46&quot;&gt;
@@ -114,7 +110,7 @@
         &lt;/picture&gt;
     &lt;/span&gt;
   &lt;/a&gt;
-  &lt;figcaption&gt;Twitter user @akkaccel you&apos;re doing the lord&apos;s work&lt;/figcaption&gt;
+  &lt;figcaption&gt;one of four of twitter user @akkaccel&apos;s concept art for a potential TGCF video game&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;p&gt;There were a few main areas I could start from:&lt;/p&gt;
 &lt;ul&gt;
@@ -127,6 +123,27 @@
 &lt;li&gt;Meeting Xie Lian again + main story&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;I decided to go with the 33 heavenly officials plot because it seemed the most clear cut narrative and straightforward gameplay; fighting people, maybe Ace Attorney style debating, maybe some burning down of temples.&lt;/p&gt;
+&lt;figure&gt;
+  &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 960px; &quot;&gt;
+      &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 56.25%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAACxLAAAsSwGlPZapAAABe0lEQVR42o1S2XKCQBD0K4wHqMiNXLsLCIjBqDFJ+eD/f01nGBNzVCX4MLWzO8d2z/TgYRHjyyJMTImZV8GMWxhhA91d3+Izr4SvjgjyZ5jRFuOlwM/6GIPvl+E8gmYLRPkOsj5BVEe4Sc0fTS0Jh3y1OaHcnRHILTRLcM2fDTsbGQmmpsDMzaHbCpPltUinu2ZLYpDS2b2nnNuLsENihlsE2RGe2GPhV1yoOzn7vjogWr9QTsPj+RfhcB4zjTBrkRRPbE782TCDHZU0hgNUcyLKDX0uuKaXMp9E6WGRsE1oBJ11/shIb3aN9y5FwUlbFLsLkuoVy1VNSBTG1MAMN5DNmWOu2PF4eilPrRRWWCCmTQdyA8NXtCTJyDvfS2tSQQtzlfOC7qCcYmwq2mqJqU1FVvZBN+Z3zSlYjxPyr7TvoOyLFtX+Qpp7o0XURJdmR/Oyo4bQHZBWJ0L6yDLq1WFHw/AzFrQVlqRHeYvNPYVlkBPdgiSUce5vhO/euEDZOP2koQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source srcset=&quot;/static/440a7f7e6b1d138c6ab703ca7208124f/8ac56/outline.webp 240w,
+/static/440a7f7e6b1d138c6ab703ca7208124f/d3be9/outline.webp 480w,
+/static/440a7f7e6b1d138c6ab703ca7208124f/e46b2/outline.webp 960w,
+/static/440a7f7e6b1d138c6ab703ca7208124f/f992d/outline.webp 1440w,
+/static/440a7f7e6b1d138c6ab703ca7208124f/882b9/outline.webp 1920w,
+/static/440a7f7e6b1d138c6ab703ca7208124f/cf8e6/outline.webp 7680w&quot; sizes=&quot;(max-width: 960px) 100vw, 960px&quot; type=&quot;image/webp&quot;&gt;
+          &lt;source srcset=&quot;/static/440a7f7e6b1d138c6ab703ca7208124f/8ff5a/outline.png 240w,
+/static/440a7f7e6b1d138c6ab703ca7208124f/e85cb/outline.png 480w,
+/static/440a7f7e6b1d138c6ab703ca7208124f/d9199/outline.png 960w,
+/static/440a7f7e6b1d138c6ab703ca7208124f/07a9c/outline.png 1440w,
+/static/440a7f7e6b1d138c6ab703ca7208124f/29114/outline.png 1920w,
+/static/440a7f7e6b1d138c6ab703ca7208124f/c841b/outline.png 7680w&quot; sizes=&quot;(max-width: 960px) 100vw, 960px&quot; type=&quot;image/png&quot;&gt;
+          &lt;img class=&quot;gatsby-resp-image-image&quot; src=&quot;/static/440a7f7e6b1d138c6ab703ca7208124f/d9199/outline.png&quot; alt=&quot;outline&quot; title=&quot;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;&gt;
+        &lt;/picture&gt;
+    &lt;/span&gt;
+  &lt;figcaption&gt;Gameplay Sequence Flow Diagram&lt;/figcaption&gt;
+&lt;/figure&gt;
 &lt;h2 id=&quot;the-first-prototype&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#the-first-prototype&quot; aria-label=&quot;the first prototype permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;The First Prototype&lt;/h2&gt;
 &lt;h3 id=&quot;first-day&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#first-day&quot; aria-label=&quot;first day permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;First Day&lt;/h3&gt;
 &lt;figure&gt;
@@ -143,61 +160,7 @@
 &lt;li&gt;300hp for both player and enemy&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&quot;second-day&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#second-day&quot; aria-label=&quot;second day permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Second Day&lt;/h3&gt;
-&lt;p&gt;The next day, I showed this version to my friends, and one of my friends said he wanted to contribute, so that very night we started working on it together. I thought I should implement a wave structure to the game to make it more longlasting.&lt;/p&gt;
-&lt;figure&gt;
-  &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 960px; &quot;&gt;
-      &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 62.5%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAIAAAAmMtkJAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAeElEQVR42mOIi42Oj43BRHEx0eGhIUASqyxEAQNFgIWZGRdixi0FQQyDDDAxMVKkn5GRkYmJCcQgSRsHJ7NfsDQ7OwupGkGAjY3JzFyIlY0FwhVgY2ZnZiLNzcB4gtgbIMGnzM1GgvuBGiEexmcBpbHCTC5gZWEGAIkiGbX8GNIuAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
-  &lt;picture&gt;
-          &lt;source srcset=&quot;/static/92ad17a42fae8413598ae23e1156590d/8ac56/ascension3.webp 240w,
-/static/92ad17a42fae8413598ae23e1156590d/d3be9/ascension3.webp 480w,
-/static/92ad17a42fae8413598ae23e1156590d/e46b2/ascension3.webp 960w,
-/static/92ad17a42fae8413598ae23e1156590d/f992d/ascension3.webp 1440w,
-/static/92ad17a42fae8413598ae23e1156590d/882b9/ascension3.webp 1920w,
-/static/92ad17a42fae8413598ae23e1156590d/e51ec/ascension3.webp 3024w&quot; sizes=&quot;(max-width: 960px) 100vw, 960px&quot; type=&quot;image/webp&quot;&gt;
-          &lt;source srcset=&quot;/static/92ad17a42fae8413598ae23e1156590d/8ff5a/ascension3.png 240w,
-/static/92ad17a42fae8413598ae23e1156590d/e85cb/ascension3.png 480w,
-/static/92ad17a42fae8413598ae23e1156590d/d9199/ascension3.png 960w,
-/static/92ad17a42fae8413598ae23e1156590d/07a9c/ascension3.png 1440w,
-/static/92ad17a42fae8413598ae23e1156590d/29114/ascension3.png 1920w,
-/static/92ad17a42fae8413598ae23e1156590d/669cd/ascension3.png 3024w&quot; sizes=&quot;(max-width: 960px) 100vw, 960px&quot; type=&quot;image/png&quot;&gt;
-          &lt;img class=&quot;gatsby-resp-image-image&quot; src=&quot;/static/92ad17a42fae8413598ae23e1156590d/d9199/ascension3.png&quot; alt=&quot;gameplay preview&quot; title=&quot;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;&gt;
-        &lt;/picture&gt;
-    &lt;/span&gt;
-  &lt;figcaption&gt;Early ranged attack gameplay preview&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;ul&gt;
-&lt;li&gt;6 Waves&lt;/li&gt;
-&lt;li&gt;Player 300 hp &gt;&gt; 100 hp&lt;/li&gt;
-&lt;li&gt;Player and enemy health bars instead of a number&lt;/li&gt;
-&lt;li&gt;enemies attack u&lt;/li&gt;
-&lt;li&gt;diff kinds of enemies (ranged, charging, melee)&lt;/li&gt;
-&lt;li&gt;teleport feature broken&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Bugs:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;teleport feature broken&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&quot;third-day&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#third-day&quot; aria-label=&quot;third day permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Third Day&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;dodge ability&lt;/li&gt;
-&lt;li&gt;teleport limited range&lt;/li&gt;
-&lt;li&gt;balancing for enemies&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Bugs:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;dodge slowing down time literally, it pauses the game&lt;/li&gt;
-&lt;li&gt;you can’t move when teleporting&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&quot;fourth-day&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#fourth-day&quot; aria-label=&quot;fourth day permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Fourth Day&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;can move during teleport&lt;/li&gt;
-&lt;li&gt;dodge no longer slows time&lt;/li&gt;
-&lt;li&gt;health regen orbs drop when enemies die&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Bugs:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;health regen drop too low chance&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;The next day, I added some dialogue options and a placeholder debate section.&lt;/p&gt;
 &lt;figure&gt;
   &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 960px; &quot;&gt;
       &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 62.5%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAIAAAAmMtkJAAAACXBIWXMAABYlAAAWJQFJUiTwAAACu0lEQVR42hWQ2W/TQBDG/cILCEhzNM3R3LGd+Ehsx3Z8rq9d20mgB0EtL31BSLQlPZImPVTRigohkEBQKLzA/8pW+jQj7cw389shThcHJ9PJ/ORgNpucnc/OL+Yn83fnpwcnZ9Pdw/3TxeHF6WQxn1xeLhZn0+lsMp8fHR/u4XhzfUmksonCajqTTybSj1ZKyxWyVCwnm81MtZkr1XP1WqZaepotPq1RlZVSJpF6mF9dXko+TmVSPM8SxcaqKPNMl27SpTbXEHqsrLCq0hqvhZtrEc1XuW6DEyhWaOEqi8VTNNOoUzVNU4nlQlpRBYYj+S7Ncc0mXeakdqGZm0x3v37+8CD7JN/ItzpkjSoJAt1i6jWyXCfLDbIsKxKBkyCybZ7STUVRO1SrTPGk2Wu/j8CPjXiTLFSoEoOf21VdFwWJI1u1NkdTTEM3VAIzCxIPgGFaal8TNJVTLHlPE2577Eem/ltlPa1bJouWKXMduiMyOJqmoulSAF1CklmlLwxj5DqaoYtb4+HR250bQ/gF7W/IvjPFHbPHdknkWZomGoZkGj0I3QA5EHmEH5iuq4ehey/kjEboajb5+Wr8ZQQvtzbungXzyAPQRp4eh14cOhFyURREcYCwGYZe4NsR8qLQHwxgFAUwcLdH4a3MfF+Pro4PXm+/9H3LB30Mh/0RdHEnbvNcmxgM48B3YACgb4d4BPIHw8F6DP/q3X/Q+vPp+sV4fRAhbAuhg6CLAoCgN8AMlkbEUejYpueYjq0hXPYBACa09GlfvOiLb4axqspaX8GCeJljuED3HLwmUOUuESJoGZoDDIzhALtYyGVXssV8rp3NUMlEJZVMp1OJRGJpacm2rcCzbVN3gOV7QBJYYjgceN49SQj9OEJ9WZTEzvMITnRlX2D3Y2RblmnowDbjEKL734HAx6cNNEX8D0zxvrChnKLtAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
@@ -240,6 +203,93 @@
     &lt;/span&gt;
   &lt;figcaption&gt;Gameplay image of masked out image of Shi Qing Xuan, though the dialogue doesn&apos;t fit his personality&lt;/figcaption&gt;
 &lt;/figure&gt;
+&lt;p&gt;I showed this version to my friends, and one of my friends said he wanted to contribute, so that very night we started working on it together. I thought I should implement a wave structure to the game to make it more longlasting.&lt;/p&gt;
+&lt;figure&gt;
+  &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 960px; &quot;&gt;
+      &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 62.5%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAIAAAAmMtkJAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAeElEQVR42mOIi42Oj43BRHEx0eGhIUASqyxEAQNFgIWZGRdixi0FQQyDDDAxMVKkn5GRkYmJCcQgSRsHJ7NfsDQ7OwupGkGAjY3JzFyIlY0FwhVgY2ZnZiLNzcB4gtgbIMGnzM1GgvuBGiEexmcBpbHCTC5gZWEGAIkiGbX8GNIuAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source srcset=&quot;/static/92ad17a42fae8413598ae23e1156590d/8ac56/ascension3.webp 240w,
+/static/92ad17a42fae8413598ae23e1156590d/d3be9/ascension3.webp 480w,
+/static/92ad17a42fae8413598ae23e1156590d/e46b2/ascension3.webp 960w,
+/static/92ad17a42fae8413598ae23e1156590d/f992d/ascension3.webp 1440w,
+/static/92ad17a42fae8413598ae23e1156590d/882b9/ascension3.webp 1920w,
+/static/92ad17a42fae8413598ae23e1156590d/e51ec/ascension3.webp 3024w&quot; sizes=&quot;(max-width: 960px) 100vw, 960px&quot; type=&quot;image/webp&quot;&gt;
+          &lt;source srcset=&quot;/static/92ad17a42fae8413598ae23e1156590d/8ff5a/ascension3.png 240w,
+/static/92ad17a42fae8413598ae23e1156590d/e85cb/ascension3.png 480w,
+/static/92ad17a42fae8413598ae23e1156590d/d9199/ascension3.png 960w,
+/static/92ad17a42fae8413598ae23e1156590d/07a9c/ascension3.png 1440w,
+/static/92ad17a42fae8413598ae23e1156590d/29114/ascension3.png 1920w,
+/static/92ad17a42fae8413598ae23e1156590d/669cd/ascension3.png 3024w&quot; sizes=&quot;(max-width: 960px) 100vw, 960px&quot; type=&quot;image/png&quot;&gt;
+          &lt;img class=&quot;gatsby-resp-image-image&quot; src=&quot;/static/92ad17a42fae8413598ae23e1156590d/d9199/ascension3.png&quot; alt=&quot;gameplay preview&quot; title=&quot;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;&gt;
+        &lt;/picture&gt;
+    &lt;/span&gt;
+  &lt;figcaption&gt;Early ranged attack gameplay preview&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;ul&gt;
+&lt;li&gt;6 Waves&lt;/li&gt;
+&lt;li&gt;Player 300 hp &gt;&gt; 100 hp&lt;/li&gt;
+&lt;li&gt;Player and enemy health bars instead of a number&lt;/li&gt;
+&lt;li&gt;enemies attack u&lt;/li&gt;
+&lt;li&gt;diff kinds of enemies (ranged, charging, melee)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Bugs:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;teleport feature too broken (TOO GOOD), there was no range and the cooldown was ridiculously low&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure&gt;
+  &lt;img src=&quot;/d523467c9bbd8e6878805dbbd9a1eee0/gif_teleport.gif&quot;&gt;
+  &lt;figcaption&gt;playtesting the teleport feature&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;ul&gt;
+&lt;li&gt;glitch: cannot die&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure&gt;
+  &lt;img src=&quot;/9c6b2a8f02341ab46529b17ca30b75af/gif_glitchimmortal.gif&quot;&gt;
+  &lt;figcaption&gt;while playtesting we ran into a glitch where the player does not take damage from certain actions&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;h3 id=&quot;third-day&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#third-day&quot; aria-label=&quot;third day permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Third Day&lt;/h3&gt;
+&lt;figure&gt;
+  &lt;img src=&quot;/d0a13dfea2b903ff81e0b65e5ea89f2a/gif_difficulty.gif&quot;&gt;
+  &lt;figcaption&gt;My friend commenting on the difficulty level of the game&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;ul&gt;
+&lt;li&gt;dodge ability&lt;/li&gt;
+&lt;li&gt;teleport limited range&lt;/li&gt;
+&lt;li&gt;balancing for enemies&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Bugs:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;dodge slowing down time literally, it pauses the game&lt;/li&gt;
+&lt;li&gt;you can’t move when teleporting&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure&gt;
+  &lt;img src=&quot;/4fb779c92c26e88acbc6e9ab38309446/gif_badteleport1.gif&quot;&gt;
+  &lt;figcaption&gt;While playtesting, we found a bug where you can&apos;t move while casting teleport.&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure&gt;
+  &lt;img src=&quot;/fc477a874a7100efe6bd7969eb9fd062/gif_badteleport.gif&quot;&gt;
+  &lt;figcaption&gt;We realised it was unintuitive and unsatisfying to use&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;h3 id=&quot;fourth-day&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#fourth-day&quot; aria-label=&quot;fourth day permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Fourth Day&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;can move during teleport&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure&gt;
+  &lt;img src=&quot;/4a83ff6c1338b4d8101020dd91f43e4f/gif_goodteleport.gif&quot;&gt;
+  &lt;figcaption&gt;teleport bug fixed so you can now move when activating teleport&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;ul&gt;
+&lt;li&gt;dodge no longer slows time&lt;/li&gt;
+&lt;li&gt;health regen orbs drop when enemies die&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure&gt;
+  &lt;img src=&quot;/ad49abbf39435ce2ad46400c37860114/gif_orbdrop.gif&quot;&gt;
+  &lt;figcaption&gt;health regen orb drops&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;&lt;strong&gt;Bugs:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;health regen drop too low chance&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;&lt;em&gt;WIP, more to come.&lt;/em&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Arcane Season 2 Countdown]]></title><description><![CDATA[Countdown web app written in HTML, CSS, Javascript.]]></description><link>http://kayleecragg.github.io//projects/arcane-s2</link><guid isPermaLink="false">http://kayleecragg.github.io//projects/arcane-s2</guid><pubDate>Mon, 23 Sep 2024 22:40:32 GMT</pubDate><content:encoded>&lt;figure style=&quot;text-align: center;&quot;&gt;
   &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 960px; &quot;&gt;
       &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 50.83333333333333%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIDAQX/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAAB5DRdJGC//8QAGBAAAwEBAAAAAAAAAAAAAAAAARAhAAL/2gAIAQEAAQUCExr7X//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABcQAAMBAAAAAAAAAAAAAAAAAAABEEL/2gAIAQEABj8CM1T/xAAbEAACAgMBAAAAAAAAAAAAAAAAAREhEDFBsf/aAAgBAQABPyGNqrj6NBJwrZAzwx//2gAMAwEAAgADAAAAEADP/8QAFREBAQAAAAAAAAAAAAAAAAAAARD/2gAIAQMBAT8QJ//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8QP//EABsQAQEAAgMBAAAAAAAAAAAAAAERACEQMWFx/9oACAEBAAE/EE6bjxw+4lQInyuadpi1hBgl4f/Z&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
