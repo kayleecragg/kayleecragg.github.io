@@ -109,7 +109,7 @@ So after the first few days of me having this system up, my supervisor contacted
 
 ## 2026
 
-- anyways it got reused by my team the next year (2026) because the mis checkerboard still down since 2024..
+- anyways it got reused by my team the next year (may, 2026 for roland garros) because the mis checkerboard still down since 2024..
 
 <figure>
   <img src="/mis.png" />
@@ -121,9 +121,21 @@ So after the first few days of me having this system up, my supervisor contacted
   <img src="/2026-shoutout.png" />
 </figure>
 
-- improvements made recently to increase interval check from like 20 seconds to 1.5 seconds (speed 😎)
-- also since company recently introduced ad breaks to customers, built another website on top of it to help notify people when during the match to take ad breaks (there are specific timings)
-- i dont think i can show this tho but i can show the reactions to itmid
+- improvements made recently to increase interval check from 20 seconds to 1.5 seconds (which resulted in updates to scores coming in faster 😎)
+- this also allowed me to create a ad break notifier (since me company recently introduced ad breaks to customers) 
+- i built another website on top of the fast time event triggers to help notify people when during the match to take ad breaks (there are specific timings)
+- can't show this website for privacy purposes but!
+- here is the audio cue for when to roll a break
+
+<div align="center">
+  <figure>
+    <audio controls>
+      <source src="bell.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <figcaption>actually an a5 music note (880hz) with a sine tone and fade in/out effect</figcaption>
+  </figure>
+</div>
 
 anyways yeah good outcome :)
 
@@ -139,3 +151,5 @@ anyways yeah good outcome :)
   <img src="/2026-award2.png" />
   <figcaption>won :)</figcaption>
 </figure>
+
+- update: was able to do the same thing for wimbledon

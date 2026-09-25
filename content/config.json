@@ -12,6 +12,10 @@
             "url": "/"
         },
         {
+            "title": "Work Experience",
+            "url": "/work"
+        },
+        {
             "title": "Projects",
             "url": "/projects"
         },
@@ -35,7 +39,7 @@
             },
             {
                 "name": "email",
-                "contact": "kayleecragg@outlook.com"
+                "contact": "kayleeanncragg@gmail.com"
             }
         ]
     }

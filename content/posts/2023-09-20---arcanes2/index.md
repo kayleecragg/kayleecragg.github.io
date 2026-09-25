@@ -1,6 +1,6 @@
 ---
 title: "Arcane Season 2 Countdown"
-date: "2024-09-23T22:40:32.169Z"
+date: "2023-09-20T22:40:32.169Z"
 template: "post"
 draft: false
 slug: "/projects/arcane-s2"

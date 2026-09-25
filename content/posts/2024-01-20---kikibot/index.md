@@ -251,3 +251,5 @@ However, prior to this I also had to go overseas for 3 months, meaning I wouldn'
 So I was invited into another meeting with both my boss and lead to discuss what comes next. 
 
 We settled on a solution which involved me optimising the Google Colab environment to make it less buggy and more readable for people not so familiar with technology.<br>I then ran a crash course that spanned 2 weeks teaching over 10 co-workers and my 2 team leads on how to use my tool and troubleshoot any issues that may arise.
+
+read part 2 [here](/projects/kikibot2)
