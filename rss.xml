@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Kaylee's Website]]></title><description><![CDATA[Kaylee's Website]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 07 Jul 2026 03:11:32 GMT</lastBuildDate><item><title><![CDATA[Tennis Checkerboard]]></title><description><![CDATA[HTML web app coupled with a Javascript server hosted on Vercel. (Making a project in one shift)]]></description><link>http://kayleecragg.github.io//projects/checkerboard</link><guid isPermaLink="false">http://kayleecragg.github.io//projects/checkerboard</guid><pubDate>Mon, 26 May 2025 14:40:32 GMT</pubDate><content:encoded>&lt;figure style=&quot;text-align: center;&quot;&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Kaylee's Website]]></title><description><![CDATA[Kaylee's Website]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 25 Sep 2026 06:13:27 GMT</lastBuildDate><item><title><![CDATA[Tennis Checkerboard]]></title><description><![CDATA[HTML web app coupled with a Javascript server hosted on Vercel. (Making a project in one shift)]]></description><link>http://kayleecragg.github.io//projects/checkerboard</link><guid isPermaLink="false">http://kayleecragg.github.io//projects/checkerboard</guid><pubDate>Mon, 26 May 2025 14:40:32 GMT</pubDate><content:encoded>&lt;figure style=&quot;text-align: center;&quot;&gt;
   &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 960px; &quot;&gt;
       &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 51.25000000000001%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAIAAAA7N+mxAAAACXBIWXMAABYlAAAWJQFJUiTwAAABqklEQVR42iVS2ZKbMBDkOcfGmEMY2yAJdI8ODuP1ptb5/7/KYKtGXWr1qOehlR3y/HBAyI9HrOMbkfZ975wDADGOu5q/1Pchz1/9x6zrrthX13VRlEVZ7oi7rNCvJgTrzyFHWpTVG1HbV1UfizKjlDE2dj1vr/R8pZeOnTvWXjrSnKq6IaeWtJeqJlXTIpLTuT61FWlq0hZlnXExDkaiA+e8Y1QOgzeGs3313VUMAyhFac8Y7a4XMXCnFKM933mXca/d9wre+yXZNcEwPGII4JIHo6Qfx2eK4FwAMFIGIf7GGByqHk0zo/3n8nTWT9MSXeq9Ul+zRj16kSDw4dtBsDY6p8fRjeMnBKM13hghMtDjY/EpwDTNVhvpxbJ5HAVT1NYMVqK3NSYEL63xin/N1oOfUlQ4ORj63NQyT/f73WI0kj5mnRLSzWorvJj/TR5smJIFiJZ+3/S6zNiMQWZGsvukQ4y3280YBxofq3V5ezkn2RZUSvG+bUobq7DZIF3X1RiTYZZN0xDSvJC0p6Zt22qPhWCcr++Qf/z+QPXHz1+g+uemY0o4yVr7H2v4U2wujfnbAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
   &lt;picture&gt;
@@ -618,43 +618,7 @@ So after the first few days of me having this system up, my supervisor contacted
 &lt;br&gt;&lt;br&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;i’d like to make this game in Unreal Engine and C++ but uhh&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Arcane Season 2 Countdown]]></title><description><![CDATA[Countdown web app written in HTML, CSS, Javascript.]]></description><link>http://kayleecragg.github.io//projects/arcane-s2</link><guid isPermaLink="false">http://kayleecragg.github.io//projects/arcane-s2</guid><pubDate>Mon, 23 Sep 2024 22:40:32 GMT</pubDate><content:encoded>&lt;figure style=&quot;text-align: center;&quot;&gt;
-  &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 960px; &quot;&gt;
-      &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/static/f87ecef8dae176b5dac8f1a85d09d37c/b8806/face.jpg&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
-    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 50.83333333333333%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIDAQX/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAAB5DRdJGC//8QAGBAAAwEBAAAAAAAAAAAAAAAAARAhAAL/2gAIAQEAAQUCExr7X//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABcQAAMBAAAAAAAAAAAAAAAAAAABEEL/2gAIAQEABj8CM1T/xAAbEAACAgMBAAAAAAAAAAAAAAAAAREhEDFBsf/aAAgBAQABPyGNqrj6NBJwrZAzwx//2gAMAwEAAgADAAAAEADP/8QAFREBAQAAAAAAAAAAAAAAAAAAARD/2gAIAQMBAT8QJ//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8QP//EABsQAQEAAgMBAAAAAAAAAAAAAAERACEQMWFx/9oACAEBAAE/EE6bjxw+4lQInyuadpi1hBgl4f/Z&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
-  &lt;picture&gt;
-          &lt;source srcset=&quot;/static/f87ecef8dae176b5dac8f1a85d09d37c/8ac56/face.webp 240w,
-/static/f87ecef8dae176b5dac8f1a85d09d37c/d3be9/face.webp 480w,
-/static/f87ecef8dae176b5dac8f1a85d09d37c/e46b2/face.webp 960w,
-/static/f87ecef8dae176b5dac8f1a85d09d37c/f992d/face.webp 1440w,
-/static/f87ecef8dae176b5dac8f1a85d09d37c/882b9/face.webp 1920w,
-/static/f87ecef8dae176b5dac8f1a85d09d37c/70734/face.webp 2920w&quot; sizes=&quot;(max-width: 960px) 100vw, 960px&quot; type=&quot;image/webp&quot;&gt;
-          &lt;source srcset=&quot;/static/f87ecef8dae176b5dac8f1a85d09d37c/09b79/face.jpg 240w,
-/static/f87ecef8dae176b5dac8f1a85d09d37c/7cc5e/face.jpg 480w,
-/static/f87ecef8dae176b5dac8f1a85d09d37c/6a068/face.jpg 960w,
-/static/f87ecef8dae176b5dac8f1a85d09d37c/644c5/face.jpg 1440w,
-/static/f87ecef8dae176b5dac8f1a85d09d37c/0f98f/face.jpg 1920w,
-/static/f87ecef8dae176b5dac8f1a85d09d37c/b8806/face.jpg 2920w&quot; sizes=&quot;(max-width: 960px) 100vw, 960px&quot; type=&quot;image/jpeg&quot;&gt;
-          &lt;img class=&quot;gatsby-resp-image-image&quot; src=&quot;/static/f87ecef8dae176b5dac8f1a85d09d37c/6a068/face.jpg&quot; alt=&quot;wip title page&quot; title=&quot;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;&gt;
-        &lt;/picture&gt;
-  &lt;/a&gt;
-    &lt;/span&gt;
-  &lt;figcaption&gt;I loved Arcane S1 so much in 2021 that when the dates came out for S2 something compelled me to make this.&lt;/figcaption&gt;
-  &lt;b&gt;&lt;div style=&quot;display: flex; justify-content: center; gap: 1rem;&quot;&gt;
-  &lt;/div&gt;
-  &lt;b&gt;
-&lt;/b&gt;&lt;/b&gt;&lt;/figure&gt;
-&lt;h2 id=&quot;features&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#features&quot; aria-label=&quot;features permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Features&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Developed a Countdown website with HTML leading up to the 3 different acts of Arcane Season 2.&lt;/li&gt;
-&lt;li&gt;Checks viewer’s local timezone via Javascript and displays exactly what time the episodes will go live in their timezone.&lt;/li&gt;
-&lt;li&gt;Allows users to check other timezones for when the episodes will go live.&lt;/li&gt;
-&lt;li&gt;Responsive background feature that cycles through images and GIFs from the new trailers at random.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;figure&gt;
-  &lt;img src=&quot;/2958fed06f03e19d036121033b36a18c/moving.gif&quot; alt=&quot;hua cheng&quot;&gt;
-  &lt;figcaption&gt;The website when the countdown was still live, featuring cycling through background gifs and images from the new trailers (I was so hyped), and local user timezone sync&lt;/figcaption&gt;
-&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Kikibot]]></title><description><![CDATA[Automated Asset and Image Creation made in Python (Selenium, Google Sheets API, Colab) that enhanced workflow efficiency tenfold, turning 40 hours into 4 hours.]]></description><link>http://kayleecragg.github.io//projects/kikibot</link><guid isPermaLink="false">http://kayleecragg.github.io//projects/kikibot</guid><pubDate>Sat, 20 Jan 2024 13:46:37 GMT</pubDate><content:encoded>&lt;figure style=&quot;text-align: center;&quot;&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Kikibot]]></title><description><![CDATA[Automated Asset and Image Creation made in Python (Selenium, Google Sheets API, Colab) that enhanced workflow efficiency tenfold, turning 40 hours into 4 hours.]]></description><link>http://kayleecragg.github.io//projects/kikibot</link><guid isPermaLink="false">http://kayleecragg.github.io//projects/kikibot</guid><pubDate>Sat, 20 Jan 2024 13:46:37 GMT</pubDate><content:encoded>&lt;figure style=&quot;text-align: center;&quot;&gt;
   &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 960px; &quot;&gt;
       &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/static/8fe598e28860819f3e7d9668092bf5cd/00d43/postbot.png&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
     &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 65.41666666666667%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAABYlAAAWJQFJUiTwAAABvUlEQVR42qWS227TQBCG/R5QiTYHe7327trO+hTHduI0FS1RRQEJFXGBegFXiBtuEc/AE/Qd+g59rZ/ZTd02oSBFXHwa7+mffzzjfOoW+LiuUU07lOkMVd78wev1W5yfXTx51jPNarRVByfkAWIRQYYJIqHBmA/PY1v4Prfs7u/CSctxvTGYq1HIS2TyFYbDITHam8FgaM04HuMoZYvrn79wVl3g+cELuK6L0Wi8F0bUVOF4Hse74yvcXt/g85tveHZw+H+Cvu/j8vwDvn/9gav3XxBQgsOjgS3hb+yW2wvakqMoRlGWyIscQggoGUFIBUlRqdjGDYrWykbjhDFGlXi2GeOx++AwSTRmVYtld4KuW2E+X6KuF2jbDovFMZpm893Hup4jy3KkaYo4jqG1JiPSOn8QnLV0qURVNXQpRRgqIrJR0Ej1mHUQSJg3STKxQkpt3N8LxvEE02lDGQvKlmMyyRBFeguTxKBUQndrSl4gz3MSD23ZRsz8R/sPtc6wWr3EcnmC09O1ze66jA75kxgRQxgKO8hGZKvL/aZZcB7aw391+Igm4DGP902DHHHXNc75XQzuXeyDeWcm5jffw5QC/ecWAQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
@@ -1063,4 +1027,41 @@ However, prior to this I also had to go overseas for 3 months, meaning I wouldn�
 &lt;li&gt;Third of all, &lt;a href=&quot;#postbot&quot;&gt;Postbot&lt;/a&gt; wasn’t actually made at this time. So the whole time in January the post images were just made with a hastily put together locally ran raw Python file and me madly shoving images in before the timer &lt;code class=&quot;language-text&quot;&gt;time.sleep(30)&lt;/code&gt; in the Selenium loop closed on me.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;So I was invited into another meeting with both my boss and lead to discuss what comes next.&lt;/p&gt;
-&lt;p&gt;We settled on a solution which involved me optimising the Google Colab environment to make it less buggy and more readable for people not so familiar with technology.&lt;br&gt;I then ran a crash course that spanned 2 weeks teaching over 10 co-workers and my 2 team leads on how to use my tool and troubleshoot any issues that may arise.&lt;/p&gt;</content:encoded></item></channel></rss>
+&lt;p&gt;We settled on a solution which involved me optimising the Google Colab environment to make it less buggy and more readable for people not so familiar with technology.&lt;br&gt;I then ran a crash course that spanned 2 weeks teaching over 10 co-workers and my 2 team leads on how to use my tool and troubleshoot any issues that may arise.&lt;/p&gt;
+&lt;p&gt;read part 2 &lt;a href=&quot;/projects/kikibot2&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Arcane Season 2 Countdown]]></title><description><![CDATA[Countdown web app written in HTML, CSS, Javascript.]]></description><link>http://kayleecragg.github.io//projects/arcane-s2</link><guid isPermaLink="false">http://kayleecragg.github.io//projects/arcane-s2</guid><pubDate>Wed, 20 Sep 2023 22:40:32 GMT</pubDate><content:encoded>&lt;figure style=&quot;text-align: center;&quot;&gt;
+  &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 960px; &quot;&gt;
+      &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/static/f87ecef8dae176b5dac8f1a85d09d37c/b8806/face.jpg&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
+    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 50.83333333333333%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIDAQX/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAAB5DRdJGC//8QAGBAAAwEBAAAAAAAAAAAAAAAAARAhAAL/2gAIAQEAAQUCExr7X//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABcQAAMBAAAAAAAAAAAAAAAAAAABEEL/2gAIAQEABj8CM1T/xAAbEAACAgMBAAAAAAAAAAAAAAAAAREhEDFBsf/aAAgBAQABPyGNqrj6NBJwrZAzwx//2gAMAwEAAgADAAAAEADP/8QAFREBAQAAAAAAAAAAAAAAAAAAARD/2gAIAQMBAT8QJ//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8QP//EABsQAQEAAgMBAAAAAAAAAAAAAAERACEQMWFx/9oACAEBAAE/EE6bjxw+4lQInyuadpi1hBgl4f/Z&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source srcset=&quot;/static/f87ecef8dae176b5dac8f1a85d09d37c/8ac56/face.webp 240w,
+/static/f87ecef8dae176b5dac8f1a85d09d37c/d3be9/face.webp 480w,
+/static/f87ecef8dae176b5dac8f1a85d09d37c/e46b2/face.webp 960w,
+/static/f87ecef8dae176b5dac8f1a85d09d37c/f992d/face.webp 1440w,
+/static/f87ecef8dae176b5dac8f1a85d09d37c/882b9/face.webp 1920w,
+/static/f87ecef8dae176b5dac8f1a85d09d37c/70734/face.webp 2920w&quot; sizes=&quot;(max-width: 960px) 100vw, 960px&quot; type=&quot;image/webp&quot;&gt;
+          &lt;source srcset=&quot;/static/f87ecef8dae176b5dac8f1a85d09d37c/09b79/face.jpg 240w,
+/static/f87ecef8dae176b5dac8f1a85d09d37c/7cc5e/face.jpg 480w,
+/static/f87ecef8dae176b5dac8f1a85d09d37c/6a068/face.jpg 960w,
+/static/f87ecef8dae176b5dac8f1a85d09d37c/644c5/face.jpg 1440w,
+/static/f87ecef8dae176b5dac8f1a85d09d37c/0f98f/face.jpg 1920w,
+/static/f87ecef8dae176b5dac8f1a85d09d37c/b8806/face.jpg 2920w&quot; sizes=&quot;(max-width: 960px) 100vw, 960px&quot; type=&quot;image/jpeg&quot;&gt;
+          &lt;img class=&quot;gatsby-resp-image-image&quot; src=&quot;/static/f87ecef8dae176b5dac8f1a85d09d37c/6a068/face.jpg&quot; alt=&quot;wip title page&quot; title=&quot;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+  &lt;figcaption&gt;I loved Arcane S1 so much in 2021 that when the dates came out for S2 something compelled me to make this.&lt;/figcaption&gt;
+  &lt;b&gt;&lt;div style=&quot;display: flex; justify-content: center; gap: 1rem;&quot;&gt;
+  &lt;/div&gt;
+  &lt;b&gt;
+&lt;/b&gt;&lt;/b&gt;&lt;/figure&gt;
+&lt;h2 id=&quot;features&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#features&quot; aria-label=&quot;features permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Developed a Countdown website with HTML leading up to the 3 different acts of Arcane Season 2.&lt;/li&gt;
+&lt;li&gt;Checks viewer’s local timezone via Javascript and displays exactly what time the episodes will go live in their timezone.&lt;/li&gt;
+&lt;li&gt;Allows users to check other timezones for when the episodes will go live.&lt;/li&gt;
+&lt;li&gt;Responsive background feature that cycles through images and GIFs from the new trailers at random.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure&gt;
+  &lt;img src=&quot;/2958fed06f03e19d036121033b36a18c/moving.gif&quot; alt=&quot;hua cheng&quot;&gt;
+  &lt;figcaption&gt;The website when the countdown was still live, featuring cycling through background gifs and images from the new trailers (I was so hyped), and local user timezone sync&lt;/figcaption&gt;
+&lt;/figure&gt;</content:encoded></item></channel></rss>
